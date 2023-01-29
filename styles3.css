@@ -9,6 +9,7 @@ body {
 
 nav {
     background-color: rgb(56, 55, 55);
+    justify-content: center;
 }
 
 .navigation {
@@ -36,6 +37,12 @@ nav {
 
 .main {
     width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+navtwo {
+    justify-content: center;
 }
 
 .navigation2 {
@@ -80,7 +87,7 @@ c {
 }
 
 .content {
-    width: 720px;
+    width: 480px;
     margin: auto;
     margin-top: 10%;
 }
@@ -89,6 +96,11 @@ H1 {
     color: white;
     font-size: xx-large;
     font-family: helvetica;
+    margin-left: 10%;
+}
+
+.synopsis, .story1 {
+    margin: 5%;
 }
 
 .synopsis {
