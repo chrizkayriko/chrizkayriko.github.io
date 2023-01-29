@@ -1,0 +1,132 @@
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    background-color: rgb(56, 55, 55);
+}
+
+.navigation {
+    list-style-type: none;
+    padding-top: 2%;
+    margin-left: 10%;
+    padding-bottom: 2%;
+}
+
+.navigation li {
+    color: white;
+    display: inline-block;
+}
+
+.navigation .home {
+    margin-left: 5%;
+    font-size: larger;
+    font-family: helvetica;
+}
+
+.navigation .home a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    width: 100%;
+}
+
+.navigation2 {
+    background-color: rgb(204, 0, 0);
+    list-style-type: none;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.navigation2 li {
+    color: white;
+    display: inline-block;
+}
+
+.navigation2 .story, .softsubs, .hardsubs {
+    margin-left: 5%;
+    font-size: larger;
+    font-family: helvetica;
+}
+
+.story-button {
+    object-fit: cover;
+}
+
+.navigation2 .story a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation2 .softsubs a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation2 .hardsubs a {
+    text-decoration: none;
+    color: white;
+}
+
+c {
+    font-size: xx-small;
+}
+
+.content {
+    width: 720px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+H1 {
+    color: white;
+    font-size: xx-large;
+    font-family: helvetica;
+}
+
+.division {
+    width: 70%;
+}
+
+.story1-title {
+    margin-top: 10%;
+}
+
+.story1-pictures li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.one, .two, .three {
+    width: 30%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.story1 {
+    color: white;
+    font-family: helvetica;
+    font-size: large;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+EP1 {
+    font-size: large;
+    font-family: Helvetica;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.button-links {
+    margin-bottom: 10%;
+}
