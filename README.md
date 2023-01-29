@@ -1,1 +1,0 @@
-# chrizkayriko.github.io
