@@ -23,13 +23,13 @@ nav {
     display: inline-block;
 }
 
-.navigation .home {
+.navigation .subtitle-index {
     margin-left: 5%;
-    font-size: larger;
+    font-size: 150%;
     font-family: helvetica;
 }
 
-.navigation .home a {
+.navigation .subtitle-index a {
     text-decoration: none;
     color: white;
 }
@@ -51,15 +51,28 @@ nav {
     display: inline-block;
 }
 
-.navigation2 .story, .softsubs, .hardsubs {
+.navigation2 .softsubs, .hardsubs, .credits {
+    color: white;
     margin-left: 5%;
-    font-size: 200%;
+    font-size: 170%;
     font-family: helvetica;
+}
+
+.navigation2 .story {
+    background-color: white;
+    color: black;
+    font-family: helvetica;
+    font-size: 170%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 25%;
 }
 
 .navigation2 .story a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .navigation2 .softsubs a {
@@ -72,8 +85,14 @@ nav {
     color: white;
 }
 
+.navigation2 .credits a {
+    text-decoration: none;
+    color: white;
+}
+
+
 c {
-    font-size: xx-small;
+    font-size: 50%;
 }
 
 .content {
