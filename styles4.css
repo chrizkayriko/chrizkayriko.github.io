@@ -80,7 +80,7 @@ c {
 }
 
 .content {
-    width: 720px;
+    width: 100%;
     margin: auto;
     margin-top: 10%;
 }
@@ -125,6 +125,10 @@ EP1 {
     color: black;
     font-weight: bold;
     border-radius: 5px;
+}
+
+.story1-pics, .story1-title, .story1, .button-links {
+    margin: 5%;
 }
 
 .button-links {

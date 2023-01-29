@@ -52,7 +52,7 @@ nav {
 
 .navigation2 .story, .softsubs, .hardsubs {
     margin-left: 5%;
-    font-size: larger;
+    font-size: xx-large;
     font-family: helvetica;
 }
 
@@ -80,7 +80,7 @@ c {
 }
 
 .content {
-    width: 720px;
+    width: 100%;
     margin: auto;
     margin-top: 10%;
 }
@@ -125,6 +125,10 @@ H1 {
     font-weight: bold;
     border-radius: 5px;
     margin-bottom: 5%;
+}
+
+.story1-title, .story1-pics, .story1, .episode1, .episode1-video {
+    margin: 5%;
 }
 
 .episode1-video {
