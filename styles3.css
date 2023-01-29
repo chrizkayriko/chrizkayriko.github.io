@@ -9,7 +9,6 @@ body {
 
 nav {
     background-color: rgb(56, 55, 55);
-    justify-content: center;
 }
 
 .navigation {
@@ -38,11 +37,6 @@ nav {
 .main {
     width: 100%;
     height: auto;
-    justify-content: center;
-}
-
-navtwo {
-    justify-content: center;
 }
 
 .navigation2 {
@@ -59,12 +53,8 @@ navtwo {
 
 .navigation2 .story, .softsubs, .hardsubs {
     margin-left: 5%;
-    font-size: larger;
+    font-size: x-large;
     font-family: helvetica;
-}
-
-.story-button {
-    object-fit: cover;
 }
 
 .navigation2 .story a {
