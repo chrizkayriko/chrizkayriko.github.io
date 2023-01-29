@@ -52,7 +52,7 @@ nav {
 
 .navigation2 .story, .softsubs, .hardsubs {
     margin-left: 5%;
-    font-size: larger;
+    font-size: 200%;
     font-family: helvetica;
 }
 
@@ -87,7 +87,7 @@ c {
 
 H1 {
     color: white;
-    font-size: xx-large;
+    font-size: 250%;
     font-family: helvetica;
 }
 
@@ -113,13 +113,13 @@ H1 {
 .story1 {
     color: white;
     font-family: helvetica;
-    font-size: large;
+    font-size: 220%;
     margin-top: 10%;
     margin-bottom: 10%;
 }
 
 EP1 {
-    font-size: large;
+    font-size: 200%;
     font-family: Helvetica;
     background-color: white;
     color: black;
