@@ -51,7 +51,7 @@ nav {
     display: inline-block;
 }
 
-.navigation2 .softsubs, .hardsubs, .credits {
+.navigation2 .softsubs, .hardsubs {
     color: white;
     margin-left: 2.5%;
     margin-right: 2.5%;
@@ -61,7 +61,7 @@ nav {
     font-family: helvetica;
 }
 
-.navigation2 .story {
+.navigation2 .credits {
     background-color: white;
     color: black;
     margin-left: 2.5%;
@@ -75,11 +75,22 @@ nav {
     padding-left: 1%;
     padding-right: 1%;
     border-radius: 25%;
+
+}
+
+.navigation2 .story {
+    color: white;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    font-family: helvetica;
+    font-size: 170%;
 }
 
 .navigation2 .story a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .navigation2 .softsubs a {
@@ -94,7 +105,8 @@ nav {
 
 .navigation2 .credits a {
     text-decoration: none;
-    color: white;
+    color: black;
+    background-color: white;
 }
 
 vl {
