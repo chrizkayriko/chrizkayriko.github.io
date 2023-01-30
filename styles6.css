@@ -112,48 +112,6 @@ c {
     margin-top: 10%;
 }
 
-H1 {
-    color: black;
-    font-size: 250%;
-    font-family: helvetica;
-    margin: 5%;
-}
-
-.synopsis, .story1 {
-    margin: 5%;
-}
-
-.synopsis {
-    color: black;
-    font-family: helvetica;
-    font-size: 220%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-
-.division {
-    width: 70%;
-}
-
-.story1-title {
-    margin-top: 10%;
-}
-
-.story1-pictures li {
-    list-style-type: none;
-    display: inline-block;
-}
-
-.one, .two, .three {
-    width: 30%;
-    height: auto;
-    margin-top: 5%;
-}
-
-.story1 {
-    color: black;
-    font-family: helvetica;
-    font-size: 250%;
-    margin-top: 10%;
-    margin-bottom: 10%;
+.credit-pic {
+    border-radius: 50px;
 }
