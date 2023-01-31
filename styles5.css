@@ -35,6 +35,15 @@ nav {
     color: white;
 }
 
+marquee {
+    font-size: 250%;
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    padding: 2%;
+
+}
+
 .main {
     width: 100%;
 }
