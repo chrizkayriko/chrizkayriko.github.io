@@ -156,9 +156,10 @@ H1 {
 
 .button-links ul li {
     list-style-type: none;
+    margin: 5%;
 }
 
-EP1 {
+EP {
     font-size: 200%;
     font-family: Helvetica;
     background-color: black;
@@ -169,6 +170,27 @@ EP1 {
     padding-bottom: 1%;
     padding-right: 1%;
     padding-left: 1%;
+    margin: 1%;
+}
+
+ep-raw {
+    font-size: 200%;
+    font-family: Helvetica;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    margin: 1%;
+}
+
+.disclaimer {
+    margin: 9%;
+    font-family: Helvetica;
+    font-size: 150%;
 }
 
 .story1-pics, .story1-title, .story1, .button-links {

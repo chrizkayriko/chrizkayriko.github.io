@@ -112,6 +112,10 @@ c {
     margin-top: 10%;
 }
 
+.first-h1 {
+    margin-top: 10%;
+}
+
 H1 {
     color: black;
     font-size: 250%;
@@ -129,6 +133,11 @@ H1 {
     font-size: 220%;
     margin-top: 10%;
     margin-bottom: 10%;
+}
+
+d {
+    background-color: red;
+    color: white;
 }
 
 .division {
