@@ -4,10 +4,11 @@
 }
 
 body {
-    background-image: url(main-bg.png);
+    background-image: url(bg_pc.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
+
 nav {
     background-color: rgb(56, 55, 55);
 }
@@ -61,18 +62,21 @@ marquee {
 
 .main {
     width: 100%;
+    height: auto;
 }
 
 .navigation2 {
-    background-color: rgb(204, 0, 0);
+    background-color: #f46593;
     list-style-type: none;
 }
 
 .navigation2 li {
+    color: white;
     display: inline-block;
 }
 
-.navigation2 .story {
+.navigation2 .softsubs, .hardsubs {
+    color: white;
     margin-left: 2.5%;
     margin-right: 2.5%;
     margin-top: 1.5%;
@@ -81,18 +85,13 @@ marquee {
     font-family: helvetica;
 }
 
-.navigation2 .hardsubs, .credits {
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
-    font-size: 170%;
-    font-family: helvetica;
-}
-
-.navigation2 .softsubs {
+.navigation2 .credits {
     background-color: white;
     color: black;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
     font-family: helvetica;
     font-size: 170%;
     padding-bottom: 1%;
@@ -100,14 +99,17 @@ marquee {
     padding-left: 1%;
     padding-right: 1%;
     border-radius: 25%;
+
+}
+
+.navigation2 .story {
+    color: white;
     margin-left: 2.5%;
     margin-right: 2.5%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
-}
-
-.story-button {
-    object-fit: cover;
+    font-family: helvetica;
+    font-size: 170%;
 }
 
 .navigation2 .story a {
@@ -117,7 +119,7 @@ marquee {
 
 .navigation2 .softsubs a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .navigation2 .hardsubs a {
@@ -127,13 +129,14 @@ marquee {
 
 .navigation2 .credits a {
     text-decoration: none;
-    color: white;
+    color: black;
+    background-color: white;
 }
 
 vl {
-    border-left: 6px solid white;
-    height: 200%;
-  }
+  border-left: 6px solid white;
+  height: 200%;
+}
 
 c {
     font-size: 50%;
@@ -145,88 +148,6 @@ c {
     margin-top: 10%;
 }
 
-.gifs .gif-buttons {
-    list-style-type: none;
-    display: inline-block;
-    margin: 1%;
-}
-
-H1 {
-    color: black;
-    font-size: 250%;
-    font-family: helvetica;
-}
-
-.division {
-    width: 70%;
-}
-
-.story1-title {
-    margin-top: 10%;
-}
-
-.story1-pictures li {
-    list-style-type: none;
-    display: inline-block;
-}
-
-.one, .two, .three {
-    width: 30%;
-    height: auto;
-    margin-top: 5%;
-}
-
-.story1 {
-    color: black;
-    font-family: helvetica;
-    font-size: 220%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-
-.button-links ul li {
-    list-style-type: none;
-    margin: 5%;
-}
-
-EP {
-    font-size: 200%;
-    font-family: Helvetica;
-    background-color: black;
-    color: white;
-    font-weight: bold;
-    border-radius: 5px;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-right: 1%;
-    padding-left: 1%;
-    margin: 1%;
-}
-
-ep-raw {
-    font-size: 200%;
-    font-family: Helvetica;
-    background-color: red;
-    color: white;
-    font-weight: bold;
-    border-radius: 5px;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-right: 1%;
-    padding-left: 1%;
-    margin: 1%;
-}
-
-.disclaimer {
-    margin: 5%;
-    font-family: Helvetica;
-    font-size: 150%;
-}
-
-.story1-pics, .story1-title, .story1, .button-links {
-    margin: 5%;
-}
-
-.button-links {
-    margin-bottom: 10%;
+.credit-pic {
+    border-radius: 50px;
 }

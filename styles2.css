@@ -68,6 +68,10 @@ ul .latest-works {
     margin-bottom: 20%;
 }
 
+.works li {
+    margin-bottom: 10%;
+}
+
 .works li a {
     text-decoration: none;
 }

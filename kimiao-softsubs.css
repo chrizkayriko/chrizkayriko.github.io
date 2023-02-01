@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(main-bg.png);
+    background-image: url(bg_pc.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -64,7 +64,7 @@ marquee {
 }
 
 .navigation2 {
-    background-color: rgb(204, 0, 0);
+    background-color: #f46593;
     list-style-type: none;
 }
 
@@ -145,12 +145,6 @@ c {
     margin-top: 10%;
 }
 
-.gifs .gif-buttons {
-    list-style-type: none;
-    display: inline-block;
-    margin: 1%;
-}
-
 H1 {
     color: black;
     font-size: 250%;
@@ -206,7 +200,7 @@ EP {
 ep-raw {
     font-size: 200%;
     font-family: Helvetica;
-    background-color: red;
+    background-color: #f46593;
     color: white;
     font-weight: bold;
     border-radius: 5px;
