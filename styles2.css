@@ -88,7 +88,8 @@ ul .latest-works {
     color: black;
     font-family: helvetica;
     width: 40%;
-    border-radius: 40px;
+    padding: 10px;
+    border-radius: 50px;
     font-weight: bold;
 }
 

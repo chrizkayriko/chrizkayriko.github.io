@@ -143,11 +143,11 @@ c {
 }
 
 .content {
-    width: 100%;
-    margin: auto;
+    margin: 10%;
     margin-top: 10%;
 }
 
 .credit-pic {
     border-radius: 50px;
+    width: 100%;
 }
