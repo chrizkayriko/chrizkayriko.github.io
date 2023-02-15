@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(bg_pc.jpg);
+    background-image: url(bg-pc.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -66,7 +66,7 @@ marquee {
 }
 
 .navigation2 {
-    background-color: #f46593;
+    background-color: #86d4de;
     list-style-type: none;
 }
 
@@ -75,7 +75,7 @@ marquee {
     display: inline-block;
 }
 
-.navigation2 .softsubs, .hardsubs, .credits {
+.navigation2 .softsubs, .hardsubs {
     color: white;
     margin-left: 2.5%;
     margin-right: 2.5%;
@@ -85,7 +85,7 @@ marquee {
     font-family: helvetica;
 }
 
-.navigation2 .story {
+.navigation2 .credits {
     background-color: white;
     color: black;
     margin-left: 2.5%;
@@ -99,11 +99,22 @@ marquee {
     padding-left: 1%;
     padding-right: 1%;
     border-radius: 25%;
+
+}
+
+.navigation2 .story {
+    color: white;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    font-family: helvetica;
+    font-size: 170%;
 }
 
 .navigation2 .story a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .navigation2 .softsubs a {
@@ -118,7 +129,8 @@ marquee {
 
 .navigation2 .credits a {
     text-decoration: none;
-    color: white;
+    color: black;
+    background-color: white;
 }
 
 vl {
@@ -131,68 +143,14 @@ c {
 }
 
 .content {
-    width: 100%;
-    margin: auto;
+    margin: 10%;
     margin-top: 10%;
 }
 
-.gifs .gif-buttons {
-    list-style-type: none;
-    display: inline-block;
-    margin: 1%;
-}
-
-.first-h1 {
-    margin-top: 10%;
-}
-
-H1 {
-    color: black;
-    font-size: 250%;
-    font-family: helvetica;
-    margin: 5%;
-}
-
-.synopsis, .story1 {
-    margin: 5%;
-}
-
-.synopsis {
-    color: black;
-    font-family: helvetica;
-    font-size: 220%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-
-d {
-    background-color: #30aeec;
-    color: white;
-}
-
-.division {
+.credit-pic1, .credit-pic2 {
+    border-radius: 50px;
     width: 70%;
-}
-
-.story1-title {
-    margin-top: 10%;
-}
-
-.story1-pictures li {
-    list-style-type: none;
-    display: inline-block;
-}
-
-.one, .two, .three {
-    width: 30%;
-    height: auto;
-    margin-top: 5%;
-}
-
-.story1 {
-    color: black;
-    font-family: helvetica;
-    font-size: 250%;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    padding: 1%;
+    margin: 10%;
+    background-color: white;
 }

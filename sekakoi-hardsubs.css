@@ -4,9 +4,8 @@
 }
 
 body {
-    background-image: url(bg_pc.jpg);
+    background-image: url(bg-pc.jpg);
     background-size: cover;
-    background-attachment: fixed;
 }
 
 nav {
@@ -62,21 +61,27 @@ marquee {
 
 .main {
     width: 100%;
-    height: auto;
 }
 
 .navigation2 {
-    background-color: #f46593;
+    background-color: #86d4de;
     list-style-type: none;
 }
 
 .navigation2 li {
-    color: white;
     display: inline-block;
 }
 
-.navigation2 .softsubs, .hardsubs, .credits {
-    color: white;
+.navigation2 .story {
+    font-size: 170%;
+    font-family: helvetica;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.navigation2 .softsubs, .credits {
     margin-left: 2.5%;
     margin-right: 2.5%;
     margin-top: 1.5%;
@@ -85,13 +90,9 @@ marquee {
     font-family: helvetica;
 }
 
-.navigation2 .story {
+.navigation2 .hardsubs {
     background-color: white;
     color: black;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
     font-family: helvetica;
     font-size: 170%;
     padding-bottom: 1%;
@@ -99,11 +100,19 @@ marquee {
     padding-left: 1%;
     padding-right: 1%;
     border-radius: 25%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.story-button {
+    object-fit: cover;
 }
 
 .navigation2 .story a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .navigation2 .softsubs a {
@@ -113,7 +122,7 @@ marquee {
 
 .navigation2 .hardsubs a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .navigation2 .credits a {
@@ -122,9 +131,9 @@ marquee {
 }
 
 vl {
-  border-left: 6px solid white;
-  height: 200%;
-}
+    border-left: 6px solid white;
+    height: 200%;
+  }
 
 c {
     font-size: 50%;
@@ -136,38 +145,10 @@ c {
     margin-top: 10%;
 }
 
-.gifs .gif-buttons {
-    list-style-type: none;
-    display: inline-block;
-    margin: 1%;
-}
-
-.first-h1 {
-    margin-top: 10%;
-}
-
 H1 {
-    color: black;
+    color: white;
     font-size: 250%;
     font-family: helvetica;
-    margin: 5%;
-}
-
-.synopsis, .story1 {
-    margin: 5%;
-}
-
-.synopsis {
-    color: black;
-    font-family: helvetica;
-    font-size: 220%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-
-d {
-    background-color: #30aeec;
-    color: white;
 }
 
 .division {
@@ -190,9 +171,26 @@ d {
 }
 
 .story1 {
-    color: black;
+    color: white;
     font-family: helvetica;
-    font-size: 250%;
+    font-size: 220%;
     margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.episode1 {
+    font-size: 250%;
+    font-family: Helvetica;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+.story1-title, .story1-pics, .story1, .episode1, .episode1-video {
+    margin: 5%;
+}
+
+.episode1-video {
     margin-bottom: 10%;
 }
