@@ -4,6 +4,7 @@
             Tagalog Subtitles
         </title>
         <link rel="stylesheet" href="styles2.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     </head>
     <body>
         <nav>
@@ -16,6 +17,39 @@
             </div>
         </nav>
         <hr>
+        <div class="container">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><a href="sekakoi.html"><img src="sekakoi.jpg"></a>
+                        <H1 class="slider-title">
+                            KONYA, SEKAI KARA KONO KOI GA KIETEMO <BR>(EVEN IF THIS LOVE DISAPPEARS FROM THE WORLD TONIGHT)
+                        </H1><br>
+                        <h1 class="slider-status">MOVIE | UPCOMING</h1>
+                    </div>
+                    <div class="swiper-slide"><a href="kimiao.html"><img src="kimiao.jpg"></a>
+                        <H1 class="slider-title">
+                            KIMI GA OTOSHITA AOZORA<BR>(THE BLUE SKIES AT YOUR FEET)
+                        </H1><br>
+                        <h1 class="slider-status">MOVIE | COMPLETED</h1>
+                    </div>
+                    <div class="swiper-slide"><a href="akai-ringo.html"><img src="akai-ringo.jpg"></a>
+                        <H1 class="slider-title">
+                            AKAI RINGO<BR>(RED APPLE)
+                        </H1><br>
+                        <h1 class="slider-status">DRAMA | ONGOING</h1> 
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
         <div class="content"><center>
             <ul class="latest-works">
                 <li><img style="width: 50%;" src="upcoming-works.gif"></a></li>
@@ -60,5 +94,22 @@
             </ul>
             <hr class="second">
         </center></div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            loop: true,
+          
+            // Navigation arrows
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+          });
+        </script>
     </body>
 </html>

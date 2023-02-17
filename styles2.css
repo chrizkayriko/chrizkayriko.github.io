@@ -55,8 +55,55 @@ nav {
     margin: auto
 }
 
+.container {
+    border-bottom: 10px;
+}
+
+.swiper {
+    width: 100%;
+    height: fit-content;
+}
+
+.swiper-slide img{
+    width: 100%;
+    border-color: white;
+    border-style: solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next {
+    color: white;
+}
+
+.slider-title {
+    color: white;
+    font-family: Helvetica;
+    font-size: x-large;
+    padding: 1%;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 7%;
+    left: 3%;
+}
+
+.slider-status {
+    color: black;
+    font-family: Helvetica;
+    font-size: x-large;
+    padding: 1%;
+    background-color: #ffde59;
+    border-radius: 5px;
+    position: absolute;
+    top: 7%;
+    left: 3%;
+  }
+
 .latest-works {
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 .first {
@@ -64,7 +111,7 @@ nav {
 }
 
 .works {
-    margin-top: 20%;
+    margin-top: 10%;
     margin-bottom: 20%;
 }
 
@@ -99,5 +146,5 @@ nav {
 
 .second {
     width: 70%;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
