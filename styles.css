@@ -9,7 +9,7 @@ body {
 
 
 main {
-    margin: 20% auto;
+    margin: 10% auto;
     max-width: 720px;
 }
 
@@ -28,7 +28,7 @@ main {
 
 h1 {
     font-family: helvetica;
-    font-size: larger;
+    font-size: 3vh;
     color: black;
     background-color: white;
     border-radius: 20px;

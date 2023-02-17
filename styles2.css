@@ -28,7 +28,7 @@ nav {
     display: inline-block;
     margin-right: 2%;
     margin-left: 2%;
-    font-size: 150%;
+    font-size: 2vh;
     font-family: helvetica;
     padding-bottom: 1%;
     padding-top: 1%;
@@ -46,7 +46,7 @@ nav {
 .sns {
     padding-top: 1%;
     padding-right: 1%;
-    width: 5%;
+    width: 5vh;
     border-radius: 25px;
 }
 
@@ -81,7 +81,7 @@ nav {
 .slider-title {
     color: white;
     font-family: Helvetica;
-    font-size: x-large;
+    font-size: 2vh;
     padding: 1%;
     background-color: black;
     border-radius: 5px;
@@ -93,7 +93,7 @@ nav {
 .slider-status {
     color: black;
     font-family: Helvetica;
-    font-size: x-large;
+    font-size: 1vh;
     padding: 1%;
     background-color: #ffde59;
     border-radius: 5px;
@@ -127,14 +127,14 @@ nav {
     margin-top: 5%;
     color: white;
     font-family: Helvetica;
-    font-size: x-large;
+    font-size: 3vh;
 }
 
 .works li .status {
     background-color: white;
     color: black;
     font-family: helvetica;
-    width: 40%;
+    font-size: 2vh;
     padding: 10px;
     border-radius: 50px;
     font-weight: bold;
