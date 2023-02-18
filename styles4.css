@@ -171,7 +171,7 @@ H1 {
 }
 
 .one, .two, .three {
-    width: 30%;
+    width: 40vh;
     height: auto;
     margin-top: 5%;
 }
@@ -190,7 +190,7 @@ H1 {
 }
 
 EP {
-    font-size: 200%;
+    font-size: 105%;
     font-family: Helvetica;
     background-color: black;
     color: white;
@@ -200,11 +200,14 @@ EP {
     padding-bottom: 1%;
     padding-right: 1%;
     padding-left: 1%;
-    margin: 1%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 1%;
+    margin-left: 1%;
 }
 
 ep-raw {
-    font-size: 200%;
+    font-size: 105%;
     font-family: Helvetica;
     background-color: red;
     color: white;
@@ -214,7 +217,10 @@ ep-raw {
     padding-bottom: 1%;
     padding-right: 1%;
     padding-left: 1%;
-    margin: 1%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 1%;
+    margin-left: 1%;
 }
 
 .disclaimer {
