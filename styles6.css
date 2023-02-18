@@ -29,7 +29,6 @@ nav {
     display: inline-block;
     margin-right: 2%;
     margin-left: 2%;
-    font-size: 150%;
     font-family: helvetica;
     padding-bottom: 1%;
     padding-top: 1%;
@@ -37,6 +36,19 @@ nav {
     padding-right: 1%;
     border-radius: 10%;
 }
+
+@media screen and (min-width: 400px) {
+    .subtitle-index {
+      font-size: 25px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 400px) {
+    .subtitle-index {
+      font-size: 16px;
+    }
+  }
 
 .navigation .subtitle-index a {
     text-decoration: none;
