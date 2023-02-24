@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: #fff;
 }
 
 nav {
@@ -149,11 +149,15 @@ nav {
 
 .works {
     margin-top: 10%;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
+    background-color: #eff0f2;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 15px 15px #ffde59;
 }
 
 .works li {
-    margin-bottom: 10%;
+    list-style-type: none;
 }
 
 .works li a {
@@ -162,7 +166,7 @@ nav {
 
 .works li h1 {
     margin-top: 5%;
-    color: white;
+    color: black;
     font-family: Helvetica;
 }
 
@@ -204,6 +208,20 @@ nav {
 
 .works li .drama1 {
     border-radius: 50px;
+    width: 100%;
+}
+
+.column {
+  float: left;
+  width: 40%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .second {
