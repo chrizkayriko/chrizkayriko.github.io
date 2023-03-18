@@ -178,6 +178,13 @@ H1 {
     margin-bottom: 10%;
 }
 
+.gifs .gif-buttons {
+    list-style-type: none;
+    display: inline-block;
+    margin: 1%;
+}
+
+
 .episode1 {
     font-size: 250%;
     font-family: Helvetica;
