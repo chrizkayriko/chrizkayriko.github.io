@@ -201,3 +201,15 @@ H1 {
 .episode1-video {
     margin-bottom: 10%;
 }
+
+.DOWNLOAD {
+    background-color: #86d4de;
+    color: white;
+    padding: 10px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.downloada {
+    text-decoration: none;
+}
