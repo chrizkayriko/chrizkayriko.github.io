@@ -63,6 +63,15 @@ nav {
     border-radius: 25px;
 }
 
+marquee {
+  font-size: 250%;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  padding: 2%;
+}
+
+
 .content {
     margin-left: 10%;
     margin-right: 10%;
