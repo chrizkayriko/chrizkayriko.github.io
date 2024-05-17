@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <title>CHRIZ KAYRIKO - Homepage</title>
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    </head>
+    <body>
+        <div class="section-1-container">
+            <div class="section-1-container-item-1"></div>
+            <div class="section-1-container-inner-item-1"></div>
+            <div class="section-1-container-item-2">
+                <img height="110vw" width="auto" style="border-radius: 50% 50% 50% 50%; box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);" src="https://scontent.fmnl4-5.fna.fbcdn.net/v/t39.30808-1/441866696_287758667745852_1028129374131969596_n.jpg?stp=c0.4.200.200a_dst-jpg_p200x200&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeG-kBQsyMhaP537GRj0QFvJTNLypFHJ14xM0vKkUcnXjH59r3z-LFDyb0EP_Qyjp91q1fGWimQfyKWub1S9cyIs&_nc_ohc=IwrCU7LPh3MQ7kNvgHQqR1S&_nc_ht=scontent.fmnl4-5.fna&oh=00_AYBpol5XZ1eQ5Wlp5xaOS6fKCQzh93tnt9dw4IpI9G4Zsg&oe=664D269C">
+            </div>
+            <div class="section-1-container-item-3">
+                <div class="website-name" style="vertical-align: middle; ">CHRIZ KAYRIKO</div>
+            </div>
+            <div class="section-1-container-item-4">
+                <button class="home-button" style="background-color: #545454; color: white; font-family: Helios; font-weight: bold; font-size: 1.1vw; border-radius: 15px 15px; width: 90%; height: 50%;">HOME</button>
+            </div>
+            <div class="section-1-container-item-5">
+                <button class="home-button" style="background-color: #545454; color: white; font-family: Helios; font-weight: bold; font-size: 1.1vw; border-radius: 15px 15px; width: 90%; height: 50%;">BIASES</button>
+            </div>
+            <div class="section-1-container-item-6">
+                <button class="home-button" style="background-color: #545454; color: white; font-family: Helios; font-weight: bold; font-size: 1.1vw; border-radius: 15px 15px; width: 90%; height: 50%;">DRAMALIST</button>
+            </div>
+            <div class="section-1-container-item-7">
+                <button class="socials-button" style="background-color: #545454; color: white; font-family: Helios; font-weight: bold; font-size: 1.1vw; border-radius: 15px 15px; width: 90%; height: 50%;">SOCIALS</button>
+            </div>
+        </div>
+        <div class="section-2-container">
+            <div class="section-2-container-item-1">
+                Welcome to Chriz Kayriko’s Japanese Entertainment Fan Page!
+            </div>
+            <div class="section-2-container-item-2">
+                If you’re as captivated by the world of Japanese dramas and the talented actors and actresses who bring them to life as I am, then you’ve come to the right place. Dive into my curated drama list, explore my favorite performers, and join me in celebrating the artistry of Japanese entertainment. Let’s embark on this journey together!"
+            </div>
+        </div>
+        <div class="section-3-container">
+            <div class="section-3-container-item-1">
+                ANNOUNCEMENTS
+            </div>
+            <div id="announcement-container" class="announcement-section"></div>
+        </div>
+
+        <script>
+            // Your Firebase configuration
+            const firebaseConfig = {
+                apiKey: "AIzaSyDQf2XIlH8EmvHFC6xWz4hdS0VGHjHT2Y8",
+                authDomain: "chriz-kayriko.firebaseapp.com",
+                databaseURL: "https://chriz-kayriko-default-rtdb.asia-southeast1.firebasedatabase.app/",
+                projectId: "chriz-kayriko",
+                storageBucket: "chriz-kayriko.appspot.com",
+                messagingSenderId: "986023953839",
+                appId: "1:986023953839:web:90292a2f2b2f2f4aa39b5a"
+            };
+    
+            // Initialize Firebase
+        const app = firebase.initializeApp(firebaseConfig);
+        const database = firebase.database();
+
+        // Reference to the announcements node
+        const announcementsRef = database.ref('announcements');
+
+        // Function to format the date and time
+        function formatDateTime() {
+            const date = new Date();
+            const dateString = date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+            const timeString = date.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+            return { dateString, timeString };
+        }
+
+        // Function to add an announcement
+        function addAnnouncement(text) {
+            const { dateString, timeString } = formatDateTime();
+
+            const newAnnouncementRef = announcementsRef.push();
+            newAnnouncementRef.set({
+                date: dateString,
+                time: timeString,
+                text: text
+            });
+        }
+
+        // Function to fetch and display announcements
+        function fetchAnnouncements() {
+            announcementsRef.once('value', (snapshot) => {
+                const container = document.getElementById('announcement-container');
+                container.innerHTML = ''; // Clear existing content
+
+                if (snapshot.exists()) {
+                    const announcements = [];
+                    snapshot.forEach((childSnapshot) => {
+                        announcements.push(childSnapshot.val());
+                    });
+
+                    // Sort announcements by date and time
+                    announcements.sort((a, b) => {
+                        const dateA = new Date(`${a.date} ${a.time}`);
+                        const dateB = new Date(`${b.date} ${b.time}`);
+                        return dateB - dateA; // Sort descending
+                    });
+
+                    announcements.forEach((announcement) => {
+                        const announcementElement = document.createElement('div');
+                        announcementElement.className = 'announcement';
+
+                        announcementElement.innerHTML = `
+                            <div class="announcement-date">${announcement.date}</div>
+                            <div class="announcement-time">${announcement.time}</div>
+                            <br><hr><br>
+                            <div class="announcement-text">${announcement.text}</div>
+                        `;
+
+                        container.appendChild(announcementElement);
+                    });
+                } else {
+                    const noAnnouncementElement = document.createElement('div');
+                    noAnnouncementElement.className = 'announcement';
+                    noAnnouncementElement.innerHTML = '<div class="announcement-text">No announcements</div>';
+                    container.appendChild(noAnnouncementElement);
+                }
+            });
+        }
+
+        // Fetch announcements when the page loads
+        window.onload = fetchAnnouncements;
+        </script>
+    </body>
+    <center><div class="section-4-container" style="position: fixed; bottom: 0; background-color: black; height: 8vw; width: 100%; display: flex; align-items: center; justify-content: center; margin: 0px;">
+        <div class="section-4-container-item-1" style="color: white; vertical-align: middle; align-items: center; font-family: Helios;">
+            © CHRIZ KAYRIKO<br>
+            Please see credits pointing to rightful owners of all the medias and images that are used which does not owned by Chriz Kayriko.
+        </div>
+    </div></center>
+</html>
