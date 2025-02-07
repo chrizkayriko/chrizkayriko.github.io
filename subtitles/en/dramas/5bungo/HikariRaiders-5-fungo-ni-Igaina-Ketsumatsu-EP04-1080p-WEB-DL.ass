@@ -1,0 +1,261 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,Microsoft Sans Serif,65,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0.0,1,3.0,0.0,2,10,10,150,1
+Style: New,Arial,50,&H00FFFFFF,&H0000FFFF,&H009B00FF,&H00000000,-1,0,0,0,100,100,0,2.0,3,1,1,2,10,10,30,1
+Style: Copy of New,Arial,50,&H00FFFFFF,&H0000FFFF,&H009B00FF,&H00000000,-1,0,0,0,100,100,0,2.0,3,1,1,2,10,10,200,1
+Style: Copy of Copy of New,Arial,50,&H009B00FF,&H0000FFFF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,2.0,3,1,1,2,10,10,350,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.28,0:00:04.06,Main,,0,0,0,,Sensei, did you fix your phone?
+Dialogue: 0,0:00:04.08,0:00:06.08,Main,,0,0,0,,Then we can't watch that drama anymore.
+Dialogue: 0,0:00:06.10,0:00:09.98,Main,,0,0,0,,That's right. I'm so shocked that\Nmy ninja glasses almost slipped off.
+Dialogue: 0,0:00:10.00,0:00:13.78,Main,,0,0,0,,Ah... but can't we watch\Nit on the school tablet?
+Dialogue: 0,0:00:13.80,0:00:16.09,Main,,0,0,0,,Huh? Look, that one...
+Dialogue: 0,0:00:16.11,0:00:18.09,Main,,0,0,0,,On this board-like thing?
+Dialogue: 0,0:00:18.11,0:00:19.57,Main,,0,0,0,,Sensei, you haven't been using that, right?
+Dialogue: 0,0:00:19.59,0:00:21.19,Main,,0,0,0,,No, I use it to calculate things.
+Dialogue: 0,0:00:21.21,0:00:24.58,Main,,0,0,0,,- Just as a calculator?\N- What else can you use it for?
+Dialogue: 0,0:00:24.60,0:00:28.77,Main,,0,0,0,,Isn't it mainly used for\Nschool notifications now?
+Dialogue: 0,0:00:28.79,0:00:31.59,Main,,0,0,0,,No wonder... I thought I was\Nmissing out on a lot of things.
+Dialogue: 0,0:00:31.61,0:00:33.60,Main,,0,0,0,,Turns out I didn't know about them.
+Dialogue: 0,0:00:33.62,0:00:35.14,Main,,0,0,0,,Sensei, are you okay?
+Dialogue: 0,0:00:35.16,0:00:37.42,Main,,0,0,0,,Well, that's not important.\NBut can we really watch it?
+Dialogue: 0,0:00:37.44,0:00:40.24,Main,,0,0,0,,On this board-like thing?\NYeah, of course!
+Dialogue: 0,0:00:40.26,0:00:43.28,Main,,0,0,0,,Wow, you know a lot of stuff.
+Dialogue: 0,0:00:43.30,0:00:45.94,Main,,0,0,0,,Here!
+Dialogue: 0,0:00:50.15,0:00:55.52,New,,0,0,0,,SURPRISING ENDING AFTER 5 MINUTES
+Dialogue: 0,0:00:56.61,0:01:01.08,Main,,0,0,0,,"It's said you can hear a\Nsound when you fall in love."
+Dialogue: 0,0:01:01.10,0:01:04.57,Main,,0,0,0,,Today, the second semester begins.
+Dialogue: 0,0:01:04.59,0:01:07.42,Main,,0,0,0,,Some of you might still be\Nin summer vacation mode...
+Dialogue: 0,0:01:07.44,0:01:12.74,Main,,0,0,0,,"I wonder when I became so\Nobsessed with romance novels...
+Dialogue: 0,0:01:12.76,0:01:16.51,Main,,0,0,0,,Among them, the story of 'Haru and Aki'...
+Dialogue: 0,0:01:20.60,0:01:22.59,Main,,0,0,0,,Is special."
+Dialogue: 0,0:01:48.60,0:01:53.42,Main,,0,0,0,,"I heard it. The sound of a heartbeat..."
+Dialogue: 0,0:01:56.96,0:02:00.99,Main,,0,0,0,,"This must be love."
+Dialogue: 0,0:02:02.20,0:02:07.58,Main,,0,0,0,,THE FAILED CUPID
+Dialogue: 0,0:02:09.94,0:02:13.42,Main,,0,0,0,,Shio-chan! Shio-chan, sorry.\NCould I borrow your notes?
+Dialogue: 0,0:02:13.44,0:02:16.26,Main,,0,0,0,,Ah, of course... here.
+Dialogue: 0,0:02:16.28,0:02:18.14,Main,,0,0,0,,Thanks.
+Dialogue: 0,0:02:19.95,0:02:22.85,Main,,0,0,0,,Wow! Your handwriting is so neat.
+Dialogue: 0,0:02:22.87,0:02:23.65,Main,,0,0,0,,Really?
+Dialogue: 0,0:02:23.68,0:02:26.05,Main,,0,0,0,,Yeah. It's like the\Nteacher's handwriting.
+Dialogue: 0,0:02:26.07,0:02:30.09,Main,,0,0,0,,- Not at all.\N- No, no, no.
+Dialogue: 0,0:02:30.11,0:02:32.07,Main,,0,0,0,,There you go again.
+Dialogue: 0,0:02:32.09,0:02:35.38,Main,,0,0,0,,By the way, isn't the name "Loves books\Nmore than meals" kind of old-fashioned?
+Dialogue: 0,0:02:35.40,0:02:36.60,Main,,0,0,0,,But...
+Dialogue: 0,0:02:36.62,0:02:40.25,Main,,0,0,0,,Eh, Haruma, you're\Nnot coming on Saturday?
+Dialogue: 0,0:02:40.27,0:02:42.28,Main,,0,0,0,,Another movie again.
+Dialogue: 0,0:02:42.30,0:02:45.90,Main,,0,0,0,,I told you that I love\Nmovies more than meals.
+Dialogue: 0,0:02:48.61,0:02:55.25,Main,,0,0,0,,Haruma! You forgot your meals again.\NI brought it from your aunt.
+Dialogue: 0,0:02:55.27,0:02:57.25,Main,,0,0,0,,Ah, sorry.
+Dialogue: 0,0:02:57.27,0:02:59.58,Main,,0,0,0,,The usual thanks is fine, you movie idiot.
+Dialogue: 0,0:02:59.60,0:03:01.59,Main,,0,0,0,,I'm not an idiot.
+Dialogue: 0,0:03:01.61,0:03:05.64,Main,,0,0,0,,- It'd be easier if you admit it.\N- No, Sanae, you...
+Dialogue: 0,0:03:05.66,0:03:08.24,Main,,0,0,0,,- What? \N- Using just her name...
+Dialogue: 0,0:03:08.26,0:03:11.93,Main,,0,0,0,,Ah, being childhood friends is nice.
+Dialogue: 0,0:03:11.95,0:03:17.95,Main,,0,0,0,,Ahh, can't I create one too, a\Nhandsome childhood friend, starting now?
+Dialogue: 0,0:03:23.11,0:03:26.41,Main,,0,0,0,,- Anyway, take a look at this.\N- Another movie?
+Dialogue: 0,0:03:26.43,0:03:30.47,Main,,0,0,0,,This is a masterpiece.\NJim Jarmusch's Coffee and Cigarettes.
+Dialogue: 0,0:03:30.50,0:03:33.10,Main,,0,0,0,,You'll definitely get it too, you guys.
+Dialogue: 0,0:03:33.12,0:03:35.32,Main,,0,0,0,,The charm of an omnibus film.
+Dialogue: 0,0:03:37.18,0:03:39.58,Main,,0,0,0,,A MASTERPIECE OF ROMANCE OMNIBUS...
+Dialogue: 0,0:03:46.65,0:03:48.97,Main,,0,0,0,,You're not going?
+Dialogue: 0,0:03:57.94,0:04:02.26,Main,,0,0,0,,"After all... this is love."
+Dialogue: 0,0:04:22.44,0:04:25.30,Main,,0,0,0,,"I love you.
+Dialogue: 0,0:04:25.32,0:04:29.36,Main,,0,0,0,,If we could become a\Ncouple like Haru and Aki,
+Dialogue: 0,0:04:29.38,0:04:31.74,Main,,0,0,0,,I'd be happy."
+Dialogue: 0,0:04:50.76,0:04:53.76,Main,,0,0,0,,Ah, um!
+Dialogue: 0,0:04:53.78,0:04:56.52,Main,,0,0,0,,What?
+Dialogue: 0,0:04:56.54,0:04:59.34,Main,,0,0,0,,Omnibus.
+Dialogue: 0,0:04:59.36,0:05:01.25,Main,,0,0,0,,Omnibus?
+Dialogue: 0,0:05:01.27,0:05:04.26,Main,,0,0,0,,I heard you talking the other day.
+Dialogue: 0,0:05:04.28,0:05:07.61,Main,,0,0,0,,About omnibus films.
+Dialogue: 0,0:05:07.63,0:05:09.75,Main,,0,0,0,,This book is like that too.
+Dialogue: 0,0:05:09.77,0:05:13.18,Main,,0,0,0,,So, um...
+Dialogue: 0,0:05:13.20,0:05:17.92,Main,,0,0,0,,I thought maybe\NHaruma would like it too.
+Dialogue: 0,0:05:17.94,0:05:20.92,Main,,0,0,0,,Ah, you're lending me the book?
+Dialogue: 0,0:05:20.94,0:05:23.91,Main,,0,0,0,,Yes!
+Dialogue: 0,0:05:25.93,0:05:30.90,Main,,0,0,0,,And if it's okay, I'd love\Nto hear your thoughts.
+Dialogue: 0,0:05:30.92,0:05:33.55,Main,,0,0,0,,Ah, thoughts...
+Dialogue: 0,0:05:33.57,0:05:37.84,Main,,0,0,0,,I might not be good at saying them, but...
+Dialogue: 0,0:05:37.86,0:05:40.36,Main,,0,0,0,,Got it. Thanks.
+Dialogue: 0,0:05:49.52,0:05:53.16,Main,,0,0,0,,"But two weeks passed,
+Dialogue: 0,0:05:53.18,0:05:56.78,Main,,0,0,0,,and neither the book nor\Nthe thoughts came back."
+Dialogue: 0,0:06:01.03,0:06:02.53,Main,,0,0,0,,Ah...
+Dialogue: 0,0:06:02.55,0:06:07.10,Main,,0,0,0,,Sorry. Could you wait a\Nlittle longer for the book?
+Dialogue: 0,0:06:07.12,0:06:10.26,Main,,0,0,0,,Ah, sure. Of course!
+Dialogue: 0,0:06:10.28,0:06:12.28,Main,,0,0,0,,It's totally fine.
+Dialogue: 0,0:06:18.27,0:06:21.60,Main,,0,0,0,,Hey, did you hear?
+Dialogue: 0,0:06:21.62,0:06:23.69,Main,,0,0,0,,Haruma and Sanae are dating!
+Dialogue: 0,0:06:23.71,0:06:28.51,Main,,0,0,0,,Isn't a childhood love so wonderful?
+Dialogue: 0,0:06:28.53,0:06:32.43,Main,,0,0,0,,"In reality, love isn't like a novel."
+Dialogue: 0,0:06:36.89,0:06:38.84,Main,,0,0,0,,So, how did you get\Nconfessed to, Yuki-san?
+Dialogue: 0,0:06:38.86,0:06:41.34,Main,,0,0,0,,So, the one who confessed first was her.
+Dialogue: 0,0:06:41.36,0:06:43.36,Main,,0,0,0,,Yeah, yeah... and then?
+Dialogue: 0,0:06:43.38,0:06:47.25,Main,,0,0,0,,Sanae said, “I could go out\Nwith you,” with a superior tone.
+Dialogue: 0,0:06:47.27,0:06:50.17,Main,,0,0,0,,Oh? Bragging, are we, you idiot!
+Dialogue: 0,0:06:50.19,0:06:53.69,Main,,0,0,0,, - Ah, here. \N- I'll return it.
+Dialogue: 0,0:07:09.21,0:07:11.52,Main,,0,0,0,,Ah, Shio-chan! Shio-chan!
+Dialogue: 0,0:07:11.54,0:07:14.53,Main,,0,0,0,,Emi... Sanae too...
+Dialogue: 0,0:07:14.55,0:07:18.26,Main,,0,0,0,,- Ah, we're about to go... \N- Congrats. Huh?
+Dialogue: 0,0:07:18.28,0:07:21.55,Main,,0,0,0,,The confession? It went well.
+Dialogue: 0,0:07:21.57,0:07:24.12,Main,,0,0,0,,I overheard it\Nby chance in the classroom.
+Dialogue: 0,0:07:24.14,0:07:27.97,Main,,0,0,0,,Sanae said, "I could go out with you."
+Dialogue: 0,0:07:27.99,0:07:31.01,Main,,0,0,0,,Eh, he said that?
+Dialogue: 0,0:07:31.03,0:07:33.81,Main,,0,0,0,,- No, that's not it. \N- Huh? But...
+Dialogue: 0,0:07:33.83,0:07:38.68,Main,,0,0,0,,It was from an omnibus\Nromance novel, I think?
+Dialogue: 0,0:07:38.70,0:07:42.10,Main,,0,0,0,,Haruma lent me a book.
+Dialogue: 0,0:07:42.12,0:07:44.54,Main,,0,0,0,,On the last page of it...
+Dialogue: 0,0:07:44.56,0:07:47.36,Main,,0,0,0,,The last page?
+Dialogue: 0,0:07:47.38,0:07:49.51,Main,,0,0,0,,Yes. There...
+Dialogue: 0,0:07:49.53,0:07:56.21,Main,,0,0,0,,"I like you. If we could become\Na couple like Haru and Aki, I'd be happy."
+Dialogue: 0,0:07:56.24,0:08:00.69,Main,,0,0,0,,What, a love confession?\NAhh, that's just too wonderful.
+Dialogue: 0,0:08:05.61,0:08:07.66,Main,,0,0,0,,"Ah, thoughts...
+Dialogue: 0,0:08:07.70,0:08:10.31,Main,,0,0,0,,I might not be good\Nat saying them, but...
+Dialogue: 0,0:08:10.34,0:08:16.44,Main,,0,0,0,,Sorry. Could you read this book\Nand tell me your thoughts?"
+Dialogue: 0,0:08:19.91,0:08:22.61,Main,,0,0,0,,"I love you.
+Dialogue: 0,0:08:22.63,0:08:28.18,Main,,0,0,0,,If we could become a couple\Nlike Haru and Aki, I'd be happy."
+Dialogue: 0,0:08:32.72,0:08:36.61,Main,,0,0,0,,Both the confession and\Nthe reason were from me.
+Dialogue: 0,0:08:36.64,0:08:39.26,Main,,0,0,0,,Ah, we're going to see the\Nbasketball team's match...
+Dialogue: 0,0:08:39.28,0:08:41.25,Main,,0,0,0,,Shio-chan, wanna come with us?
+Dialogue: 0,0:08:41.27,0:08:44.65,Main,,0,0,0,,Ah... I'm good for today. Thanks.
+Dialogue: 0,0:08:44.67,0:08:46.68,Main,,0,0,0,,Oh, really? Well, tomorrow then.
+Dialogue: 0,0:08:46.70,0:08:48.75,Main,,0,0,0,,- Bye-bye. \N- Bye-bye.
+Dialogue: 0,0:09:06.84,0:09:10.24,Main,,0,0,0,,There's no Cupid as clumsy as me.
+Dialogue: 0,0:09:12.86,0:09:15.71,Main,,0,0,0,,Well... This kid is\Ngoing to be happy. Yeah.
+Dialogue: 0,0:09:15.73,0:09:20.05,Main,,0,0,0,,Hmm, love letters, huh?\NBrings back memories.
+Dialogue: 0,0:09:20.07,0:09:24.22,Main,,0,0,0,,Ah, there was even a time\Nwhen I borrowed a book and there were
+Dialogue: 0,0:09:24.24,0:09:26.62,Main,,0,0,0,,love letters stuck between every page.
+Dialogue: 0,0:09:26.64,0:09:30.31,Main,,0,0,0,,- There's no way you have such memories. \N- As expected of Gen Z.
+Dialogue: 0,0:09:30.34,0:09:32.83,Main,,0,0,0,,Excellent at seeing through\Nthings. You figured it out well.
+Dialogue: 0,0:09:32.85,0:09:38.47,Main,,0,0,0,,- But now, the teacher is super popular.\N- The right eardrum is catching... huh?
+Dialogue: 0,0:09:38.49,0:09:40.30,Main,,0,0,0,,Don't you know the\Nteacher has quite a few fans?
+Dialogue: 0,0:09:40.33,0:09:41.83,Main,,0,0,0,,The left eardrum\Nis catching too.
+Dialogue: 0,0:09:41.85,0:09:44.31,Main,,0,0,0,,Hey, stop that.\NDon't say things like that. Huh?
+Dialogue: 0,0:09:44.33,0:09:48.16,Main,,0,0,0,,Isn't there a love letter stuck\Nin that book of yours, teacher?
+Dialogue: 0,0:09:48.18,0:09:52.66,Main,,0,0,0,,No way that's true. Huh? A novel!
+Dialogue: 0,0:09:53.69,0:09:55.25,Main,,0,0,0,,Ah! Found it!
+Dialogue: 0,0:09:55.25,0:09:58.54,Copy of New,,0,0,0,,A SURPRISING RECEIPT IN PAGE 5
+Dialogue: 0,0:09:58.56,0:10:00.64,Main,,0,0,0,,Snack, weak whiskey...
+Dialogue: 0,0:10:00.66,0:10:02.80,Main,,0,0,0,,4,800 yen.
+Dialogue: 0,0:10:02.82,0:10:05.84,Main,,0,0,0,,More importantly,\Nteacher, is that book Dazai's?
+Dialogue: 0,0:10:05.86,0:10:07.85,Main,,0,0,0,,Ah, yes. Want to read it?
+Dialogue: 0,0:10:07.87,0:10:10.95,Main,,0,0,0,,When people think of Dazai, they often think\Nof No Longer Human or The Setting Sun...
+Dialogue: 0,0:10:10.97,0:10:12.97,Main,,0,0,0,,They might have a strong\Nimage of his long works,
+Dialogue: 0,0:10:12.99,0:10:15.34,Main,,0,0,0,,but he wrote a lot of short stories too.
+Dialogue: 0,0:10:15.36,0:10:18.81,Main,,0,0,0,,That's why there's also a drama\Nbased on Dazai Osamu's work.
+Dialogue: 0,0:10:18.83,0:10:20.93,Main,,0,0,0,,- A drama based on Dazai!?\N- Yes.
+Dialogue: 0,0:10:21.29,0:10:25.19,Main,,0,0,0,,FRIENDSHIP EXHANGE\NORIGINAL WORK BY OSAMU DAZAI
+Dialogue: 0,0:10:25.21,0:10:26.70,Main,,0,0,0,,SHOWA 21 (1946)
+Dialogue: 0,0:10:26.72,0:10:28.37,Main,,0,0,0,,The man visited just\Na few days after I had
+Dialogue: 0,0:10:28.40,0:10:34.69,Main,,0,0,0,,moved from Tokyo to my\Nhometown with my family.
+Dialogue: 0,0:10:34.71,0:10:37.71,Main,,0,0,0,,Hey!
+Dialogue: 0,0:10:37.73,0:10:45.73,Main,,0,0,0,,Hey!
+Dialogue: 0,0:10:50.88,0:10:54.08,Main,,0,0,0,,Hey, long time no see!
+Dialogue: 0,0:10:56.30,0:11:02.46,Main,,0,0,0,,Oh, forgotten me? It's Hirata, your\Nclassmate from elementary school.
+Dialogue: 0,0:11:04.48,0:11:07.93,Main,,0,0,0,,How many years has it been?
+Dialogue: 0,0:11:08.60,0:11:10.40,Main,,0,0,0,,Twenty years, huh?
+Dialogue: 0,0:11:11.57,0:11:16.67,Main,,0,0,0,,"This guy has always been\Narrogant, shameless, and selfish.
+Dialogue: 0,0:11:16.69,0:11:19.86,Main,,0,0,0,,It's as if he thinks of\Nothers as his servants.
+Dialogue: 0,0:11:19.88,0:11:25.13,Main,,0,0,0,,The phrase "only good at bossing\Nothers around" suits him well."
+Dialogue: 0,0:11:25.14,0:11:26.14,Main,,0,0,0,,Hey!
+Dialogue: 0,0:11:26.92,0:11:32.42,Main,,0,0,0,,"And I was the type who\Ncouldn't speak up clearly."
+Dialogue: 0,0:11:41.15,0:11:44.65,Main,,0,0,0,,Remember the fight we got into back then?
+Dialogue: 0,0:11:49.11,0:11:53.39,Main,,0,0,0,,The scar you gave me with your scratch.\NIn that fight, I...
+Dialogue: 0,0:11:53.41,0:11:56.69,Main,,0,0,0,,I acknowledged you just a little.
+Dialogue: 0,0:11:56.71,0:12:01.58,Main,,0,0,0,,"How pompous, saying\Nhe "acknowledged" me."
+Dialogue: 0,0:12:01.72,0:12:07.33,Main,,0,0,0,,More importantly, you won't even\Nserve a drink to your friend of 20 years?
+Dialogue: 0,0:12:11.89,0:12:13.33,Main,,0,0,0,,Serve him a drink.
+Dialogue: 0,0:12:14.77,0:12:17.04,Main,,0,0,0,,Is that okay?
+Dialogue: 0,0:12:22.29,0:12:28.18,Main,,0,0,0,,"I'll make sure he knows we\Nlive in different worlds now."
+Dialogue: 0,0:12:43.73,0:12:46.78,Main,,0,0,0,,Tastes like cheap shochu.
+Dialogue: 0,0:12:46.81,0:12:50.85,Main,,0,0,0,,"Trying to make a guy like\Nthis subtly realize something...
+Dialogue: 0,0:12:50.88,0:12:54.89,Main,,0,0,0,,is impossible from the start."
+Dialogue: 0,0:12:54.92,0:12:58.53,Main,,0,0,0,,You're proud that you\Nwent to Tokyo, aren't you?
+Dialogue: 0,0:12:58.56,0:13:02.60,Main,,0,0,0,,I never said anything like that.
+Dialogue: 0,0:13:02.63,0:13:05.58,Main,,0,0,0,,If I had gone to Tokyo too...
+Dialogue: 0,0:13:05.61,0:13:08.59,Main,,0,0,0,,I could've done as well as you.
+Dialogue: 0,0:13:08.62,0:13:11.47,Main,,0,0,0,,But in the end, you\Nfailed at a bunch of things...
+Dialogue: 0,0:13:11.50,0:13:14.59,Main,,0,0,0,,And ran back here, didn't you?
+Dialogue: 0,0:13:15.36,0:13:18.36,Main,,0,0,0,,Ah, something like that...
+Dialogue: 0,0:13:20.76,0:13:25.32,Main,,0,0,0,,Well... if you're in trouble, just say so.
+Dialogue: 0,0:13:25.35,0:13:28.14,Main,,0,0,0,,I wouldn't mind giving you advice.
+Dialogue: 0,0:13:28.17,0:13:32.33,Main,,0,0,0,,"Like I'd fall for that.\NIf I show any weakness...
+Dialogue: 0,0:13:32.36,0:13:37.52,Main,,0,0,0,,He'd just use it to blackmail\Nor boss me around."
+Dialogue: 0,0:13:38.73,0:13:42.83,Main,,0,0,0,,Ahh, you're such a boring guy.\NAh, I'm drunk!
+Dialogue: 0,0:13:46.34,0:13:50.63,Main,,0,0,0,,Hey... hey!
+Dialogue: 0,0:13:50.66,0:13:52.91,Main,,0,0,0,,Call your wife in here.
+Dialogue: 0,0:13:52.94,0:13:55.50,Main,,0,0,0,,- Huh? \N- Just do it!
+Dialogue: 0,0:13:55.53,0:13:59.28,Main,,0,0,0,,Call her in and let her serve me.
+Dialogue: 0,0:14:01.05,0:14:03.69,Main,,0,0,0,,Did you call me?
+Dialogue: 0,0:14:03.72,0:14:08.42,Main,,0,0,0,,Wife! Sit here.
+Dialogue: 0,0:14:15.47,0:14:17.49,Main,,0,0,0,,This guy and I...
+Dialogue: 0,0:14:17.52,0:14:20.29,Main,,0,0,0,,We used to fight a lot back in the day,
+Dialogue: 0,0:14:20.32,0:14:22.83,Main,,0,0,0,,but I did judo and was strong,
+Dialogue: 0,0:14:22.86,0:14:26.36,Main,,0,0,0,,so in the end, he'd always\Ncry and beg for forgiveness.
+Dialogue: 0,0:14:28.43,0:14:30.73,Main,,0,0,0,,Right, isn't that so?
+Dialogue: 0,0:14:34.60,0:14:37.61,Main,,0,0,0,,With his income, it must be hard\Njust to make ends meet, right?
+Dialogue: 0,0:14:37.64,0:14:39.59,Main,,0,0,0,,If you ever get tired of him...
+Dialogue: 0,0:14:39.62,0:14:41.72,Main,,0,0,0,,You can come to me, you know?
+Dialogue: 0,0:14:46.15,0:14:50.40,Main,,0,0,0,,Wife, don't be so distant.\NI'm this guy's best friend, after all.
+Dialogue: 0,0:14:51.03,0:14:55.90,Main,,0,0,0,,"His arrogance is\Nseriously crossing the line."
+Dialogue: 0,0:15:01.96,0:15:06.84,Main,,0,0,0,,Sorry, the baby is crying.
+Dialogue: 0,0:15:06.87,0:15:09.84,Main,,0,0,0,,"Not being able to stop\Nthis guy's rudeness...
+Dialogue: 0,0:15:09.87,0:15:14.48,Main,,0,0,0,,probably lowered my standing as well."
+Dialogue: 0,0:15:14.51,0:15:17.31,Main,,0,0,0,,Your wife isn't doing a good job.
+Dialogue: 0,0:15:19.86,0:15:22.92,Main,,0,0,0,,If she were my wife,\NI wouldn't let her act like that.
+Dialogue: 0,0:15:22.95,0:15:25.39,Main,,0,0,0,,It's because your teaching is too soft.
+Dialogue: 0,0:15:25.42,0:15:28.41,Main,,0,0,0,,"A terrible day...
+Dialogue: 0,0:15:28.44,0:15:33.50,Main,,0,0,0,,But if I make him angrier and he gets out of\Ncontrol, I wouldn't be able to handle it."
+Dialogue: 0,0:15:33.53,0:15:35.53,Main,,0,0,0,,Boring...
+Dialogue: 0,0:15:35.56,0:15:38.06,Main,,0,0,0,,Just looking at your annoying face\Nmakes the drink taste bad.
+Dialogue: 0,0:15:40.24,0:15:42.34,Main,,0,0,0,,I'm leaving!
+Dialogue: 0,0:15:42.39,0:15:46.15,Main,,0,0,0,,"I was waiting for those words.."
+Dialogue: 0,0:15:48.04,0:15:51.98,Main,,0,0,0,,- I'll take some of the alcohol with me.\N- Go ahead.
+Dialogue: 0,0:15:52.02,0:15:55.36,Main,,0,0,0,,"A bottle of sake is a small price to pay."
+Dialogue: 0,0:15:58.52,0:16:02.64,Main,,0,0,0,,"I planned to say just\None thing at the end...
+Dialogue: 0,0:16:02.67,0:16:04.81,Main,,0,0,0,,Don't act so high and mighty."
+Dialogue: 0,0:16:04.84,0:16:08.54,Main,,0,0,0,,"Who do you think you are?"
+Dialogue: 0,0:16:10.48,0:16:13.68,Main,,0,0,0,,Hirata.
+Dialogue: 0,0:16:16.20,0:16:20.00,Main,,0,0,0,,Don't act so full of yourself.
+Dialogue: 0,0:16:20.03,0:16:23.46,Main,,0,0,0,,Since childhood, you've\Nbeen looking down on people.
+Dialogue: 0,0:16:23.48,0:16:24.85,Main,,0,0,0,,Don't make fun of others.
+Dialogue: 0,0:16:24.88,0:16:26.56,Main,,0,0,0,,Who do you think you are?
+Dialogue: 0,0:16:35.06,0:16:37.70,Main,,0,0,0,,What's wrong?
+Dialogue: 0,0:16:37.73,0:16:40.50,Main,,0,0,0,,The feelings I've had\Nfor him all this time...
+Dialogue: 0,0:16:40.53,0:16:43.23,Main,,0,0,0,,Ended up being thrown back at me.
+Dialogue: 0,0:16:45.20,0:16:47.21,Main,,0,0,0,,Huh?
+Dialogue: 0,0:16:47.24,0:16:52.03,Main,,0,0,0,,"The hatred I felt...\Nwas it directed at him?
+Dialogue: 0,0:16:52.06,0:16:55.20,Main,,0,0,0,,Or was it at myself?
+Dialogue: 0,0:16:55.23,0:16:58.83,Main,,0,0,0,,I couldn't tell anymore."
+Dialogue: 0,0:17:02.93,0:17:07.73,Main,,0,0,0,,In other words, what I\Nthought was an inner voice
+Dialogue: 0,0:17:07.76,0:17:12.05,Main,,0,0,0,,was actually heard out loud.\NThat's why he got so angry
+Dialogue: 0,0:17:12.08,0:17:14.87,Main,,0,0,0,,- and stormed off, huh?\N- No way that's true.
+Dialogue: 0,0:17:14.90,0:17:18.15,Main,,0,0,0,,- Lack of reading comprehension, how sad. \N- Teacher, without realizing it,
+Dialogue: 0,0:17:18.18,0:17:20.46,Main,,0,0,0,,someone might also be thinking,\N"Who do you think you are?"
+Dialogue: 0,0:17:20.49,0:17:22.62,Main,,0,0,0,,Huh?
+Dialogue: 0,0:17:22.65,0:17:25.06,Main,,0,0,0,,Don't act so full of yourself!
+Dialogue: 0,0:17:25.09,0:17:27.23,Main,,0,0,0,,Sorry. About you... I...
+Dialogue: 0,0:17:27.26,0:17:29.23,Main,,0,0,0,,Stop it! That's embarrassing!
+Dialogue: 0,0:17:29.26,0:17:31.58,Main,,0,0,0,,Reacting to it, how sad.
+Dialogue: 0,0:17:31.61,0:17:34.14,Main,,0,0,0,,In my mind, this completely\Nsurpassed Ben-Hur.
+Dialogue: 0,0:17:34.17,0:17:36.35,Main,,0,0,0,,Ben-Hur? What's that?
+Dialogue: 0,0:17:36.38,0:17:39.92,Main,,0,0,0,,It's my favorite movie.\NThe running time is 3 hours and 32 minutes,
+Dialogue: 0,0:17:39.95,0:17:42.39,Main,,0,0,0,,- with an intermission. \N- It's long.
+Dialogue: 0,0:17:42.42,0:17:44.43,Main,,0,0,0,,- Looking forward to next week too.\N- Oh, but teacher—.
+Dialogue: 0,0:17:44.46,0:17:47.57,Main,,0,0,0,,This drama ends in four episodes.
+Dialogue: 0,0:17:47.60,0:17:51.60,Main,,0,0,0,,Huh...? Wait, this week is...
+Dialogue: 0,0:17:51.63,0:17:54.14,Main,,0,0,0,,This week is the fourth episode.
+Dialogue: 0,0:17:54.17,0:17:56.16,Main,,0,0,0,,Which means..!
+Dialogue: 0,0:17:56.19,0:18:01.18,Copy of New,,0,0,0,,IN WEEK 5, A SURPRISING DIFFERENT PROGRAM
+Dialogue: 0,0:18:01.21,0:18:06.17,Copy of Copy of New,,0,0,0,,"For those who want to watch\Nthis drama again, head to TVer!"

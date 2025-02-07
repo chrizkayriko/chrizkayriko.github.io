@@ -1,0 +1,332 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,Arial,50.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0.0,2,10,10,150,1
+Style: New,Arial,75.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.00,0:00:02.82,Main,,0,0,0,,I want to sing.
+Dialogue: 0,0:00:02.82,0:00:07.23,Main,,0,0,0,,- Sing?\N- Yes.
+Dialogue: 0,0:00:07.23,0:00:12.39,Main,,0,0,0,,Um... Who is the last\Nperson you want to see?
+Dialogue: 0,0:00:12.39,0:00:14.62,Main,,0,0,0,,I know!
+Dialogue: 0,0:00:14.62,0:00:18.39,Main,,0,0,0,,Are you sure you\Nunderstand? This place is...
+Dialogue: 0,0:00:18.39,0:00:21.36,Main,,0,0,0,,The other side of sadness.
+Dialogue: 0,0:00:21.36,0:00:23.95,Main,,0,0,0,,This is other side of goodbye.
+Dialogue: 0,0:00:23.95,0:00:27.66,Main,,0,0,0,,I said it on purpose, hehe.
+Dialogue: 0,0:00:27.66,0:00:31.33,Main,,0,0,0,,- Kagura Misaki-san, you are...\N- I'm dead.
+Dialogue: 0,0:00:31.33,0:00:33.33,Main,,0,0,0,,I know, I know.
+Dialogue: 0,0:00:33.33,0:00:34.82,Main,,0,0,0,,From a very young age, your heart...
+Dialogue: 0,0:00:34.82,0:00:37.33,Main,,0,0,0,,I had a chronic disease.
+Dialogue: 0,0:00:37.33,0:00:41.79,Main,,0,0,0,,- And your parents...\N- They passed away when I was little.
+Dialogue: 0,0:00:41.79,0:00:45.69,Main,,0,0,0,,- I'm one of those lonely people.\N- But
+Dialogue: 0,0:00:45.69,0:00:47.75,Main,,0,0,0,,you have friends and relatives.
+Dialogue: 0,0:00:47.75,0:00:52.33,Main,,0,0,0,,Yes, I have a surrogate parent\Nand an aunt and uncle who raised me,
+Dialogue: 0,0:00:52.33,0:00:55.72,Main,,0,0,0,,also cousins and of course, I have friends.
+Dialogue: 0,0:00:55.72,0:00:59.26,Main,,0,0,0,,For example, is there anyone\Nthat you would like to meet from them?
+Dialogue: 0,0:00:59.26,0:01:01.62,Main,,0,0,0,,I want to sing!
+Dialogue: 0,0:01:01.62,0:01:04.23,Main,,0,0,0,,I want to sing a song\NI wrote with Okura.
+Dialogue: 0,0:01:04.23,0:01:07.16,Main,,0,0,0,,Okura?
+Dialogue: 0,0:01:07.16,0:01:24.03,Main,,0,0,0,,
+Dialogue: 0,0:01:24.03,0:01:27.89,Main,,0,0,0,,Shinobu Okura.
+Dialogue: 0,0:01:27.89,0:01:34.16,Main,,0,0,0,,I want to sing with him.
+Dialogue: 0,0:01:34.16,0:01:37.49,Main,,0,0,0,,- There is one rule.\N- A rule?
+Dialogue: 0,0:01:37.49,0:01:40.23,Main,,0,0,0,,To those who know that\NMisaki-san passed away,
+Dialogue: 0,0:01:40.23,0:01:42.66,Main,,0,0,0,,you can't meet them.
+Dialogue: 0,0:01:42.66,0:01:44.79,Main,,0,0,0,,Eh?
+Dialogue: 0,0:01:44.79,0:01:47.72,Main,,0,0,0,,Misaki!
+Dialogue: 0,0:01:47.72,0:01:53.26,Main,,0,0,0,,I'm sorry to hear that Okura-san\Nknows you passed away,
+Dialogue: 0,0:01:53.26,0:01:56.36,Main,,0,0,0,,you know, don't you?
+Dialogue: 0,0:01:56.36,0:01:59.39,Main,,0,0,0,,If you meet someone who\Nknows that you're dead,
+Dialogue: 0,0:01:59.39,0:02:02.36,Main,,0,0,0,,at that moment\Nyou will disappear,
+Dialogue: 0,0:02:02.36,0:02:04.26,Main,,0,0,0,,and you will be back here.
+Dialogue: 0,0:02:04.26,0:02:06.89,Main,,0,0,0,,So then I'm not going to see Okura.
+Dialogue: 0,0:02:06.89,0:02:11.59,Main,,0,0,0,,- I can't even sing with him.\N- Unfortunately,
+Dialogue: 0,0:02:14.36,0:02:17.52,Main,,0,0,0,,as long as you are Misaki Kagura.
+Dialogue: 0,0:02:19.52,0:02:22.39,Main,,0,0,0,,Hmm?
+Dialogue: 0,0:02:22.39,0:02:25.92,Main,,0,0,0,,As long as I am me?
+Dialogue: 0,0:02:25.92,0:02:31.06,Main,,0,0,0,,
+Dialogue: 0,0:02:31.06,0:02:34.33,Main,,0,0,0,,
+Dialogue: 0,0:02:34.33,0:02:36.36,Main,,0,0,0,,I don't know if this will work.
+Dialogue: 0,0:02:36.36,0:02:39.52,Main,,0,0,0,,- It's always been that way.\N- When did I say it did?
+Dialogue: 0,0:02:39.52,0:02:41.66,Main,,0,0,0,,I mean it will always go wrong,
+Dialogue: 0,0:02:41.66,0:02:47.46,Main,,0,0,0,,it's my life so far,\Nbut at least for the last time,
+Dialogue: 0,0:02:47.46,0:02:49.89,Main,,0,0,0,,I will definitely do well.
+Dialogue: 0,0:02:49.89,0:02:54.00,Main,,0,0,0,,I can only watch and pray.\NI'm praying for you.
+Dialogue: 0,0:02:54.00,0:02:57.75,Main,,0,0,0,,- Ok!\N- Time limit is 24 hours.
+Dialogue: 0,0:02:57.75,0:03:01.69,Main,,0,0,0,,- So that means tomorrow?\N- Yes, that's right.
+Dialogue: 0,0:03:01.69,0:03:05.82,Main,,0,0,0,,- Time limit is on tomorrow,\N- 8:00 P.M.
+Dialogue: 0,0:03:09.06,0:03:13.00,Main,,0,0,0,,All right! I'm off!
+Dialogue: 0,0:03:13.00,0:03:28.00,Main,,0,0,0,,GOODBYE MY DEAR
+Dialogue: 0,0:03:38.18,0:03:40.91,Main,,0,0,0,,EPISODE 3 : THE OTHER SIDE OF GOODBYE
+Dialogue: 0,0:03:41.00,0:03:43.09,Main,,0,0,0,,- This is Kagura who made a reservation.\N- Welcome.
+Dialogue: 0,0:03:43.09,0:03:46.46,Main,,0,0,0,,- Like this! Please.\N- Yes, ma'am.
+Dialogue: 0,0:03:46.46,0:03:50.39,Main,,0,0,0,,
+Dialogue: 0,0:03:50.39,0:03:56.66,Main,,0,0,0,,{\i1}Okura and I were classmates\Nin junior high school.
+Dialogue: 0,0:03:56.66,0:04:00.33,Main,,0,0,0,,{\i1}I never talked to Okura at school.
+Dialogue: 0,0:04:00.33,0:04:04.39,Main,,0,0,0,,Welcome!
+Dialogue: 0,0:04:04.39,0:04:08.00,Main,,0,0,0,,Wow, this is a gexibe, isn't it?
+Dialogue: 0,0:04:08.00,0:04:12.49,Main,,0,0,0,,Oh, in this store,\NI'm just helping out.
+Dialogue: 0,0:04:12.49,0:04:17.00,Main,,0,0,0,,Our school doesn't allow part-time\Nwork, right? Don't tell this to anyone.
+Dialogue: 0,0:04:17.00,0:04:21.59,Main,,0,0,0,,{\i1}I didn't even paid attention to it.
+Dialogue: 0,0:04:21.59,0:04:25.85,Main,,0,0,0,,{\i1}I was not aware of he's existence at all.
+Dialogue: 0,0:04:25.85,0:04:29.36,Main,,0,0,0,,{\i1}I didn't know what his\Ninterests were at first.
+Dialogue: 0,0:04:29.36,0:04:33.06,Main,,0,0,0,,{\i1}He knew a lot about music.
+Dialogue: 0,0:04:33.06,0:04:36.13,Main,,0,0,0,,{\i1}I started talking with him frequently.
+Dialogue: 0,0:04:36.13,0:04:40.13,Main,,0,0,0,,{\i1}Then we started to see each other.
+Dialogue: 0,0:04:40.13,0:04:43.42,Main,,0,0,0,,{\i1}I didn't feel like we were dating.
+Dialogue: 0,0:04:43.42,0:04:45.42,Main,,0,0,0,,{\i1}After sometime,
+Dialogue: 0,0:04:45.42,0:04:51.33,Main,,0,0,0,,{\i1}he've written an original song.
+Dialogue: 0,0:04:51.33,0:04:52.82,Main,,0,0,0,,Amazing, Okura!
+Dialogue: 0,0:04:52.82,0:04:55.36,Main,,0,0,0,,{\i1}Okura's song was amazing.
+Dialogue: 0,0:04:55.36,0:04:58.06,Main,,0,0,0,,{\i1}Because of my heart disease,\Nin the physical education class,
+Dialogue: 0,0:04:58.06,0:05:03.46,Main,,0,0,0,,{\i1}I had never participated in it before but I\Nran seriously for the first time.
+Dialogue: 0,0:05:03.46,0:05:06.72,Main,,0,0,0,,{\i1}I shouldn't get excited about my body.
+Dialogue: 0,0:05:06.72,0:05:12.19,Main,,0,0,0,,{\i1}That guy is so talented.\NI really ran for it.
+Dialogue: 0,0:05:12.19,0:05:14.92,Main,,0,0,0,,
+Dialogue: 0,0:05:14.92,0:05:19.36,Main,,0,0,0,,{\i1}I've never felt like this before.\NI have an urge to start running.
+Dialogue: 0,0:05:19.36,0:05:21.72,Main,,0,0,0,,{\i1}I couldn't resist.
+Dialogue: 0,0:05:21.72,0:05:25.29,Main,,0,0,0,,
+Dialogue: 0,0:05:25.29,0:05:31.52,Main,,0,0,0,,Okura, wait!\NYour legs are fast.
+Dialogue: 0,0:05:33.66,0:05:37.36,Main,,0,0,0,,{\i1}I wrote a poem with Okura's help.
+Dialogue: 0,0:05:37.36,0:05:40.03,Main,,0,0,0,,{\i1}Since I was born until now,
+Dialogue: 0,0:05:40.03,0:05:43.56,Main,,0,0,0,,{\i1}it was the most exciting time.
+Dialogue: 0,0:05:43.56,0:05:47.72,Main,,0,0,0,,{\i1}I made it again and again and again.\NI had to rebuild it about 100 times.
+Dialogue: 0,0:05:47.72,0:05:52.26,Main,,0,0,0,,{\i1}The first song, I was able to do it well.
+Dialogue: 0,0:05:55.56,0:05:58.19,Main,,0,0,0,,{\i1}We were singing the song\Nthat we had written together.
+Dialogue: 0,0:05:58.19,0:06:03.79,Main,,0,0,0,,{\i1}I felt like I could grow wings on my back.\NI felt like I could fly.
+Dialogue: 0,0:06:03.79,0:06:07.85,Main,,0,0,0,,{\i1}Me and Okura formed a\Nunit called "Pay-Per-Back".
+Dialogue: 0,0:06:07.85,0:06:11.52,Main,,0,0,0,,{\i1}Okura writes several songs a month.
+Dialogue: 0,0:06:11.52,0:06:15.00,Main,,0,0,0,,{\i1}I wrote a lot of poems desperately,
+Dialogue: 0,0:06:15.00,0:06:17.00,Main,,0,0,0,,{\i1}and six months later,
+Dialogue: 0,0:06:17.00,0:06:20.00,Main,,0,0,0,,{\i1}I met a guy at my part-time job,\NWe were invited to join a band.
+Dialogue: 0,0:06:20.00,0:06:23.75,Main,,0,0,0,,{\i1}The day came when we stood\Nin a live house for the first time.
+Dialogue: 0,0:06:23.75,0:06:28.49,Main,,0,0,0,,
+Dialogue: 0,0:06:28.49,0:06:33.16,Main,,0,0,0,,
+Dialogue: 0,0:06:33.16,0:06:37.16,Main,,0,0,0,,I'm so nervous.
+Dialogue: 0,0:06:37.16,0:06:42.82,Main,,0,0,0,,
+Dialogue: 0,0:06:42.82,0:06:55.48,Main,,0,0,0,,I heard that you write the character\Nfor "person" on your hand and swallow it.
+Dialogue: 0,0:06:56.69,0:06:58.69,Main,,0,0,0,,He's doing it!
+Dialogue: 0,0:06:58.69,0:07:01.72,Main,,0,0,0,,
+Dialogue: 0,0:07:01.72,0:07:04.00,Main,,0,0,0,,
+Dialogue: 0,0:07:04.00,0:07:21.66,Main,,0,0,0,,
+Dialogue: 0,0:07:21.66,0:07:25.26,Main,,0,0,0,,{\i1}I lost the rhythm in my heart.
+Dialogue: 0,0:07:25.26,0:07:32.00,Main,,0,0,0,,
+Dialogue: 0,0:07:32.00,0:07:35.66,Main,,0,0,0,,Misaki,
+Dialogue: 0,0:07:35.66,0:07:40.00,Main,,0,0,0,,after today's show,\NI have something important to tell you.
+Dialogue: 0,0:07:40.00,0:07:43.66,Main,,0,0,0,,{\i1}What? What did you say?
+Dialogue: 0,0:07:43.66,0:07:47.00,Main,,0,0,0,,{\i1}But that's not the point.
+Dialogue: 0,0:07:47.63,0:07:50.07,Main,,0,0,0,,{\i1}I wonder what he has to say.
+Dialogue: 0,0:07:50.13,0:07:55.66,Main,,0,0,0,,{\i1}We could have sung\Nin front of a lot of people.
+Dialogue: 0,0:07:55.66,0:08:02.19,Main,,0,0,0,,{\i1}My life doesn't always go well.
+Dialogue: 0,0:08:02.19,0:08:08.46,Main,,0,0,0,,Misaki? Misaki
+Dialogue: 0,0:08:08.46,0:08:11.00,Main,,0,0,0,,{\i1}So,
+Dialogue: 0,0:08:11.00,0:08:14.22,Main,,0,0,0,,{\i1}I'll make sure at least at the end,
+Dialogue: 0,0:08:14.22,0:08:16.62,Main,,0,0,0,,{\i1}I'll make it work!
+Dialogue: 0,0:08:22.16,0:08:24.49,Main,,0,0,0,,Um...
+Dialogue: 0,0:08:27.49,0:08:29.92,Main,,0,0,0,,Um...
+Dialogue: 0,0:08:29.92,0:08:35.33,Main,,0,0,0,,- Yes.\N- I...
+Dialogue: 0,0:08:35.33,0:08:39.00,Main,,0,0,0,,{\i1}Oh, no! I haven't thought about\Nwhat I'm going to say.
+Dialogue: 0,0:08:54.00,0:08:59.66,Main,,0,0,0,,I'm Misaki's cousin.
+Dialogue: 0,0:08:59.66,0:09:02.33,Main,,0,0,0,,You are Okura-san of "Pay-Per-Back", right?
+Dialogue: 0,0:09:02.33,0:09:07.39,Main,,0,0,0,,Misaki's cousin?
+Dialogue: 0,0:09:07.39,0:09:13.16,Main,,0,0,0,,Don't look at me like that.\NYou're embarrassing me!
+Dialogue: 0,0:09:13.16,0:09:15.26,Main,,0,0,0,,- Hey! Don't look at me like that!\N- It hurts. It hurts.
+Dialogue: 0,0:09:15.26,0:09:22.49,Main,,0,0,0,,She didn't tell you the details of\Nher illness. She said she was sorry.
+Dialogue: 0,0:09:22.49,0:09:27.33,Main,,0,0,0,,I'm the one who should be sorry,\NI'm sorry too.
+Dialogue: 0,0:09:27.33,0:09:30.82,Main,,0,0,0,,If I'd known,\Nin the live or something,
+Dialogue: 0,0:09:30.82,0:09:34.33,Main,,0,0,0,,I would have told her not to do it.
+Dialogue: 0,0:09:34.33,0:09:37.39,Main,,0,0,0,,What are you talking about?\NShe wanted to do it!
+Dialogue: 0,0:09:39.66,0:09:44.33,Main,,0,0,0,,I mean, to sing.
+Dialogue: 0,0:09:44.33,0:09:50.00,Main,,0,0,0,,She said she loves\Nto sing with Okura-san.
+Dialogue: 0,0:09:50.00,0:09:52.00,Main,,0,0,0,,And my story too?
+Dialogue: 0,0:09:52.00,0:09:54.82,Main,,0,0,0,,There's no one at school\Nthat you get along with.
+Dialogue: 0,0:09:54.82,0:09:58.49,Main,,0,0,0,,You must have been\Nin despair every day.
+Dialogue: 0,0:10:02.00,0:10:05.33,Main,,0,0,0,,She said, "Okura makes great songs".
+Dialogue: 0,0:10:05.33,0:10:07.33,Main,,0,0,0,,She always said that.
+Dialogue: 0,0:10:07.33,0:10:11.33,Main,,0,0,0,,Misaki was told she might\Nnot live until 5 years old.
+Dialogue: 0,0:10:11.33,0:10:14.33,Main,,0,0,0,,Thanks to the medication,\Nshe was able to live until 18.
+Dialogue: 0,0:10:14.33,0:10:16.66,Main,,0,0,0,,She says it's like a miracle.
+Dialogue: 0,0:10:16.66,0:10:19.66,Main,,0,0,0,,After the age of five,\Nshe thought it was a bonus life.
+Dialogue: 0,0:10:19.66,0:10:22.33,Main,,0,0,0,,She didn't expect that she would\Nmeet Okura and form a unit.
+Dialogue: 0,0:10:22.33,0:10:26.66,Main,,0,0,0,,It's impossible.
+Dialogue: 0,0:10:26.66,0:10:29.66,Main,,0,0,0,,Oh, the Pay-Per-Back song,\Nit's good.
+Dialogue: 0,0:10:29.66,0:10:32.33,Main,,0,0,0,,I had a chance to listen to it.
+Dialogue: 0,0:10:32.33,0:10:35.56,Main,,0,0,0,,She was very grateful to Okura-san.
+Dialogue: 0,0:10:35.56,0:10:40.49,Main,,0,0,0,,Misaki said she is\Nglad to have met Okura.
+Dialogue: 0,0:10:40.49,0:10:43.00,Main,,0,0,0,,I wish I had never met her.
+Dialogue: 0,0:10:46.66,0:10:48.66,Main,,0,0,0,,What?
+Dialogue: 0,0:10:52.33,0:10:55.33,Main,,0,0,0,,I wish I had never met her.
+Dialogue: 0,0:10:59.00,0:11:04.33,Main,,0,0,0,,I'm sorry,\NI didn't mean to say this.
+Dialogue: 0,0:11:04.33,0:11:07.26,Main,,0,0,0,,Would you like to do a\NPay-Per-Back live with me?
+Dialogue: 0,0:11:09.33,0:11:12.66,Main,,0,0,0,,I'm not so bad when you look at it.
+Dialogue: 0,0:11:12.66,0:11:15.66,Main,,0,0,0,,I've been told we have similar voices.
+Dialogue: 0,0:11:15.66,0:11:19.66,Main,,0,0,0,,And at singing, I know her\Nbecause I used to listen to her a lot.
+Dialogue: 0,0:11:19.66,0:11:22.72,Main,,0,0,0,,I can sing for Misaki.
+Dialogue: 0,0:11:22.72,0:11:24.72,Main,,0,0,0,,You?
+Dialogue: 0,0:11:24.72,0:11:26.82,Main,,0,0,0,,For just one day only.
+Dialogue: 0,0:11:26.82,0:11:30.49,Main,,0,0,0,,Okura-san and she couldn't do it.\NThe Pay-per-back live,
+Dialogue: 0,0:11:30.49,0:11:34.39,Main,,0,0,0,,would you like to try?
+Dialogue: 0,0:11:34.39,0:11:40.63,Main,,0,0,0,,And if we do that, we'll get over it?
+Dialogue: 0,0:11:41.00,0:11:48.00,Main,,0,0,0,,Do you think that way?
+Dialogue: 0,0:11:48.00,0:11:50.89,Main,,0,0,0,,- It's that easy...\N- Are you going to despair again?
+Dialogue: 0,0:11:56.00,0:12:00.82,Main,,0,0,0,,You closed the shutters of your mind.\NAren't you an idiot?
+Dialogue: 0,0:12:00.82,0:12:04.82,Main,,0,0,0,,Oh, yeah, so you're\Nback to being alone again?
+Dialogue: 0,0:12:09.33,0:12:15.00,Main,,0,0,0,,I want you to continue\Nthe music you started.
+Dialogue: 0,0:12:20.49,0:12:25.33,Main,,0,0,0,,No matter how hard it is,\Nno matter how painful,
+Dialogue: 0,0:12:25.33,0:12:27.66,Main,,0,0,0,,to music or song,
+Dialogue: 0,0:12:27.66,0:12:30.49,Main,,0,0,0,,there must be a power to overcome it.
+Dialogue: 0,0:12:33.00,0:12:37.42,Main,,0,0,0,,If Misaki were alive,\NI think she would say that.
+Dialogue: 0,0:12:45.33,0:12:47.33,Main,,0,0,0,,Okura.
+Dialogue: 0,0:12:53.33,0:12:56.33,Main,,0,0,0,,♪ Don't have to say it ♪
+Dialogue: 0,0:12:56.33,0:13:01.66,Main,,0,0,0,,♪ Move on from Sadness Syndrome ♪
+Dialogue: 0,0:13:01.66,0:13:04.52,Main,,0,0,0,,♪ Looking down as always ♪
+Dialogue: 0,0:13:04.52,0:13:07.13,Main,,0,0,0,,♪ Sooner or later, the\Nneck is going to fall off ♪
+Dialogue: 0,0:13:07.13,0:13:12.16,Main,,0,0,0,,♪ You always have to look back ♪
+Dialogue: 0,0:13:12.16,0:13:18.16,Main,,0,0,0,,♪ There is no future ♪\N♪ No interest in tomorrow ♪
+Dialogue: 0,0:13:18.16,0:13:23.00,Main,,0,0,0,,♪ This makes me wonder\Nhow you spend your time ♪
+Dialogue: 0,0:13:23.00,0:13:34.82,Main,,0,0,0,,
+Dialogue: 0,0:13:34.82,0:13:36.82,Main,,0,0,0,,Yo!
+Dialogue: 0,0:13:41.82,0:13:46.69,Main,,0,0,0,,- A song?\N- Yeah, I'll do it for Misaki.
+Dialogue: 0,0:13:46.69,0:13:51.66,Main,,0,0,0,,What is the theme?
+Dialogue: 0,0:13:51.66,0:13:55.66,Main,,0,0,0,,Theme, you know,
+Dialogue: 0,0:13:55.66,0:13:58.72,Main,,0,0,0,,in the middle of a dream.
+Dialogue: 0,0:13:58.72,0:14:00.72,Main,,0,0,0,,In the middle of a dream?
+Dialogue: 0,0:14:00.72,0:14:05.49,Main,,0,0,0,,Yes, in the middle of a dream.
+Dialogue: 0,0:14:05.49,0:14:14.00,Main,,0,0,0,,
+Dialogue: 0,0:14:14.00,0:14:17.79,Main,,0,0,0,,{\i1}I liked it.
+Dialogue: 0,0:14:17.79,0:14:21.26,Main,,0,0,0,,{\i1}The way you're so absorbed in\Nwriting songs, I loved that image of you.
+Dialogue: 0,0:14:21.26,0:14:23.92,Main,,0,0,0,,{\i1}I really loved it.
+Dialogue: 0,0:14:27.16,0:14:30.42,Main,,0,0,0,,{\i1}This is the last song I wrote.
+Dialogue: 0,0:14:30.42,0:14:33.92,Main,,0,0,0,,{\i1}I will leave a song for him!
+Dialogue: 0,0:14:33.92,0:15:07.33,Main,,0,0,0,,
+Dialogue: 0,0:15:12.66,0:15:16.36,Main,,0,0,0,,
+Dialogue: 0,0:15:16.36,0:15:20.56,Main,,0,0,0,,- The time limit is on tomorrow, \N- 8:00 P.M.
+Dialogue: 0,0:15:25.16,0:15:28.82,Main,,0,0,0,,Let's do it then.
+Dialogue: 0,0:15:28.82,0:15:31.33,Main,,0,0,0,,I think we should wait a little longer...
+Dialogue: 0,0:15:31.33,0:15:34.33,Main,,0,0,0,,It doesn't matter if there\Nis not enough people.
+Dialogue: 0,0:15:37.66,0:15:42.19,Main,,0,0,0,,Misaki would say that.
+Dialogue: 0,0:15:42.19,0:15:47.66,Main,,0,0,0,,Yes, Misaki would surely say that.
+Dialogue: 0,0:15:47.66,0:15:51.00,Main,,0,0,0,,Just being able to sing\Nnext to Okura is OK!
+Dialogue: 0,0:15:53.00,0:15:55.00,Main,,0,0,0,,OK!
+Dialogue: 0,0:16:00.66,0:16:09.33,Main,,0,0,0,,
+Dialogue: 0,0:16:09.33,0:16:11.72,Main,,0,0,0,,♪ How to live well as an adult ♪
+Dialogue: 0,0:16:11.72,0:16:14.33,Main,,0,0,0,,♪ There's a trick to it ♪
+Dialogue: 0,0:16:14.33,0:16:17.92,Main,,0,0,0,,♪ Don't be afraid of what people think, \NDon't challenge them, just give up ♪
+Dialogue: 0,0:16:17.92,0:16:21.19,Main,,0,0,0,,♪ These three articles\NCan't stand it! ♪
+Dialogue: 0,0:16:21.19,0:16:23.49,Main,,0,0,0,,♪ Getting tired of it \N Hey, Doc ♪
+Dialogue: 0,0:16:23.49,0:16:26.82,Main,,0,0,0,,♪ Falling for someone else's agenda ♪
+Dialogue: 0,0:16:26.82,0:16:28.82,Main,,0,0,0,,♪ It's so boring ♪
+Dialogue: 0,0:16:28.82,0:16:33.75,Main,,0,0,0,,♪ Everybody ends but they\Ncan't take anything with them ♪
+Dialogue: 0,0:16:33.75,0:16:37.59,Main,,0,0,0,,♪ That's why, that's why, \NDon't want to have any regrets ♪
+Dialogue: 0,0:16:37.59,0:16:40.42,Main,,0,0,0,,♪ Don't want to regret it ♪
+Dialogue: 0,0:16:40.42,0:16:42.42,Main,,0,0,0,,♪ Don't worry about anything ♪
+Dialogue: 0,0:16:42.42,0:16:45.36,Main,,0,0,0,,♪ The finest runner-up ♪
+Dialogue: 0,0:16:45.36,0:16:47.36,Main,,0,0,0,,♪ So, you got me ♪
+Dialogue: 0,0:16:47.36,0:16:51.72,Main,,0,0,0,,♪ So, you got me feeling ♪
+Dialogue: 0,0:16:51.72,0:16:56.49,Main,,0,0,0,,♪ la la la\NYou got me feeling ♪
+Dialogue: 0,0:16:56.49,0:16:57.99,Main,,0,0,0,,♪ I saw you ♪
+Dialogue: 0,0:16:58.02,0:17:02.56,Main,,0,0,0,,♪ Saw the rest of the\Ndream on the other side ♪
+Dialogue: 0,0:17:02.56,0:17:10.33,Main,,0,0,0,,♪ Hey Darling\NLet's start again ♪
+Dialogue: 0,0:17:10.33,0:17:16.19,Main,,0,0,0,,
+Dialogue: 0,0:17:16.19,0:17:18.85,Main,,0,0,0,,♪ How to live well as an adult ♪
+Dialogue: 0,0:17:18.85,0:17:21.33,Main,,0,0,0,,♪ There's a trick to it ♪
+Dialogue: 0,0:17:21.33,0:17:24.00,Main,,0,0,0,,♪ It's not that hard\NDon't have to think about it ♪
+Dialogue: 0,0:17:24.00,0:17:26.66,Main,,0,0,0,,♪ How about a meal?\NLet's have dinner ♪
+Dialogue: 0,0:17:31.33,0:17:49.49,Main,,0,0,0,,
+Dialogue: 0,0:17:49.49,0:17:51.56,Main,,0,0,0,,Okura!
+Dialogue: 0,0:17:51.56,0:17:54.33,Main,,0,0,0,,Hurry up! Hey, come here!
+Dialogue: 0,0:17:54.33,0:17:57.00,Main,,0,0,0,,What?
+Dialogue: 0,0:18:03.00,0:18:05.00,Main,,0,0,0,,What?
+Dialogue: 0,0:18:05.00,0:18:07.66,Main,,0,0,0,,- What? What's wrong?\N- I wanted to ask you something.
+Dialogue: 0,0:18:07.66,0:18:09.66,Main,,0,0,0,,
+Dialogue: 0,0:18:09.66,0:18:15.16,Main,,0,0,0,,When Misaki collapsed,\Nwhat were you going to say?
+Dialogue: 0,0:18:15.16,0:18:17.33,Main,,0,0,0,,What?
+Dialogue: 0,0:18:17.33,0:18:20.82,Main,,0,0,0,,You wanted to talk to her\Nabout something important.
+Dialogue: 0,0:18:20.82,0:18:23.16,Main,,0,0,0,,How did you know about that?
+Dialogue: 0,0:18:27.92,0:18:33.16,Main,,0,0,0,,- Miki?\N- I don't have time! Please hurry.
+Dialogue: 0,0:18:35.82,0:18:42.66,Main,,0,0,0,,I, I..
+Dialogue: 0,0:18:45.09,0:18:48.52,Main,,0,0,0,,I'm sure you'll laugh at me.
+Dialogue: 0,0:18:48.52,0:18:50.52,Main,,0,0,0,,Go on.
+Dialogue: 0,0:18:54.03,0:18:56.36,Main,,0,0,0,,I was going to propose to Misaki.
+Dialogue: 0,0:18:59.19,0:19:02.59,Main,,0,0,0,,We haven't even started dating yet.
+Dialogue: 0,0:19:02.59,0:19:06.62,Main,,0,0,0,,After the concert was\Nover I was going to propose.
+Dialogue: 0,0:19:06.62,0:19:10.36,Main,,0,0,0,,It's stupid, really.
+Dialogue: 0,0:19:10.36,0:19:13.85,Main,,0,0,0,,- That's not true.\N- No...
+Dialogue: 0,0:19:16.75,0:19:22.72,Main,,0,0,0,,I think Misaki would say I'm an idiot.
+Dialogue: 0,0:19:26.42,0:19:30.39,Main,,0,0,0,,She won't say it.
+Dialogue: 0,0:19:30.39,0:19:34.33,Main,,0,0,0,,Misaki wouldn't say that.
+Dialogue: 0,0:19:34.33,0:19:38.16,Main,,0,0,0,,You don't understand at all.
+Dialogue: 0,0:19:38.16,0:19:43.00,Main,,0,0,0,,Let me tell you on behalf of Misaki.
+Dialogue: 0,0:19:43.00,0:19:46.79,Main,,0,0,0,,I want you to tell me.
+Dialogue: 0,0:19:46.79,0:19:49.85,Main,,0,0,0,,Okay, well, close your eyes.
+Dialogue: 0,0:19:49.85,0:19:59.06,Main,,0,0,0,,
+Dialogue: 0,0:19:59.06,0:20:03.59,Main,,0,0,0,,Okay? I'm taking Misaki's place.
+Dialogue: 0,0:20:03.59,0:20:06.06,Main,,0,0,0,,Yes.
+Dialogue: 0,0:20:06.06,0:20:08.56,Main,,0,0,0,,It's the reply to your proposal.
+Dialogue: 0,0:20:13.82,0:20:17.56,Main,,0,0,0,,Misaki... she says nothing.
+Dialogue: 0,0:20:19.56,0:20:23.23,Main,,0,0,0,,She doesn't say anything but she hugs you.
+Dialogue: 0,0:20:26.62,0:20:30.13,Main,,0,0,0,,She embraces you with all her strength,
+Dialogue: 0,0:20:32.52,0:20:34.85,Main,,0,0,0,,and she kisses you.
+Dialogue: 0,0:20:40.13,0:20:43.36,Main,,0,0,0,,Okura!
+Dialogue: 0,0:20:43.36,0:20:45.82,Main,,0,0,0,,Keep the music coming.
+Dialogue: 0,0:20:45.82,0:20:51.66,Main,,0,0,0,,Keep going. Absolutely.
+Dialogue: 0,0:20:51.66,0:20:54.69,Main,,0,0,0,,Okura's music,
+Dialogue: 0,0:20:54.69,0:20:57.39,Main,,0,0,0,,it makes people stronger.
+Dialogue: 0,0:20:57.39,0:21:00.69,Main,,0,0,0,,Misaki!
+Dialogue: 0,0:21:00.69,0:21:02.75,Main,,0,0,0,,I'm glad I met you.
+Dialogue: 0,0:21:07.49,0:21:09.82,Main,,0,0,0,,Me too.
+Dialogue: 0,0:21:09.82,0:21:19.89,Main,,0,0,0,,
+Dialogue: 0,0:21:19.89,0:21:26.06,Main,,0,0,0,,Thank you, bye.
+Dialogue: 0,0:21:26.06,0:21:28.39,Main,,0,0,0,,Misaki...
+Dialogue: 0,0:21:35.00,0:21:37.00,Main,,0,0,0,,Me too...
+Dialogue: 0,0:21:39.82,0:21:43.26,Main,,0,0,0,,Welcome back.
+Dialogue: 0,0:21:43.26,0:21:47.92,Main,,0,0,0,,I wanted to live more.\NI didn't want to die yet.
+Dialogue: 0,0:21:50.33,0:21:54.56,Main,,0,0,0,,You wanted to sing with him.\NI think your hope was fulfilled.
+Dialogue: 0,0:21:54.56,0:21:59.59,Main,,0,0,0,,Yes, but I don't know if\Nit made sense in the end.
+Dialogue: 0,0:22:02.39,0:22:07.03,Main,,0,0,0,,Did you heard his last words?
+Dialogue: 0,0:22:07.03,0:22:09.39,Main,,0,0,0,,Huh?
+Dialogue: 0,0:22:09.39,0:22:14.13,Main,,0,0,0,,Okura's last words...
+Dialogue: 0,0:22:14.13,0:22:16.39,Main,,0,0,0,,Me too...
+Dialogue: 0,0:22:16.39,0:22:21.39,Main,,0,0,0,,"Me too, it was good to see you."
+Dialogue: 0,0:22:24.85,0:22:30.66,Main,,0,0,0,,He said, "It was good to see you."
+Dialogue: 0,0:22:30.66,0:22:33.79,Main,,0,0,0,,
+Dialogue: 0,0:22:33.79,0:22:40.69,Main,,0,0,0,,Thank you and goodbye.
+Dialogue: 0,0:22:40.69,0:22:44.79,Main,,0,0,0,,
+Dialogue: 0,0:22:44.79,0:22:46.89,Main,,0,0,0,,I love you.
+Dialogue: 0,0:22:46.89,0:22:51.26,Main,,0,0,0,,
+Dialogue: 0,0:22:51.26,0:22:56.19,Main,,0,0,0,,Seriously... that's bad.
+Dialogue: 0,0:22:56.19,0:22:58.46,Main,,0,0,0,,Truly that's bad.
+Dialogue: 0,0:22:58.46,0:23:01.79,Main,,0,0,0,,
+Dialogue: 0,0:23:01.79,0:23:07.23,Main,,0,0,0,,Ah! It worked!
+Dialogue: 0,0:23:07.23,0:23:11.23,Main,,0,0,0,,My life finally went so well.
+Dialogue: 0,0:23:11.23,0:23:14.19,Main,,0,0,0,,Even if it didn't go well,\Ngood or bad,
+Dialogue: 0,0:23:14.19,0:23:17.56,Main,,0,0,0,,I have to take it all in.
+Dialogue: 0,0:23:17.56,0:23:24.06,Main,,0,0,0,,Oh no, my life has been wonderful.
+Dialogue: 0,0:23:24.06,0:23:26.52,Main,,0,0,0,,It's wonderful.
+Dialogue: 0,0:23:26.52,0:23:32.52,Main,,0,0,0,,You can say that, Misaki-san,\Nbut you are wonderful too.
+Dialogue: 0,0:23:32.52,0:23:36.59,Main,,0,0,0,,That's it.
+Dialogue: 0,0:23:36.59,0:23:40.42,Main,,0,0,0,,It's about time.
+Dialogue: 0,0:23:40.42,0:23:44.00,Main,,0,0,0,,
+Dialogue: 0,0:23:44.00,0:23:50.13,Main,,0,0,0,,Misaki's song will\Nwill continue to remain.
+Dialogue: 0,0:23:50.13,0:23:54.56,Main,,0,0,0,,Misaki-san's dream is\Nstill in the middle of the road.
+Dialogue: 0,0:23:54.56,0:24:00.56,Main,,0,0,0,,I am sure that Okura-san will\Ncontinue to walk the rest of the way.
+Dialogue: 0,0:24:00.56,0:24:02.29,Main,,0,0,0,,
+Dialogue: 0,0:24:02.29,0:24:04.79,Main,,0,0,0,,I'll see him again sometime.
+Dialogue: 0,0:24:04.79,0:24:07.82,Main,,0,0,0,,I hope you can meet.
+Dialogue: 0,0:24:07.82,0:24:09.46,Main,,0,0,0,,
+Dialogue: 0,0:24:09.46,0:24:15.03,Main,,0,0,0,,Guide-san, good to see you too.
+Dialogue: 0,0:24:15.03,0:24:19.52,Main,,0,0,0,,Thank you. Thanks for your time.
+Dialogue: 0,0:24:19.52,0:24:25.29,Main,,0,0,0,,JP SUBS AND RAW PROVIDER\N@hikaririders
+Dialogue: 0,0:24:25.29,0:24:30.23,Main,,0,0,0,,TRANSLATION TOOL\NDeepL
+Dialogue: 0,0:24:30.23,0:24:35.20,Main,,0,0,0,,OFFICIAL SOUNDTRACK\N"Sayonara No Nai Sekai" by Ohashi Trio
+Dialogue: 0,0:24:35.20,0:24:40.37,Main,,0,0,0,,ENGLISH SUBTITLES\NChriz Kayriko (@chrizkayriko)
+Dialogue: 0,0:24:47.94,0:24:52.70,Main,,0,0,0,,THIS DRAMA IS FICTION

@@ -1,0 +1,242 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,Microsoft Sans Serif,65,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0.0,1,3.0,0.0,2,10,10,150,1
+Style: New,Arial,50,&H00FFFFFF,&H0000FFFF,&H009B00FF,&H00000000,-1,0,0,0,100,100,0,2.0,3,1,1,2,10,10,30,1
+Style: Copy of New,Arial,50,&H00FFFFFF,&H0000FFFF,&H009B00FF,&H00000000,-1,0,0,0,100,100,0,2.0,3,1,1,2,10,10,200,1
+Style: Copy of Copy of New,Arial,50,&H009B00FF,&H0000FFFF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,2.0,3,1,1,2,10,10,350,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.00,0:00:04.00,Main,,0,0,0,,(チャイム)
+Dialogue: 0,0:00:08.09,0:00:11.23,Main,,0,0,0,,Oh no... Why are you always\Ntalking to me as if I'm your friend?
+Dialogue: 0,0:00:11.26,0:00:13.79,Main,,0,0,0,,- Teacher, because I feel close to you.\N- I see. Well, that's no wonder...
+Dialogue: 0,0:00:13.82,0:00:17.76,Main,,0,0,0,,- You idiot! Use honorifics!\N- I want my phone back.
+Dialogue: 0,0:00:17.79,0:00:20.06,Main,,0,0,0,,How many times do I have to tell you?
+Dialogue: 0,0:00:20.09,0:00:22.46,Main,,0,0,0,,- Don't look at Twitter during class.\N- I'm not looking.
+Dialogue: 0,0:00:22.49,0:00:24.66,Main,,0,0,0,,- So you're on INSTAGRAM?\N- I don't do INSTAGRAM either.
+Dialogue: 0,0:00:24.69,0:00:26.72,Main,,0,0,0,,- What were you looking?\N- A drama.
+Dialogue: 0,0:00:26.75,0:00:28.79,Main,,0,0,0,,That's it.
+Dialogue: 0,0:00:28.82,0:00:30.82,Main,,0,0,0,,Drama? Drama in class?
+Dialogue: 0,0:00:30.85,0:00:33.20,Main,,0,0,0,,- Yes, but I can finish it in five minutes.\N- Five minutes?
+Dialogue: 0,0:00:33.23,0:00:36.26,Main,,0,0,0,,So you were just in time...\NYou idiot! You're out, you're out!
+Dialogue: 0,0:00:36.29,0:00:38.97,Main,,0,0,0,,There's no way you can finish\Nwatching a drama in 5 minutes.
+Dialogue: 0,0:00:39.00,0:00:43.16,Main,,0,0,0,,Teacher, a 1 hour drama\Nnow can be in double speed.
+Dialogue: 0,0:00:43.19,0:00:45.16,Main,,0,0,0,,It takes about 10 minutes. I know\Nsome kids watch it in about 10 minutes.
+Dialogue: 0,0:00:45.19,0:00:47.92,Main,,0,0,0,,Wait a minute.\NWatch it at normal speed.
+Dialogue: 0,0:00:47.95,0:00:50.97,Main,,0,0,0,,- The person who made this is going to cry.\N- But I was watching earlier.
+Dialogue: 0,0:00:51.00,0:00:52.97,Main,,0,0,0,,The drama is in normal speed,\Nand it takes 5 minutes.
+Dialogue: 0,0:00:53.00,0:00:55.97,Main,,0,0,0,,How is that possible... is that possible?
+Dialogue: 0,0:00:56.00,0:00:58.63,Main,,0,0,0,,- Do you want to see it?\N- Really?
+Dialogue: 0,0:00:58.66,0:01:02.16,Main,,0,0,0,,A drama in five minutes...
+Dialogue: 0,0:01:02.19,0:01:06.09,Main,,0,0,0,,- There you go.\N- What... which one... hmm?
+Dialogue: 0,0:01:10.63,0:01:15.79,New,,0,0,0,,SURPRISING ENDING AFTER FIVE MINUTES
+Dialogue: 0,0:01:19.34,0:01:23.65,Main,,0,0,0,,CURSED RING
+Dialogue: 0,0:01:51.82,0:01:53.89,Main,,0,0,0,,Welcome.
+Dialogue: 0,0:01:57.19,0:02:00.16,Main,,0,0,0,,This is good.
+Dialogue: 0,0:02:00.19,0:02:03.06,Main,,0,0,0,,French vintage parts from 18th Century.
+Dialogue: 0,0:02:03.09,0:02:06.69,Main,,0,0,0,,That necklace is very well preserved.
+Dialogue: 0,0:02:06.72,0:02:10.66,Main,,0,0,0,,A rare and valuable piece.
+Dialogue: 0,0:02:17.95,0:02:21.16,Main,,0,0,0,,And that is?
+Dialogue: 0,0:02:21.19,0:02:25.72,Main,,0,0,0,,Oh... that?
+Dialogue: 0,0:02:25.75,0:02:29.66,Main,,0,0,0,,Lovely
+Dialogue: 0,0:02:33.42,0:02:35.39,Main,,0,0,0,,100 million?
+Dialogue: 0,0:02:35.42,0:02:37.59,Main,,0,0,0,,Yes.
+Dialogue: 0,0:02:39.59,0:02:42.63,Main,,0,0,0,,- I'll take it.\N- Eh?
+Dialogue: 0,0:02:42.66,0:02:47.30,Main,,0,0,0,,I've never seen a ring\Nthat draws me in like this.
+Dialogue: 0,0:02:47.33,0:02:50.89,Main,,0,0,0,,- I'll take it.\N- But...
+Dialogue: 0,0:02:50.92,0:02:54.69,Main,,0,0,0,,A young woman like me...\NYou think I'm out of it?
+Dialogue: 0,0:02:54.72,0:02:58.10,Main,,0,0,0,,Oh, no...
+Dialogue: 0,0:02:58.13,0:03:02.20,Main,,0,0,0,,This is my husband.\NHe's smart, tall, and
+Dialogue: 0,0:03:02.23,0:03:04.26,Main,,0,0,0,,in addition, he is a wealthy man.
+Dialogue: 0,0:03:04.29,0:03:06.92,Main,,0,0,0,,If I say I want something,\Nhe'll buy me anything I want.
+Dialogue: 0,0:03:06.95,0:03:09.39,Main,,0,0,0,,So you don't have to worry about money.
+Dialogue: 0,0:03:09.42,0:03:12.20,Main,,0,0,0,,No, it's not about money
+Dialogue: 0,0:03:12.23,0:03:16.13,Main,,0,0,0,,I can't sell this ring to anyone.
+Dialogue: 0,0:03:16.16,0:03:19.06,Main,,0,0,0,,If it's in the store, that\Nmeans it's a product, right?
+Dialogue: 0,0:03:19.09,0:03:21.10,Main,,0,0,0,,Yes, it's a product but
+Dialogue: 0,0:03:21.13,0:03:24.79,Main,,0,0,0,,I don't intend to sell it.
+Dialogue: 0,0:03:24.82,0:03:27.92,Main,,0,0,0,,Then why there is a price on it?
+Dialogue: 0,0:03:27.95,0:03:30.86,Main,,0,0,0,,- There is a reason for that...\N- Anyway, sell it.
+Dialogue: 0,0:03:30.89,0:03:34.39,Main,,0,0,0,,I like this ring.
+Dialogue: 0,0:03:34.42,0:03:38.26,Main,,0,0,0,,Oh, actually, this is\Nalready a sold-out item...
+Dialogue: 0,0:03:38.29,0:03:41.26,Main,,0,0,0,,- That's not what you're saying!\N- No, that's not what I'm saying...
+Dialogue: 0,0:03:41.29,0:03:43.56,Main,,0,0,0,,Okay, I'll give you more.
+Dialogue: 0,0:03:43.59,0:03:46.69,Main,,0,0,0,,If it's higher than this,\Nwould you sell it to me?
+Dialogue: 0,0:03:46.72,0:03:49.69,Main,,0,0,0,,No, I can't. I can't sell it to\Nyou under any circumstances.
+Dialogue: 0,0:03:49.72,0:03:52.43,Main,,0,0,0,,If you don't intend to sell it,\Nwhy do you have it here for sale?
+Dialogue: 0,0:03:52.46,0:03:53.82,Main,,0,0,0,,I'm asking you!
+Dialogue: 0,0:03:53.85,0:03:55.82,Main,,0,0,0,,- It's...\N- I heard it's sold out or something.
+Dialogue: 0,0:03:55.85,0:03:59.29,Main,,0,0,0,,You even told a blatant lie.\NI'm not happy about it!
+Dialogue: 0,0:04:05.56,0:04:09.89,Main,,0,0,0,,Okay, let's talk about it.
+Dialogue: 0,0:04:12.72,0:04:17.19,Main,,0,0,0,,That ring is a cursed ring.
+Dialogue: 0,0:04:19.19,0:04:21.69,Main,,0,0,0,,Cursed... you say?
+Dialogue: 0,0:04:21.72,0:04:25.59,Main,,0,0,0,,Yes... So far, several people have been
+Dialogue: 0,0:04:25.62,0:04:28.79,Main,,0,0,0,,the owner of that ring.
+Dialogue: 0,0:04:28.82,0:04:31.66,Main,,0,0,0,,But those people
+Dialogue: 0,0:04:31.69,0:04:35.46,Main,,0,0,0,,died an unnatural death in every case.
+Dialogue: 0,0:04:43.36,0:04:49.53,Main,,0,0,0,,I was told that there\Nwas a curse on that ring.
+Dialogue: 0,0:04:49.56,0:04:51.51,Main,,0,0,0,,It became a myth.
+Dialogue: 0,0:04:53.52,0:04:59.30,Main,,0,0,0,,And it just flowed on and\Non, and now here it is...
+Dialogue: 0,0:04:59.33,0:05:01.30,Main,,0,0,0,,Only that thing.
+Dialogue: 0,0:05:01.33,0:05:03.76,Main,,0,0,0,,How can they charge such a high price?
+Dialogue: 0,0:05:03.79,0:05:06.53,Main,,0,0,0,,It's a measure to prevent it from selling.
+Dialogue: 0,0:05:06.56,0:05:09.79,Main,,0,0,0,,As long as it is on display,
+Dialogue: 0,0:05:09.82,0:05:12.59,Main,,0,0,0,,that ring is not mine.
+Dialogue: 0,0:05:12.62,0:05:14.97,Main,,0,0,0,,The curse does not fall on me.
+Dialogue: 0,0:05:15.00,0:05:20.10,Main,,0,0,0,,The previous owner of\Nthe store didn't want to sell it
+Dialogue: 0,0:05:20.13,0:05:22.79,Main,,0,0,0,,and due to an unfortunate accident,
+Dialogue: 0,0:05:22.82,0:05:25.03,Main,,0,0,0,,he passed away.
+Dialogue: 0,0:05:35.42,0:05:37.79,Main,,0,0,0,,That's ridiculous!\NI don't think that's possible!
+Dialogue: 0,0:05:37.82,0:05:40.13,Main,,0,0,0,,- Ma'am...\N- YOU must give me this ring.
+Dialogue: 0,0:05:40.16,0:05:42.13,Main,,0,0,0,,I'm sure you're just being lax, aren't you?
+Dialogue: 0,0:05:42.16,0:05:46.00,Main,,0,0,0,,- No, I'm not.\N- There is no such thing as a curse!
+Dialogue: 0,0:05:46.03,0:05:48.23,Main,,0,0,0,,You've got to be kidding me!
+Dialogue: 0,0:05:48.26,0:05:51.06,Main,,0,0,0,,If you really don't want to sell this ring,
+Dialogue: 0,0:05:51.09,0:05:53.26,Main,,0,0,0,,I'll just buy the whole store.\NAnd get rid of you!
+Dialogue: 0,0:05:55.29,0:05:59.20,Main,,0,0,0,,I understand,\Nbut no matter what happens,
+Dialogue: 0,0:05:59.23,0:06:03.46,Main,,0,0,0,,I will not take responsibility, okay?
+Dialogue: 0,0:06:03.49,0:06:06.33,Main,,0,0,0,,OK.
+Dialogue: 0,0:06:06.36,0:06:09.79,Main,,0,0,0,,Okay, I'll wrap it up for you.
+Dialogue: 0,0:06:13.03,0:06:17.72,Main,,0,0,0,,- I have a favor to ask.\N- Yes?
+Dialogue: 0,0:06:21.42,0:06:25.06,Main,,0,0,0,,I'd like to have that ring sized.
+Dialogue: 0,0:06:27.06,0:06:32.86,Main,,0,0,0,,If it's your hand\NI think it's about right.
+Dialogue: 0,0:06:32.89,0:06:36.39,Main,,0,0,0,,No, it's not, about 180cm tall.
+Dialogue: 0,0:06:36.42,0:06:39.42,Main,,0,0,0,,I want it to be big enough to fit on\Na man's finger. I want you to fix it.
+Dialogue: 0,0:06:42.13,0:06:44.33,Main,,0,0,0,,This is my husband.
+Dialogue: 0,0:06:47.62,0:06:50.63,Main,,0,0,0,,Because it's
+Dialogue: 0,0:06:50.66,0:06:56.46,Main,,0,0,0,,a cursed ring, isn't it?
+Dialogue: 0,0:07:03.75,0:07:08.75,Main,,0,0,0,,Yes, ma'am.\NI will fix it right away.
+Dialogue: 0,0:07:11.89,0:07:15.43,Main,,0,0,0,,If you no longer need\Nthe ring, please contact us.
+Dialogue: 0,0:07:15.46,0:07:20.10,Main,,0,0,0,,We will buy it back from you.
+Dialogue: 0,0:07:20.13,0:07:24.69,Main,,0,0,0,,I don't want it to become your property.
+Dialogue: 0,0:07:24.72,0:07:26.89,Main,,0,0,0,,Thank you.
+Dialogue: 0,0:07:41.00,0:07:44.59,Main,,0,0,0,,- Teacher! Teacher!\N- Oh! Oh...!
+Dialogue: 0,0:07:44.62,0:07:49.72,Main,,0,0,0,,- Are you all right that you froze up?\N- No, I'm horrified
+Dialogue: 0,0:07:49.75,0:07:53.10,Main,,0,0,0,,I don't know anything but\Nher husband is pathetic.
+Dialogue: 0,0:07:53.13,0:07:57.13,Main,,0,0,0,,Your ring is also a "cursed ring".
+Dialogue: 0,0:07:57.16,0:08:00.82,Main,,0,0,0,,Stop it. It's not. You know,
+Dialogue: 0,0:08:00.85,0:08:04.13,Main,,0,0,0,,This is from... I'm married you know...\NYou little...
+Dialogue: 0,0:08:04.16,0:08:07.00,Main,,0,0,0,,What? Ah... ah!
+Dialogue: 0,0:08:07.08,0:08:10.22,New,,0,0,0,,THE RING GOT TIGHT\NAFTER 5 YEARS OF MARRIAGE
+Dialogue: 0,0:08:10.75,0:08:13.43,Main,,0,0,0,,- Teacher, do you want to see the next one?\N- Yes, I do.
+Dialogue: 0,0:08:13.46,0:08:15.49,Main,,0,0,0,,- Next one's 5 minutes too?\N- Yes, about that much.
+Dialogue: 0,0:08:15.52,0:08:19.39,Main,,0,0,0,,Let's see.\NThis one looks scary, too. Yeah?
+Dialogue: 0,0:08:46.36,0:08:51.86,Main,,0,0,0,,{\i1}A murderer lives in the house next to me.
+Dialogue: 0,0:08:51.89,0:08:56.92,Main,,0,0,0,,A serial killer has just been\Nbeing taken away by the police.
+Dialogue: 0,0:08:59.19,0:09:02.43,Main,,0,0,0,,{\i1}When I was 4 years old
+Dialogue: 0,0:09:02.46,0:09:05.59,Main,,0,0,0,,{\i1}I saw him being arrested.\NI saw him on the news.
+Dialogue: 0,0:09:05.62,0:09:08.46,Main,,0,0,0,,I'll kill you!
+Dialogue: 0,0:09:08.49,0:09:10.46,Main,,0,0,0,,I'll kill you!
+Dialogue: 0,0:09:10.49,0:09:16.56,Main,,0,0,0,,He's out... of prison.
+Dialogue: 0,0:09:16.59,0:09:22.00,Main,,0,0,0,,THE KILLER WHO LIVES NEXT DOOR
+Dialogue: 0,0:09:22.66,0:09:24.50,Main,,0,0,0,,2010 MURDER CASE
+Dialogue: 0,0:09:35.33,0:09:37.30,Main,,0,0,0,,You should take a bath.
+Dialogue: 0,0:09:37.33,0:09:41.97,Main,,0,0,0,,- I'm telling you!\N- So annoying!
+Dialogue: 0,0:09:42.00,0:09:44.63,Main,,0,0,0,,Hey!
+Dialogue: 0,0:09:44.66,0:09:47.86,Main,,0,0,0,,Have you talked to the guy\Nwho moved in next door?
+Dialogue: 0,0:09:47.89,0:09:52.66,Main,,0,0,0,,I at least said hello.\NHurry and go bath.
+Dialogue: 0,0:09:54.33,0:09:58.10,Main,,0,0,0,,{\i1}I forgot about the old days
+Dialogue: 0,0:09:58.13,0:10:01.92,Main,,0,0,0,,I'll kill you! I'll kill you!
+Dialogue: 0,0:10:01.95,0:10:03.97,Main,,0,0,0,,I'll kill you!
+Dialogue: 0,0:10:04.00,0:10:09.97,Main,,0,0,0,,I can't forget those crazy eyes.
+Dialogue: 0,0:10:14.00,0:10:17.30,Main,,0,0,0,,I'm going to kill you
+Dialogue: 0,0:10:17.33,0:10:25.33,Main,,0,0,0,,I'll kill you... I'll kill you!
+Dialogue: 0,0:11:13.00,0:11:15.30,Main,,0,0,0,,I'm going to kill you
+Dialogue: 0,0:11:15.33,0:11:19.00,Main,,0,0,0,,I'll kill you... I'll kill you!
+Dialogue: 0,0:12:00.46,0:12:03.59,Main,,0,0,0,,- Are you all right?\N- Yeah.
+Dialogue: 0,0:12:03.62,0:12:07.30,Main,,0,0,0,,Be careful.
+Dialogue: 0,0:12:07.33,0:12:15.33,Main,,0,0,0,,Ouch.
+Dialogue: 0,0:12:15.59,0:12:18.06,Main,,0,0,0,,{\i1}He's so hurt...
+Dialogue: 0,0:12:20.33,0:12:22.79,Main,,0,0,0,,Hey, man...
+Dialogue: 0,0:12:22.82,0:12:24.53,Main,,0,0,0,,Yes.
+Dialogue: 0,0:12:24.56,0:12:28.97,Main,,0,0,0,,Can I borrow your shoulder?\NWe're going in the same direction.
+Dialogue: 0,0:12:33.19,0:12:38.63,Main,,0,0,0,,- Sorry.\N- No...
+Dialogue: 0,0:12:38.66,0:12:40.63,Main,,0,0,0,,You know me?
+Dialogue: 0,0:12:40.66,0:12:43.20,Main,,0,0,0,,- What?\N- Just now
+Dialogue: 0,0:12:43.23,0:12:45.48,Main,,0,0,0,,you said, "We're going in\Nthe same direction.", right?
+Dialogue: 0,0:12:45.51,0:12:46.23,Main,,0,0,0,,Oh...
+Dialogue: 0,0:12:46.26,0:12:51.59,Main,,0,0,0,,You're the kid next door, right? I can\Nremember other people's faces easily.
+Dialogue: 0,0:13:00.00,0:13:04.82,Main,,0,0,0,,What's wrong?
+Dialogue: 0,0:13:06.82,0:13:10.39,Main,,0,0,0,,When you got caught,\NI still remember.
+Dialogue: 0,0:13:14.59,0:13:17.66,Main,,0,0,0,,I was four years old.\NI saw it on the news.
+Dialogue: 0,0:13:20.49,0:13:24.46,Main,,0,0,0,,I was really scared of your face.
+Dialogue: 0,0:13:24.49,0:13:27.33,Main,,0,0,0,,I couldn't move...
+Dialogue: 0,0:13:27.36,0:13:29.46,Main,,0,0,0,,You were watching...
+Dialogue: 0,0:13:29.49,0:13:32.13,Main,,0,0,0,,You may have committed a crime, but
+Dialogue: 0,0:13:32.16,0:13:36.16,Main,,0,0,0,,you have atoned for your sins, haven't you?
+Dialogue: 0,0:13:36.19,0:13:38.43,Main,,0,0,0,,It's funny for me to say this, but
+Dialogue: 0,0:13:38.46,0:13:42.30,Main,,0,0,0,,you can do it.
+Dialogue: 0,0:13:42.33,0:13:46.63,Main,,0,0,0,,No matter what people around you say,
+Dialogue: 0,0:13:46.66,0:13:49.63,Main,,0,0,0,,you saved that boy,\NI know you would've done it.
+Dialogue: 0,0:13:49.66,0:13:51.66,Main,,0,0,0,,I think you can do it.
+Dialogue: 0,0:13:55.00,0:14:01.97,Main,,0,0,0,,I thought the world\Nwould never accept me.
+Dialogue: 0,0:14:02.00,0:14:04.97,Main,,0,0,0,,I thought people would\Nnever accept me anymore.
+Dialogue: 0,0:14:05.00,0:14:08.33,Main,,0,0,0,,I just gave up.\NI was just like, "This is the end".
+Dialogue: 0,0:14:12.00,0:14:16.97,Main,,0,0,0,,But if there is someone who thinks\Nlike that, I'm not going to give up now.
+Dialogue: 0,0:14:17.00,0:14:20.00,Main,,0,0,0,,I may still be able to do my best.
+Dialogue: 0,0:14:23.75,0:14:27.63,Main,,0,0,0,,Thanks.
+Dialogue: 0,0:14:27.66,0:14:31.30,Main,,0,0,0,,- Ugh...\N- Are you okay?
+Dialogue: 0,0:14:31.33,0:14:36.46,Main,,0,0,0,,No, I'm not... sorry.
+Dialogue: 0,0:14:43.00,0:14:49.66,Main,,0,0,0,,1 MONTH LATER
+Dialogue: 0,0:14:49.69,0:14:55.63,Main,,0,0,0,,People can start over again and again,\Nas long as they have life.
+Dialogue: 0,0:14:55.66,0:14:58.79,Main,,0,0,0,,- Hold this.\N- I'll help you with that.
+Dialogue: 0,0:14:58.82,0:15:03.00,Main,,0,0,0,,- I think it's our mission as doctors.\N- Dr. Zaitsu.
+Dialogue: 0,0:15:18.93,0:15:23.00,Main,,0,0,0,,I am... I think...
+Dialogue: 0,0:15:23.03,0:15:26.39,Main,,0,0,0,,You know
+Dialogue: 0,0:15:26.42,0:15:28.46,Main,,0,0,0,,I saw it on TV yesterday.
+Dialogue: 0,0:15:28.49,0:15:31.23,Main,,0,0,0,,You were an actor, wasn't you?
+Dialogue: 0,0:15:31.26,0:15:35.36,Main,,0,0,0,,Dr. Zaitsu...
+Dialogue: 0,0:15:35.39,0:15:37.69,Main,,0,0,0,,Thanks to you\NI feel much better.
+Dialogue: 0,0:15:40.93,0:15:43.63,Main,,0,0,0,,I saw it when I was little,
+Dialogue: 0,0:15:43.66,0:15:48.06,Main,,0,0,0,,it was a scene from a detective drama.
+Dialogue: 0,0:15:48.09,0:15:51.26,Main,,0,0,0,,I'll kill you! I'll kill you!
+Dialogue: 0,0:15:51.29,0:15:56.10,Main,,0,0,0,,That's what you were\Nsaying here, wasn't it?
+Dialogue: 0,0:15:56.13,0:16:01.90,Main,,0,0,0,,I've been clinging to those memories.
+Dialogue: 0,0:16:01.93,0:16:06.00,Main,,0,0,0,,That was the biggest role\NI've ever played in my life.
+Dialogue: 0,0:16:06.03,0:16:10.16,Main,,0,0,0,,But recently I haven't had any work at all.
+Dialogue: 0,0:16:10.19,0:16:14.23,Main,,0,0,0,,I'm already over 50 years old\Nand I have no talent.
+Dialogue: 0,0:16:14.26,0:16:18.26,Main,,0,0,0,,I've been thinking about\Ngiving up acting for months.
+Dialogue: 0,0:16:21.26,0:16:24.13,Main,,0,0,0,,But you told me that I could do it.
+Dialogue: 0,0:16:24.16,0:16:28.06,Main,,0,0,0,,You said, "You know, I still remember it."
+Dialogue: 0,0:16:28.09,0:16:32.90,Main,,0,0,0,,I was so scared I couldn't move.",\Nyou said.
+Dialogue: 0,0:16:32.93,0:16:38.39,Main,,0,0,0,,I was able to stay it in my memory.
+Dialogue: 0,0:16:38.42,0:16:42.56,Main,,0,0,0,,If you feel that way, I can try again.
+Dialogue: 0,0:16:42.59,0:16:45.90,Main,,0,0,0,,Even from now,\NI thought, "I can do my best".
+Dialogue: 0,0:16:45.93,0:16:48.39,Main,,0,0,0,,No, I thought, "I will do my very best."
+Dialogue: 0,0:16:50.59,0:16:56.20,Main,,0,0,0,,You are the one who gave me\Nthe courage to try again. Thank you.
+Dialogue: 0,0:16:56.23,0:16:59.23,Main,,0,0,0,,Don't mind it.
+Dialogue: 0,0:16:59.26,0:17:01.82,Main,,0,0,0,,Actually, I'm about to\Ngo to an audition today.
+Dialogue: 0,0:17:01.85,0:17:06.00,Main,,0,0,0,,I'll let you know first about it.
+Dialogue: 0,0:17:19.09,0:17:22.56,Main,,0,0,0,,I thought it was a horror story,\Nthat was a good story.
+Dialogue: 0,0:17:22.59,0:17:25.72,Main,,0,0,0,,- Did you see how it unfolded?\N- No, not at all!
+Dialogue: 0,0:17:25.75,0:17:28.49,Main,,0,0,0,,Actually, he's an actor, right?
+Dialogue: 0,0:17:28.52,0:17:31.90,Main,,0,0,0,,I was in the drama club in high school.
+Dialogue: 0,0:17:31.93,0:17:35.56,Main,,0,0,0,,But I never got to be on stage.
+Dialogue: 0,0:17:35.59,0:17:38.56,Main,,0,0,0,,- I see...\N- Yeah.
+Dialogue: 0,0:17:39.15,0:17:41.46,Copy of New,,0,0,0,,5 DAYS AFTER I ENTERED, I LEFT THE CLUB
+Dialogue: 0,0:17:41.49,0:17:44.72,Main,,0,0,0,,Because, there's only three of us.
+Dialogue: 0,0:17:44.75,0:17:47.72,Main,,0,0,0,,We're only three in THE LION KING,
+Dialogue: 0,0:17:47.75,0:17:52.72,Main,,0,0,0,,We don't have enough animals, really.\NYeah... I was worried a lot.
+Dialogue: 0,0:17:52.75,0:17:54.90,Main,,0,0,0,,If only that theater group\Nwould've pulled their shit together,
+Dialogue: 0,0:17:54.93,0:17:57.39,Main,,0,0,0,,I'd be in Tom Hanks' class right now.
+Dialogue: 0,0:17:57.42,0:17:59.90,Main,,0,0,0,,I think I learned how to act.
+Dialogue: 0,0:17:59.93,0:18:02.03,Main,,0,0,0,,Whoa, let's see what's next! Hey!
+Dialogue: 0,0:18:02.06,0:18:04.03,Main,,0,0,0,,- I have something to do now.\N- What?
+Dialogue: 0,0:18:04.06,0:18:06.56,Main,,0,0,0,,- That's it for today!\N- Hey, come on! It's only five minutes.
+Dialogue: 0,0:18:06.59,0:18:08.56,Main,,0,0,0,,- Goodbye!\N- Five minutes? You...
+Dialogue: 0,0:18:08.59,0:18:11.93,Main,,0,0,0,,Going to go to Gotanda from Oosaki...\NI can't help it.
+Dialogue: 0,0:18:17.00,0:18:25.00,Copy of New,,0,0,0,,THE FOLLOWING EPISODE OF\NSURPRISING ENDING AFTER FIVE MINUTES
+Dialogue: 0,0:18:20.63,0:18:22.63,Copy of Copy of New,,0,0,0,,RAWS PROVIDED BY HIKARI RIDERS
+Dialogue: 0,0:18:22.70,0:18:24.70,Copy of Copy of New,,0,0,0,,ENGLISH TRANSLATION FROM DEEPL
+Dialogue: 0,0:18:25.20,0:18:27.60,Copy of Copy of New,,0,0,0,,ENGLISH SUBTITLES FROM CHRIZ KAYRIKO
+Dialogue: 0,0:18:29.87,0:18:30.87,New,,0,0,0,,THIS DRAMA IS FICTION
+Dialogue: 0,0:18:31.00,0:18:36.05,Copy of Copy of New,,0,0,0,,If you want to watch this\Ndrama again, please go to TVer.

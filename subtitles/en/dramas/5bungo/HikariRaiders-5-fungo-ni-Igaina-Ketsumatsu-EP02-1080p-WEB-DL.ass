@@ -1,0 +1,269 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,Microsoft Sans Serif,65,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0.0,1,3.0,0.0,2,10,10,150,1
+Style: New,Arial,50,&H00FFFFFF,&H0000FFFF,&H009B00FF,&H00000000,-1,0,0,0,100,100,0,2.0,3,1,1,2,10,10,30,1
+Style: Copy of New,Arial,50,&H00FFFFFF,&H0000FFFF,&H009B00FF,&H00000000,-1,0,0,0,100,100,0,2.0,3,1,1,2,10,10,200,1
+Style: Copy of Copy of New,Arial,50,&H009B00FF,&H0000FFFF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,2.0,3,1,1,2,10,10,350,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.00,0:00:07.10,Main,,0,0,0,,- Teacher, what do you need?\N- Oh!
+Dialogue: 0,0:00:07.13,0:00:09.97,Main,,0,0,0,,Sit down! Sit down!
+Dialogue: 0,0:00:10.00,0:00:13.16,Main,,0,0,0,,You know, the other day...\NWhat was it, five minutes is critical?
+Dialogue: 0,0:00:13.19,0:00:15.92,Main,,0,0,0,,No, no.\N"Five minutes later, it ends unexpectedly."
+Dialogue: 0,0:00:15.95,0:00:18.39,Main,,0,0,0,,That's it. I just want to see it again.
+Dialogue: 0,0:00:18.42,0:00:21.82,Main,,0,0,0,,Is that why you called me here?\NWhy don't you just watch it yourself?
+Dialogue: 0,0:00:21.85,0:00:25.43,Main,,0,0,0,,Well then, let me ask you something.\NHow can I see it with this?
+Dialogue: 0,0:00:25.46,0:00:27.56,Main,,0,0,0,,A mobile phone? No way.\NYes, it is.
+Dialogue: 0,0:00:27.59,0:00:31.03,Main,,0,0,0,,- Please, Generation Z.\N- Hey, don't call me that!
+Dialogue: 0,0:00:31.06,0:00:33.13,Main,,0,0,0,,Please! Please!
+Dialogue: 0,0:00:33.16,0:00:35.89,Main,,0,0,0,,As expected of Generation Z.\NYou work fast.
+Dialogue: 0,0:00:35.92,0:00:40.89,Main,,0,0,0,,Generation Z? Stop it!
+Dialogue: 0,0:00:45.31,0:00:50.75,New,,0,0,0,,SURPRISE ENDING AFTER 5 MINUTES
+Dialogue: 0,0:00:51.75,0:00:55.85,Main,,0,0,0,,LIAR
+Dialogue: 0,0:00:58.00,0:01:02.72,Main,,0,0,0,,- Are you nervous?\N- Yes... but being a motorcycle policemen
+Dialogue: 0,0:01:02.75,0:01:06.82,Main,,0,0,0,,is what I've been longing for it\Nsince I was little. I'm glad!
+Dialogue: 0,0:01:06.85,0:01:09.20,Main,,0,0,0,,You'll be fine, as long\Nas you take it easy.
+Dialogue: 0,0:01:09.23,0:01:11.92,Main,,0,0,0,,When it's over, let's have a debut party.
+Dialogue: 0,0:01:11.95,0:01:13.92,Main,,0,0,0,,Yes.
+Dialogue: 0,0:01:13.95,0:01:16.43,Main,,0,0,0,,I'll be patrolling there.\NCall me if you find anything.
+Dialogue: 0,0:01:16.46,0:01:18.43,Main,,0,0,0,,Yes.
+Dialogue: 0,0:01:25.13,0:01:27.10,Main,,0,0,0,,OK!
+Dialogue: 0,0:01:38.03,0:01:40.97,Main,,0,0,0,,Here it comes!
+Dialogue: 0,0:01:43.46,0:01:46.69,Main,,0,0,0,,Stop right there! Please stop!
+Dialogue: 0,0:02:01.85,0:02:04.43,Main,,0,0,0,,What?
+Dialogue: 0,0:02:04.46,0:02:08.46,Main,,0,0,0,,Don't be scared, don't be scared...
+Dialogue: 0,0:02:08.49,0:02:10.46,Main,,0,0,0,,Don't drive like that.\NIt's dangerous!
+Dialogue: 0,0:02:10.49,0:02:13.56,Main,,0,0,0,,- I wasn't driving that fast.\N- I saw you pass by my side.
+Dialogue: 0,0:02:13.59,0:02:16.06,Main,,0,0,0,,You were going over the\Nlegal speed limit of 30km/hr!
+Dialogue: 0,0:02:16.09,0:02:18.06,Main,,0,0,0,,Please come outside.
+Dialogue: 0,0:02:24.66,0:02:28.46,Main,,0,0,0,,- Please present your driver's license.\N- I don't have one.
+Dialogue: 0,0:02:28.49,0:02:33.97,Main,,0,0,0,,- What?\N- I got a speeding ticket a year ago.
+Dialogue: 0,0:02:34.00,0:02:35.87,Main,,0,0,0,,You mean you're\Ndriving without a license?
+Dialogue: 0,0:02:35.90,0:02:36.49,Main,,0,0,0,,Yes.
+Dialogue: 0,0:02:36.52,0:02:40.39,Main,,0,0,0,,What a bad driver!
+Dialogue: 0,0:02:40.42,0:02:42.39,Main,,0,0,0,,This car belongs to you, doesn't it?
+Dialogue: 0,0:02:42.42,0:02:46.33,Main,,0,0,0,,Of course not!\NI can't drive this car!
+Dialogue: 0,0:02:46.36,0:02:50.36,Main,,0,0,0,,- Whose car is it?\N- I don't know. I stole it.
+Dialogue: 0,0:02:50.39,0:02:52.59,Main,,0,0,0,,Stolen?
+Dialogue: 0,0:02:52.62,0:02:57.72,Main,,0,0,0,,Speeding, driving without a license,\Nand theft! I'll take that as a "yes".
+Dialogue: 0,0:02:57.75,0:03:02.20,Main,,0,0,0,,Yes he is a bad guy...\Nand he's totally unfazed.
+Dialogue: 0,0:03:02.23,0:03:05.33,Main,,0,0,0,,What the hell is this guy?
+Dialogue: 0,0:03:05.36,0:03:07.53,Main,,0,0,0,,Can I check the vehicle\Nregistration certificate?
+Dialogue: 0,0:03:07.56,0:03:10.66,Main,,0,0,0,,Then we can see who this car belongs to.
+Dialogue: 0,0:03:10.69,0:03:13.89,Main,,0,0,0,,Vehicle registration? Yes, just now,
+Dialogue: 0,0:03:13.92,0:03:16.69,Main,,0,0,0,,I may have seen it when\NI put my handgun away.
+Dialogue: 0,0:03:20.06,0:03:22.03,Main,,0,0,0,,A handgun?
+Dialogue: 0,0:03:22.06,0:03:24.03,Main,,0,0,0,,Is there a handgun in there?
+Dialogue: 0,0:03:24.06,0:03:26.92,Main,,0,0,0,,I'm not going to say it again!
+Dialogue: 0,0:03:26.95,0:03:31.13,Main,,0,0,0,,Oh no... This is too bad...\NThis guy's not just a bad man!
+Dialogue: 0,0:03:31.16,0:03:34.86,Main,,0,0,0,,I can't believe it's such a\Nserious case for the first time.
+Dialogue: 0,0:03:34.89,0:03:37.53,Main,,0,0,0,,What am I going to do?
+Dialogue: 0,0:03:37.56,0:03:39.97,Main,,0,0,0,,- Oh, I remember now.\N- Yes.
+Dialogue: 0,0:03:40.00,0:03:44.03,Main,,0,0,0,,The owner of this car is a woman.
+Dialogue: 0,0:03:44.06,0:03:46.29,Main,,0,0,0,,I killed her with that gun.
+Dialogue: 0,0:03:49.69,0:03:52.06,Main,,0,0,0,,You... killed her?
+Dialogue: 0,0:03:52.09,0:03:54.36,Main,,0,0,0,,Yes, that's right.
+Dialogue: 0,0:03:54.39,0:03:58.63,Main,,0,0,0,,He killed a woman, and he's just fine!\NThis is what you call a psychopath.
+Dialogue: 0,0:03:58.66,0:04:02.03,Main,,0,0,0,,I can't handle this!
+Dialogue: 0,0:04:02.06,0:04:06.63,Main,,0,0,0,,I'll be back in a minute.
+Dialogue: 0,0:04:06.66,0:04:09.72,Main,,0,0,0,,Senpai! Excuse me.\NPlease back me up.
+Dialogue: 0,0:04:09.75,0:04:12.82,Main,,0,0,0,,- What's wrong?\N- There's a...
+Dialogue: 0,0:04:15.69,0:04:18.36,Main,,0,0,0,,Hey, hey, hey!\NWhere are you going?
+Dialogue: 0,0:04:18.39,0:04:21.56,Main,,0,0,0,,I'm in a hurry.
+Dialogue: 0,0:04:21.59,0:04:24.63,Main,,0,0,0,,I'm on my way to dump the\Ndead body in the mountains.
+Dialogue: 0,0:04:24.66,0:04:26.63,Main,,0,0,0,,Is there a dead body on board?
+Dialogue: 0,0:04:26.66,0:04:29.69,Main,,0,0,0,,Yeah, it's in the trunk right now.
+Dialogue: 0,0:04:34.00,0:04:37.79,Main,,0,0,0,,Yeah, there's a dead body there...
+Dialogue: 0,0:04:37.82,0:04:40.89,Main,,0,0,0,,Let's take a look, shall we?
+Dialogue: 0,0:04:45.29,0:04:47.23,Main,,0,0,0,,Look.
+Dialogue: 0,0:05:19.56,0:05:22.36,Main,,0,0,0,,- Hey.\N- Senpai!
+Dialogue: 0,0:05:22.39,0:05:24.46,Main,,0,0,0,,- What happened?\N- That... that guy.
+Dialogue: 0,0:05:24.49,0:05:25.97,Main,,0,0,0,,I stopped him from speeding.
+Dialogue: 0,0:05:26.00,0:05:28.30,Main,,0,0,0,,He said he didn't have his driver's\Nlicense and that he stole the car.
+Dialogue: 0,0:05:28.33,0:05:30.30,Main,,0,0,0,,The gun was near the dashboard.
+Dialogue: 0,0:05:30.33,0:05:32.30,Main,,0,0,0,,In the trunk, I'm told\Nthere's a dead body.
+Dialogue: 0,0:05:32.33,0:05:35.30,Main,,0,0,0,,Okay. Calm down!
+Dialogue: 0,0:05:35.33,0:05:39.06,Main,,0,0,0,,- I'll handle it here. You call for backup.\N- Yes.
+Dialogue: 0,0:05:39.09,0:05:41.26,Main,,0,0,0,,Take care. Be careful.
+Dialogue: 0,0:05:41.29,0:05:44.63,Main,,0,0,0,,- You never know what he might do.\N- Alright.
+Dialogue: 0,0:06:09.00,0:06:12.89,Main,,0,0,0,,Excuse me! Let us ask you again.
+Dialogue: 0,0:06:12.92,0:06:15.63,Main,,0,0,0,,You mean you don't\Nhave a driver's license?
+Dialogue: 0,0:06:15.66,0:06:17.66,Main,,0,0,0,,- I do have a driver's license.\N- What?
+Dialogue: 0,0:06:27.59,0:06:31.46,Main,,0,0,0,,- Doesn't sound fake to me.\N- Of course.
+Dialogue: 0,0:06:31.49,0:06:35.20,Main,,0,0,0,,This car is not stolen?
+Dialogue: 0,0:06:35.23,0:06:38.10,Main,,0,0,0,,Of course, it's mine!
+Dialogue: 0,0:06:38.13,0:06:41.49,Main,,0,0,0,,I also have a vehicle\Nregistration certificate.
+Dialogue: 0,0:06:45.46,0:06:48.30,Main,,0,0,0,,I don't understand...
+Dialogue: 0,0:06:48.33,0:06:50.46,Main,,0,0,0,,The dashboard, may I see it?
+Dialogue: 0,0:06:50.49,0:06:52.49,Main,,0,0,0,,Go ahead.
+Dialogue: 0,0:06:56.79,0:06:58.49,Main,,0,0,0,,No handgun...
+Dialogue: 0,0:06:58.52,0:07:00.97,Main,,0,0,0,,Hadgun? There is no way there is!
+Dialogue: 0,0:07:01.00,0:07:03.72,Main,,0,0,0,,Let's see the trunk, too.
+Dialogue: 0,0:07:09.72,0:07:13.46,Main,,0,0,0,,That's not what he said.
+Dialogue: 0,0:07:13.49,0:07:16.13,Main,,0,0,0,,What did he report to you?
+Dialogue: 0,0:07:16.16,0:07:17.75,Main,,0,0,0,,That you were driving\Na stolen car with no
+Dialogue: 0,0:07:17.78,0:07:19.66,Main,,0,0,0,,license and you are in\Npossession of a handgun.
+Dialogue: 0,0:07:19.69,0:07:23.26,Main,,0,0,0,,- He said you're carrying a dead body.\N- Dead body? There's no such thing!
+Dialogue: 0,0:07:23.29,0:07:26.30,Main,,0,0,0,,That's right...
+Dialogue: 0,0:07:26.33,0:07:30.46,Main,,0,0,0,,That cop is a liar.
+Dialogue: 0,0:07:30.49,0:07:35.30,Main,,0,0,0,,Maybe there are other lies?
+Dialogue: 0,0:07:35.33,0:07:39.56,Main,,0,0,0,,I was speeding.
+Dialogue: 0,0:07:39.59,0:07:43.46,Main,,0,0,0,,I'm sorry.
+Dialogue: 0,0:07:50.00,0:07:53.97,Main,,0,0,0,,Huh~ I didn't expect this ending.
+Dialogue: 0,0:07:54.00,0:07:56.36,Main,,0,0,0,,Teacher, you're an ex-drama club member.\NWhen a thing happened,
+Dialogue: 0,0:07:56.39,0:07:58.54,Main,,0,0,0,,Why don't you tell\Na brilliant lie like that?
+Dialogue: 0,0:07:58.57,0:07:59.86,Main,,0,0,0,,I can't act like that.
+Dialogue: 0,0:07:59.89,0:08:02.20,Main,,0,0,0,,- You can do it.\N- I can't do it.
+Dialogue: 0,0:08:02.23,0:08:05.97,Main,,0,0,0,,- Then, let's go.\N- What?
+Dialogue: 0,0:08:06.00,0:08:08.46,Main,,0,0,0,,Oh, wheeen, yes!
+Dialogue: 0,0:08:08.49,0:08:10.63,Main,,0,0,0,,- Sir, license out!\N- What? I'm sorry!
+Dialogue: 0,0:08:10.66,0:08:12.79,Main,,0,0,0,,I wasn't even going 10 kilometers.
+Dialogue: 0,0:08:12.82,0:08:14.79,Main,,0,0,0,,Please wait a minute.\NI'm sorry. This is a point card.
+Dialogue: 0,0:08:14.82,0:08:17.30,Main,,0,0,0,,This is my number card.\NThis is the fourth one...
+Dialogue: 0,0:08:17.33,0:08:19.97,Main,,0,0,0,,Oh, it's the fifth one.\NI'm sorry. Here it is.
+Dialogue: 0,0:08:20.00,0:08:21.49,Main,,0,0,0,,No, this is an insurance card!
+Dialogue: 0,0:08:22.40,0:08:26.13,Copy of New,,0,0,0,,SURPRISE MISTAKE ON THE FIFTH CARD
+Dialogue: 0,0:08:27.33,0:08:29.63,Main,,0,0,0,,What's that, teacher?
+Dialogue: 0,0:08:29.66,0:08:35.79,Main,,0,0,0,,Generation Z doesn't understand the\Ncarotid docking then dying.
+Dialogue: 0,0:08:35.82,0:08:40.75,Main,,0,0,0,,Booooo!
+Dialogue: 0,0:08:42.78,0:08:44.72,Main,,0,0,0,,THE GRIM REAPER
+Dialogue: 0,0:08:44.75,0:08:50.59,Main,,0,0,0,,Your disease is stomach cancer.
+Dialogue: 0,0:08:50.62,0:08:52.97,Main,,0,0,0,,Stomach cancer?
+Dialogue: 0,0:08:53.00,0:08:56.36,Main,,0,0,0,,Yes, of the skilful type.
+Dialogue: 0,0:09:00.56,0:09:05.03,Main,,0,0,0,,This is the area that has been\Neroded by the cancer cells.
+Dialogue: 0,0:09:05.06,0:09:08.63,Main,,0,0,0,,The cancer has metastasized deep\Ninto the lungs. It is now in stage 4.
+Dialogue: 0,0:09:08.66,0:09:11.63,Main,,0,0,0,,At this point,\Nsurgery will be difficult.
+Dialogue: 0,0:09:11.66,0:09:14.79,Main,,0,0,0,,Wait a minute. That means
+Dialogue: 0,0:09:14.82,0:09:17.30,Main,,0,0,0,,does that mean there's\Nnothing we can do?
+Dialogue: 0,0:09:17.33,0:09:20.30,Main,,0,0,0,,Yes.
+Dialogue: 0,0:09:20.33,0:09:26.33,Main,,0,0,0,,Okay, so how much more do I have?
+Dialogue: 0,0:09:26.36,0:09:28.63,Main,,0,0,0,,If you do not receive\Nlife-prolonging treatment,
+Dialogue: 0,0:09:28.66,0:09:32.82,Main,,0,0,0,,I think it is unlikely that you will be\Nable to see the cherry blossoms next year.
+Dialogue: 0,0:09:32.85,0:09:36.13,Main,,0,0,0,,I would like to explain about the\Nlife-prolonging treatment.
+Dialogue: 0,0:09:36.16,0:09:39.79,Main,,0,0,0,,The main treatment is\Nchemotherapy or radiation therapy.
+Dialogue: 0,0:09:39.82,0:09:44.13,Main,,0,0,0,,Chemotherapy is\Nso-called anticancer drug therapy.
+Dialogue: 0,0:09:44.16,0:09:47.13,Main,,0,0,0,,It's a drug that\Nkills cancer cells but
+Dialogue: 0,0:09:47.16,0:09:50.30,Main,,0,0,0,,it also attacks normal cells.
+Dialogue: 0,0:10:16.66,0:10:20.63,Main,,0,0,0,,You haven't eaten at all.
+Dialogue: 0,0:10:20.66,0:10:24.97,Main,,0,0,0,,What's wrong? Eat properly.
+Dialogue: 0,0:10:25.00,0:10:29.79,Main,,0,0,0,,I still have some of\Nyesterday's sake left over.
+Dialogue: 0,0:10:29.82,0:10:31.46,Main,,0,0,0,,You've been drinking too\Nmuch lately, haven't you?
+Dialogue: 0,0:10:31.49,0:10:33.97,Main,,0,0,0,,When you become a member of society,\Nyou have a lot of social life.
+Dialogue: 0,0:10:34.00,0:10:39.13,Main,,0,0,0,,Oh, by the way, what\Ndid your physician said?
+Dialogue: 0,0:10:39.16,0:10:42.10,Main,,0,0,0,,Oh, he said I have a little\Nmetabolic syndrome.
+Dialogue: 0,0:10:42.13,0:10:42.99,Main,,0,0,0,,What?
+Dialogue: 0,0:10:43.02,0:10:45.63,Main,,0,0,0,,Oh, man, they're going\Nto say that to me, too.
+Dialogue: 0,0:10:45.66,0:10:50.49,Main,,0,0,0,,At your age?\NEat your vegetables, vegetables.
+Dialogue: 0,0:10:50.52,0:10:52.49,Main,,0,0,0,,I said I can't eat.
+Dialogue: 0,0:10:52.52,0:10:55.66,Main,,0,0,0,,You should eat tomatoes, too.
+Dialogue: 0,0:10:59.16,0:11:01.16,Main,,0,0,0,,Father?
+Dialogue: 0,0:11:20.49,0:11:22.46,Main,,0,0,0,,If no life-prolonging treatment is given,
+Dialogue: 0,0:11:22.49,0:11:26.28,Main,,0,0,0,,I think the possibility of seeing\Ncherry blossoms next year is low.
+Dialogue: 0,0:11:26.66,0:11:31.23,Main,,0,0,0,,I think it is low.
+Dialogue: 0,0:11:36.12,0:11:38.09,Main,,0,0,0,,DIR. WATANABE
+Dialogue: 0,0:11:58.66,0:12:03.30,Main,,0,0,0,,I wonder what kind of family\NShoichi is going to build.
+Dialogue: 0,0:12:03.33,0:12:07.20,Main,,0,0,0,,I'm going to die without\Nseeing my grandchildren.
+Dialogue: 0,0:12:15.39,0:12:19.46,Main,,0,0,0,,I'm sorry, Masami,
+Dialogue: 0,0:12:19.49,0:12:23.13,Main,,0,0,0,,I said we'd travel to many places.
+Dialogue: 0,0:12:23.16,0:12:27.49,Main,,0,0,0,,Why? Why me?
+Dialogue: 0,0:12:35.65,0:12:37.29,Main,,0,0,0,,MASAMI TAKAMURA
+Dialogue: 0,0:12:49.00,0:12:52.97,Main,,0,0,0,,I have to tell the truth.
+Dialogue: 0,0:12:53.00,0:12:56.33,Main,,0,0,0,,We'll figure it out together.
+Dialogue: 0,0:13:03.66,0:13:07.97,Main,,0,0,0,,Daddy, where are you?
+Dialogue: 0,0:13:08.00,0:13:09.97,Main,,0,0,0,,At the park.
+Dialogue: 0,0:13:10.00,0:13:14.56,Main,,0,0,0,,You're absent today?\NI got a call from your manager, though.
+Dialogue: 0,0:13:14.59,0:13:16.63,Main,,0,0,0,,Well...
+Dialogue: 0,0:13:16.66,0:13:18.63,Main,,0,0,0,,Hey, what's going on?
+Dialogue: 0,0:13:18.66,0:13:21.71,Main,,0,0,0,,Something strange happened\Nsince yesterday, didn't it?
+Dialogue: 0,0:13:21.74,0:13:22.72,Main,,0,0,0,,Masami...
+Dialogue: 0,0:13:22.75,0:13:27.16,Main,,0,0,0,,- There was a call from the hospital.\N- Eh?
+Dialogue: 0,0:13:27.19,0:13:30.00,Main,,0,0,0,,There was a mistake,\Nthey want me to come over right now.
+Dialogue: 0,0:13:38.00,0:13:40.33,Main,,0,0,0,,I am very sorry.
+Dialogue: 0,0:13:40.36,0:13:43.53,Main,,0,0,0,,The one I showed you yesterday
+Dialogue: 0,0:13:43.56,0:13:45.59,Main,,0,0,0,,is from another patient.
+Dialogue: 0,0:13:45.62,0:13:47.59,Main,,0,0,0,,What?
+Dialogue: 0,0:13:47.62,0:13:49.59,Main,,0,0,0,,To a man with the\Nsame last name,
+Dialogue: 0,0:13:49.62,0:13:51.83,Main,,0,0,0,,It looks like the x-ray\Ntechnician made a mistake.
+Dialogue: 0,0:13:51.86,0:13:54.10,Main,,0,0,0,,Yours is here.
+Dialogue: 0,0:13:54.16,0:13:58.63,Main,,0,0,0,,You have a little bit of\Ngastroptosis but no worries.
+Dialogue: 0,0:13:58.66,0:14:02.76,Main,,0,0,0,,So I don't have cancer?
+Dialogue: 0,0:14:02.79,0:14:05.79,Main,,0,0,0,,Yes, I am sorry.
+Dialogue: 0,0:14:05.82,0:14:09.33,Main,,0,0,0,,- What about next year's cherry blossoms?\N- You can see it without problem.
+Dialogue: 0,0:14:11.66,0:14:14.63,Main,,0,0,0,,Ahh, really!
+Dialogue: 0,0:14:14.66,0:14:20.13,Main,,0,0,0,,Thank God! I'm so glad!
+Dialogue: 0,0:14:20.16,0:14:22.46,Main,,0,0,0,,I mean, It's bad, doctor!
+Dialogue: 0,0:14:22.49,0:14:24.26,Main,,0,0,0,,Do you have any idea\NI've been through so much!
+Dialogue: 0,0:14:24.29,0:14:26.20,Main,,0,0,0,,I am very sorry.
+Dialogue: 0,0:14:26.23,0:14:30.13,Main,,0,0,0,,Now doctor, you kind\Nof looks like a Buddha.
+Dialogue: 0,0:14:30.16,0:14:32.13,Main,,0,0,0,,You look like a different\Nperson yesterday.
+Dialogue: 0,0:14:32.16,0:14:35.16,Main,,0,0,0,,How did I look like yesterday?
+Dialogue: 0,0:14:35.19,0:14:38.79,Main,,0,0,0,,What a thing to say,
+Dialogue: 0,0:14:38.82,0:14:41.00,Main,,0,0,0,,A grim repear?
+Dialogue: 0,0:14:41.03,0:14:44.19,Main,,0,0,0,,Yes, yes.
+Dialogue: 0,0:14:51.29,0:14:53.29,Main,,0,0,0,,Yay!
+Dialogue: 0,0:14:55.33,0:14:58.79,Main,,0,0,0,,I can still live!
+Dialogue: 0,0:15:06.82,0:15:08.79,Main,,0,0,0,,- Daddy!\N- Oh, what's wrong?
+Dialogue: 0,0:15:08.82,0:15:13.46,Main,,0,0,0,,What "what's wrong"?\NYou're acting strange.
+Dialogue: 0,0:15:13.49,0:15:16.13,Main,,0,0,0,,At the check-up,\NI thought they might have found something.
+Dialogue: 0,0:15:16.16,0:15:18.43,Main,,0,0,0,,- Nothing.\N- Really?
+Dialogue: 0,0:15:18.46,0:15:21.23,Main,,0,0,0,,Yeah, I'm in perfect health.
+Dialogue: 0,0:15:21.26,0:15:24.10,Main,,0,0,0,,Oh, don't make me worry about you.
+Dialogue: 0,0:15:24.13,0:15:27.63,Main,,0,0,0,,See, I told you he's fine.
+Dialogue: 0,0:15:27.66,0:15:31.97,Main,,0,0,0,,Hey, let's have lunch together.\NI want to plan a trip.
+Dialogue: 0,0:15:32.00,0:15:35.00,Main,,0,0,0,,Trip? What's going on all of a sudden?
+Dialogue: 0,0:15:35.50,0:15:37.00,Main,,0,0,0,,Didn't I said we'd travel to places?
+Dialogue: 0,0:18:07.62,0:18:10.69,Main,,0,0,0,,TRANSLATION TOOL \NDeepL
+Dialogue: 0,0:18:10.72,0:18:13.45,Main,,0,0,0,,ENGLISH SUBTITLE\NChriz Kayriko (CHRIZsubs)
+Dialogue: 0,0:18:13.59,0:18:16.06,Main,,0,0,0,,THIS DRAMA IS FICTION
+Dialogue: 0,0:18:25.20,0:15:36.97,Main,,0,0,0,,ENGLISH SUBTITLES FROM CHRIZ KAYRIKO
+Dialogue: 0,0:15:37.00,0:15:39.82,Main,,0,0,0,,It's been a long time since\Nwe've been together as a family.
+Dialogue: 0,0:15:39.85,0:15:41.97,Main,,0,0,0,,Great!
+Dialogue: 0,0:15:42.00,0:15:44.56,Main,,0,0,0,,Let me know when you decide\Non a restaurant. I'll join you later.
+Dialogue: 0,0:15:49.52,0:15:51.49,Main,,0,0,0,,How is Shoichi?
+Dialogue: 0,0:15:51.52,0:15:55.13,Main,,0,0,0,,Yeah, he had a medical checkup.\NI think there was a mistake.
+Dialogue: 0,0:15:55.16,0:15:58.72,Main,,0,0,0,,I just met him here by chance.
+Dialogue: 0,0:15:58.75,0:16:00.56,Main,,0,0,0,,The x-ray technician made a mistake
+Dialogue: 0,0:16:00.59,0:16:03.39,Main,,0,0,0,,to a one with the same last name.
+Dialogue: 0,0:16:03.42,0:16:05.86,Main,,0,0,0,,to a one with the same last name.
+Dialogue: 0,0:16:05.89,0:16:08.39,Main,,0,0,0,,to a one with the same last name.
+Dialogue: 0,0:16:08.42,0:16:11.72,Main,,0,0,0,,to a one with the same last name.
+Dialogue: 0,0:16:15.66,0:16:17.66,Main,,0,0,0,,Daddy!
+Dialogue: 0,0:16:21.06,0:16:24.16,Main,,0,0,0,,No, you can't go!
+Dialogue: 0,0:16:24.19,0:16:26.59,Main,,0,0,0,,Grim repear?
+Dialogue: 0,0:16:26.62,0:16:30.89,Main,,0,0,0,,There's the grim geaper!
+Dialogue: 0,0:16:30.92,0:16:32.89,Main,,0,0,0,,Grim reaper?
+Dialogue: 0,0:16:32.92,0:16:37.82,Main,,0,0,0,,A death sentence is waiting for you!
+Dialogue: 0,0:16:50.49,0:16:54.82,Main,,0,0,0,,Shoichi!
+Dialogue: 0,0:16:59.49,0:17:02.79,Main,,0,0,0,,Oh no, from the bottom\Nto the further bottom.
+Dialogue: 0,0:17:02.82,0:17:06.13,Main,,0,0,0,,He never had such a hard time as a parent.
+Dialogue: 0,0:17:06.16,0:17:09.30,Main,,0,0,0,,I'd rather be told to myself.
+Dialogue: 0,0:17:09.33,0:17:12.46,Main,,0,0,0,,Ohh, I didn't like the ending.
+Dialogue: 0,0:17:12.49,0:17:14.23,Main,,0,0,0,,Okay, I've made up my mind.
+Dialogue: 0,0:17:14.26,0:17:17.30,Main,,0,0,0,,I'm not going to get a\Ncheck-up this year. It's scary.
+Dialogue: 0,0:17:17.33,0:17:19.30,Main,,0,0,0,,- No, you should go.\N- I don't want to.
+Dialogue: 0,0:17:19.33,0:17:21.63,Main,,0,0,0,,A reaper with a doctor's face,\NI'm scared.
+Dialogue: 0,0:17:21.66,0:17:25.76,Main,,0,0,0,,I wonder what a real\Ngrim reaper looks like.
+Dialogue: 0,0:17:25.79,0:17:28.20,Main,,0,0,0,,The face of a grim reaper? Hmmm...
+Dialogue: 0,0:17:28.23,0:17:32.23,Main,,0,0,0,,The face of a grim reaper in\N5, 4, 3, 2, 1,
+Dialogue: 0,0:17:32.26,0:17:33.79,Main,,0,0,0,,Cue!
+Dialogue: 0,0:17:37.49,0:17:39.97,Main,,0,0,0,,It's duplicitous!
+Dialogue: 0,0:17:41.49,0:17:44.86,Main,,0,0,0,,Good evening, I am a grim reaper.
+Dialogue: 0,0:17:44.89,0:17:49.36,Copy of New,,0,0,0,,SURPRISE HIGH TONE OF\NVOICE AFTER FIVE SECONDS
+Dialogue: 0,0:17:53.16,0:17:54.79,Main,,0,0,0,,Let's get it back.
+Dialogue: 0,0:17:54.82,0:17:57.13,Main,,0,0,0,,Oh, Rina, your college,
+Dialogue: 0,0:17:57.16,0:17:58.64,Main,,0,0,0,,they're talking to your\Nrecommendation about badminton.
+Dialogue: 0,0:17:58.67,0:17:59.13,Main,,0,0,0,,Really?
+Dialogue: 0,0:17:59.16,0:18:00.97,Main,,0,0,0,,What do you think?
+Dialogue: 0,0:18:01.00,0:18:03.79,Copy of New,,0,0,0,,THE FOLLOWING EPISODE OF\NSURPRISE ENDING AFTER FIVE MINUTES
+Dialogue: 0,0:18:03.82,0:18:07.62,Main,,0,0,0,,RAWS & JP SUBS PROVIDER\N@hikaririders.
+Dialogue: 0,0:18:16.00,0:18:21.12,Copy of Copy of New,,0,0,0,,If you want to watch this\Ndrama again, please go to TVer.

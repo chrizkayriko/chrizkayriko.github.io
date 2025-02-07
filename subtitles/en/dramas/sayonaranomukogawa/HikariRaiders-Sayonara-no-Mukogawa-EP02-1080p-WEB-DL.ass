@@ -1,0 +1,339 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,Arial,50.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0.0,2,10,10,150,1
+Style: New,Arial,75.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:13.89,0:00:16.13,Main,,0,0,0,,It's me.
+Dialogue: 0,0:00:18.92,0:00:23.49,Main,,0,0,0,,That is me, right?
+Dialogue: 0,0:00:23.49,0:00:25.52,Main,,0,0,0,,Yes.
+Dialogue: 0,0:00:28.16,0:00:32.39,Main,,0,0,0,,I had a liver problem.\NI was hospitalized.
+Dialogue: 0,0:00:32.39,0:00:36.00,Main,,0,0,0,,Yes.
+Dialogue: 0,0:00:36.00,0:00:39.33,Main,,0,0,0,,Dead.
+Dialogue: 0,0:00:39.33,0:00:42.92,Main,,0,0,0,,You have understood your situation.
+Dialogue: 0,0:00:42.92,0:00:54.66,Main,,0,0,0,,
+Dialogue: 0,0:00:54.66,0:00:57.46,Main,,0,0,0,,
+Dialogue: 0,0:00:57.46,0:00:59.52,Main,,0,0,0,,Who are you?
+Dialogue: 0,0:00:59.52,0:01:01.52,Main,,0,0,0,,I'm the guide.
+Dialogue: 0,0:01:01.52,0:01:04.95,Main,,0,0,0,,Guide? Huh?
+Dialogue: 0,0:01:04.95,0:01:09.56,Main,,0,0,0,,- Where are we?\N- This is the other side of goodbye.
+Dialogue: 0,0:01:09.56,0:01:13.52,Main,,0,0,0,,What? What's that?
+Dialogue: 0,0:01:13.52,0:01:15.52,Main,,0,0,0,,- The other side of goodbye...\N- Hirokazu.
+Dialogue: 0,0:01:20.33,0:01:23.29,Main,,0,0,0,,Hirokazu.
+Dialogue: 0,0:01:23.29,0:01:28.95,Main,,0,0,0,,Oh no, why are\Nyou? You!
+Dialogue: 0,0:01:28.95,0:01:33.79,Main,,0,0,0,,You! You haven't\Nmet with your father yet!
+Dialogue: 0,0:01:33.79,0:01:37.46,Main,,0,0,0,,You didn't contacted him.
+Dialogue: 0,0:01:42.33,0:01:45.69,Main,,0,0,0,,Excuse me.
+Dialogue: 0,0:01:45.69,0:01:50.16,Main,,0,0,0,,Mrs. Yamawaki, this is his belongings.
+Dialogue: 0,0:01:53.26,0:01:56.72,Main,,0,0,0,,How did you get our contact information?
+Dialogue: 0,0:01:56.72,0:01:59.75,Main,,0,0,0,,He don't have any relatives.
+Dialogue: 0,0:01:59.75,0:02:02.49,Main,,0,0,0,,I got the address\Nfrom his belongings.
+Dialogue: 0,0:02:10.23,0:02:15.36,Main,,0,0,0,,About the last meeting,\NI will explain.
+Dialogue: 0,0:02:15.36,0:02:19.89,Main,,0,0,0,,The time left is 24 hours.
+Dialogue: 0,0:02:19.89,0:02:24.13,Main,,0,0,0,,Who is the last person you want to see?
+Dialogue: 0,0:02:24.13,0:02:37.39,Main,,0,0,0,,GOODBYE MY DEAR
+Dialogue: 0,0:02:39.79,0:02:43.00,Main,,0,0,0,,There is no one.
+Dialogue: 0,0:02:43.00,0:02:45.26,Main,,0,0,0,,Nobody?
+Dialogue: 0,0:02:48.26,0:02:52.42,Main,,0,0,0,,You know what? All of them,
+Dialogue: 0,0:02:52.42,0:02:55.59,Main,,0,0,0,,if they think I'm dead,\Nthey'll be wrong.
+Dialogue: 0,0:02:55.59,0:02:58.23,Main,,0,0,0,,I'm sure there are people who like me dead.
+Dialogue: 0,0:02:58.23,0:03:00.23,Main,,0,0,0,,It's not unusual at all.
+Dialogue: 0,0:03:00.23,0:03:03.26,Main,,0,0,0,,They are happy about your death?
+Dialogue: 0,0:03:09.26,0:03:17.75,Main,,0,0,0,,EPISODE 2 : THE PRODIGAL SON
+Dialogue: 0,0:03:17.75,0:03:23.03,Main,,0,0,0,,Photographs like this,\Nhe must have kept it very dearly.
+Dialogue: 0,0:03:23.03,0:03:25.46,Main,,0,0,0,,The other family members,
+Dialogue: 0,0:03:25.46,0:03:28.03,Main,,0,0,0,,they're dead.
+Dialogue: 0,0:03:28.03,0:03:32.82,Main,,0,0,0,,I thought your father was alive and well.
+Dialogue: 0,0:03:32.82,0:03:36.36,Main,,0,0,0,,I don't know.
+Dialogue: 0,0:03:36.36,0:03:40.36,Main,,0,0,0,,The last meeting\Nhas some conditions.
+Dialogue: 0,0:03:40.36,0:03:42.75,Main,,0,0,0,,The persons who know that you're dead,
+Dialogue: 0,0:03:42.75,0:03:44.85,Main,,0,0,0,,you cannot meet them.
+Dialogue: 0,0:03:44.85,0:03:47.92,Main,,0,0,0,,If you meet someone who knows you are dead,
+Dialogue: 0,0:03:47.92,0:03:50.66,Main,,0,0,0,,at that moment,\Nyou will disappear.
+Dialogue: 0,0:03:50.66,0:03:53.89,Main,,0,0,0,,You will be returned here.
+Dialogue: 0,0:03:53.89,0:03:58.16,Main,,0,0,0,,So you cannot choose your\Nsister as your reunion partner
+Dialogue: 0,0:03:58.16,0:04:00.82,Main,,0,0,0,,but the other family members and
+Dialogue: 0,0:04:00.82,0:04:02.92,Main,,0,0,0,,- some of your friends.\N- Yes, Aunt,
+Dialogue: 0,0:04:02.92,0:04:05.69,Main,,0,0,0,,Hirokazu has passed away.
+Dialogue: 0,0:04:05.69,0:04:09.56,Main,,0,0,0,,I contacted Hirokazu's\Nclassmate from high school.
+Dialogue: 0,0:04:09.56,0:04:15.59,Main,,0,0,0,,Listen, the eldest son\Nof Kamorin liquor store,
+Dialogue: 0,0:04:15.59,0:04:21.06,Main,,0,0,0,,she's taking over now. Oh yeah,\Nthe girl called Kamo-chan.
+Dialogue: 0,0:04:21.06,0:04:24.00,Main,,0,0,0,,Yeah, she said she'll pass it around.
+Dialogue: 0,0:04:24.00,0:04:29.39,Main,,0,0,0,,Will you call all the relatives?
+Dialogue: 0,0:04:29.39,0:04:33.06,Main,,0,0,0,,I want to give her a proper\Nsend-off at least at the end.
+Dialogue: 0,0:04:33.06,0:04:37.36,Main,,0,0,0,,They're not going to change, sis.
+Dialogue: 0,0:04:37.36,0:04:40.52,Main,,0,0,0,,But if it's your father,\Nyou can meet him.
+Dialogue: 0,0:04:40.52,0:04:43.42,Main,,0,0,0,,I told you I'm not going.
+Dialogue: 0,0:04:43.42,0:04:46.26,Main,,0,0,0,,I've decided that I'm not going\Nback to my parents' house.
+Dialogue: 0,0:04:46.26,0:04:49.26,Main,,0,0,0,,My father has forgotten what I look like.
+Dialogue: 0,0:04:49.26,0:04:52.42,Main,,0,0,0,,Dad?
+Dialogue: 0,0:04:52.42,0:04:55.42,Main,,0,0,0,,Why aren't you answering the phone?
+Dialogue: 0,0:04:55.42,0:05:00.39,Main,,0,0,0,,I told you to put the phone on your side.
+Dialogue: 0,0:05:00.39,0:05:05.62,Main,,0,0,0,,Hirokazu passed away.
+Dialogue: 0,0:05:05.62,0:05:09.52,Main,,0,0,0,,
+Dialogue: 0,0:05:09.52,0:05:14.16,Main,,0,0,0,,I guess the whole\Nworld knows I'm dead.
+Dialogue: 0,0:05:17.56,0:05:19.82,Main,,0,0,0,,
+Dialogue: 0,0:05:19.82,0:05:21.82,Main,,0,0,0,,Nevermind.
+Dialogue: 0,0:05:21.82,0:05:24.72,Main,,0,0,0,,I told you, there's no one I\Nwant to meet in the first place.
+Dialogue: 0,0:05:24.72,0:05:27.06,Main,,0,0,0,,Think again.
+Dialogue: 0,0:05:27.06,0:05:30.69,Main,,0,0,0,,You are persistent.
+Dialogue: 0,0:05:30.69,0:05:33.39,Main,,0,0,0,,I don't want you to regret it.
+Dialogue: 0,0:05:33.39,0:05:39.33,Main,,0,0,0,,I don't care if I have\None or two more regrets.
+Dialogue: 0,0:05:39.33,0:05:41.79,Main,,0,0,0,,You shouldn't have any regrets\Nto take with you to the afterlife.
+Dialogue: 0,0:05:41.79,0:05:44.82,Main,,0,0,0,,The less is better, of course.
+Dialogue: 0,0:05:51.09,0:05:57.26,Main,,0,0,0,,Okay, okay.
+Dialogue: 0,0:05:57.26,0:05:59.00,Main,,0,0,0,,I know.
+Dialogue: 0,0:06:31.49,0:06:34.19,Main,,0,0,0,,Thank you very much for visiting us.
+Dialogue: 0,0:06:31.52,0:06:32.88,Main,,0,0,0,,NOTICE OF CLOSURE
+Dialogue: 0,0:06:34.19,0:06:38.66,Main,,0,0,0,,Thank you very much. We sincerely\Napologize for the inconvenience.
+Dialogue: 0,0:06:38.66,0:06:42.49,Main,,0,0,0,,This trip...
+Dialogue: 0,0:06:46.66,0:06:56.00,Main,,0,0,0,,
+Dialogue: 0,0:07:09.06,0:07:11.23,Main,,0,0,0,,
+Dialogue: 0,0:07:11.23,0:07:15.82,Main,,0,0,0,,Yeah! I love you!\NI...
+Dialogue: 0,0:07:20.06,0:07:22.06,Main,,0,0,0,,What is it?
+Dialogue: 0,0:07:22.06,0:07:23.89,Main,,0,0,0,,No...
+Dialogue: 0,0:07:26.69,0:07:29.79,Main,,0,0,0,,What are you doing?\NYou're peeling it off without permission?
+Dialogue: 0,0:07:29.79,0:07:31.99,Main,,0,0,0,,Oh no...
+Dialogue: 0,0:07:31.99,0:07:34.62,Main,,0,0,0,,- The character is wrong.\N- What?
+Dialogue: 0,0:07:34.62,0:07:39.49,Main,,0,0,0,,It says "this trip".
+Dialogue: 0,0:07:39.49,0:07:41.99,Main,,0,0,0,,Oh...
+Dialogue: 0,0:07:41.99,0:07:44.79,Main,,0,0,0,,- I thought you'd better fix it.\N- Oh, that's great.
+Dialogue: 0,0:07:48.26,0:07:50.26,Main,,0,0,0,,- and...\N- What?
+Dialogue: 0,0:07:50.26,0:07:53.46,Main,,0,0,0,,I have a DVD that I left on loan.
+Dialogue: 0,0:07:53.46,0:07:56.36,Main,,0,0,0,,Finally, I came to return it.
+Dialogue: 0,0:08:04.02,0:08:08.13,Main,,0,0,0,,Space Monster Series.
+Dialogue: 0,0:08:08.13,0:08:12.66,Main,,0,0,0,,Hahy! Yoo-hoo!
+Dialogue: 0,0:08:12.66,0:08:15.23,Main,,0,0,0,,- How much is the late fee?\N- Oh, that's fine...that's fine!
+Dialogue: 0,0:08:16.12,0:08:16.73,Main,,0,0,0,,- That's not possible.\N- No, no, no...
+Dialogue: 0,0:08:16.75,0:08:19.09,Main,,0,0,0,,I've been told to get rid of the inventory.
+Dialogue: 0,0:08:19.09,0:08:23.26,Main,,0,0,0,,- Did this place go out of business?\N- Well, it looks like it.
+Dialogue: 0,0:08:23.26,0:08:26.59,Main,,0,0,0,,I'm a part-timer, so I\Ndon't know what's going on.
+Dialogue: 0,0:08:26.59,0:08:29.89,Main,,0,0,0,,- What do you want to do?\N- What do you mean?
+Dialogue: 0,0:08:29.89,0:08:31.39,Main,,0,0,0,,You'll borrow something again,
+Dialogue: 0,0:08:31.39,0:08:35.16,Main,,0,0,0,,right? That's what\Nyou always did.
+Dialogue: 0,0:08:35.16,0:08:37.82,Main,,0,0,0,,You remember me?
+Dialogue: 0,0:08:37.82,0:08:39.89,Main,,0,0,0,,In an age when more and\Nmore people are watching online,
+Dialogue: 0,0:08:39.89,0:08:42.56,Main,,0,0,0,,it's very rare to\Nbe our customer.
+Dialogue: 0,0:08:42.56,0:08:46.59,Main,,0,0,0,,It would be easier if\Nyou rent them all at once.
+Dialogue: 0,0:08:46.59,0:08:49.36,Main,,0,0,0,,Borrowing all at once...
+Dialogue: 0,0:08:49.36,0:08:51.72,Main,,0,0,0,,The final series,\NI put it in here a while ago.
+Dialogue: 0,0:08:51.72,0:08:53.72,Main,,0,0,0,,I put it here!
+Dialogue: 0,0:08:59.36,0:09:01.39,Main,,0,0,0,,- Okay, that's enough.\N- No...
+Dialogue: 0,0:09:01.39,0:09:03.59,Main,,0,0,0,,I know everything.
+Dialogue: 0,0:09:03.59,0:09:05.92,Main,,0,0,0,,You know?
+Dialogue: 0,0:09:05.92,0:09:10.82,Main,,0,0,0,,- Because I've watched it.\N- You have watched all?
+Dialogue: 0,0:09:10.82,0:09:14.66,Main,,0,0,0,,I was rewatching\Nthem one at a time.
+Dialogue: 0,0:09:14.66,0:09:17.92,Main,,0,0,0,,- I understand!\N- No, you're lying.
+Dialogue: 0,0:09:17.92,0:09:20.26,Main,,0,0,0,,No, I understand!\NYou're cherishing what you like.
+Dialogue: 0,0:09:20.26,0:09:22.62,Main,,0,0,0,,One at a time,\Nyou feel like you want to review it?
+Dialogue: 0,0:09:22.62,0:09:26.66,Main,,0,0,0,,- Because I like them too! Space monsters.\N- What?
+Dialogue: 0,0:09:26.66,0:09:30.66,Main,,0,0,0,,I think my father liked\Nthat kind of monsters.
+Dialogue: 0,0:09:30.66,0:09:32.72,Main,,0,0,0,,Well, he is dead now.
+Dialogue: 0,0:09:35.23,0:09:37.06,Main,,0,0,0,,Oh, seriously!\NThe final series,
+Dialogue: 0,0:09:37.06,0:09:39.26,Main,,0,0,0,,please take it with you.\NYou don't have to return it.
+Dialogue: 0,0:09:42.56,0:09:44.56,Main,,0,0,0,,Okay, that's okay.
+Dialogue: 0,0:09:46.33,0:09:49.06,Main,,0,0,0,,Because of death?
+Dialogue: 0,0:09:51.89,0:09:55.46,Main,,0,0,0,,The space monster,\Nit's going to die, isn't it?
+Dialogue: 0,0:09:55.46,0:09:59.23,Main,,0,0,0,,- In the final version.\N- Yes...
+Dialogue: 0,0:09:59.23,0:10:01.23,Main,,0,0,0,,Well, it's about to die.\NIt's so sad.
+Dialogue: 0,0:10:01.23,0:10:03.72,Main,,0,0,0,,You don't want to see it.
+Dialogue: 0,0:10:03.72,0:10:08.85,Main,,0,0,0,,I also wanted the space\Nmonster to be eternal.
+Dialogue: 0,0:10:08.85,0:10:13.33,Main,,0,0,0,,You really like it, don't you?
+Dialogue: 0,0:10:13.33,0:10:16.92,Main,,0,0,0,,How about you?
+Dialogue: 0,0:10:16.92,0:10:20.39,Main,,0,0,0,,With my father,
+Dialogue: 0,0:10:20.39,0:10:24.72,Main,,0,0,0,,we watched it together in the movies.
+Dialogue: 0,0:10:24.72,0:10:26.79,Main,,0,0,0,,Me too, me too!
+Dialogue: 0,0:10:26.79,0:10:30.92,Main,,0,0,0,,Me too! With my\Ndad when I was a kid!
+Dialogue: 0,0:10:30.92,0:10:33.16,Main,,0,0,0,,Oh, my gosh! Aahahahaha!\NOh, seriously, seriously!
+Dialogue: 0,0:10:33.16,0:10:36.26,Main,,0,0,0,,Please take it home with you.\NI'll find it right away!
+Dialogue: 0,0:10:36.26,0:10:39.02,Main,,0,0,0,,Please wait a minute.
+Dialogue: 0,0:10:39.02,0:10:42.89,Main,,0,0,0,,Huh? There it is!\NNo, no, no...
+Dialogue: 0,0:10:42.89,0:10:46.33,Main,,0,0,0,,No, it's around here somewhere.\NIt's right here! Here we go!
+Dialogue: 0,0:10:59.26,0:11:01.72,Main,,0,0,0,,Hirokazu-san's father also
+Dialogue: 0,0:11:01.72,0:11:04.06,Main,,0,0,0,,liked movies, didn't he?
+Dialogue: 0,0:11:07.85,0:11:10.95,Main,,0,0,0,,You know, my father...
+Dialogue: 0,0:11:10.95,0:11:13.95,Main,,0,0,0,,it's gross.\NPlease stop saying that.
+Dialogue: 0,0:11:13.95,0:11:18.72,Main,,0,0,0,,He's a craftsman, aren't he?
+Dialogue: 0,0:11:18.72,0:11:20.72,Main,,0,0,0,,Do you know?
+Dialogue: 0,0:11:20.72,0:11:25.46,Main,,0,0,0,,I have some information about\Nthe person who is in here.
+Dialogue: 0,0:11:25.46,0:11:29.29,Main,,0,0,0,,So you knew that I\Nleft the house?
+Dialogue: 0,0:11:29.29,0:11:32.62,Main,,0,0,0,,You wanted to be an actor, right?
+Dialogue: 0,0:11:32.62,0:11:38.06,Main,,0,0,0,,Huh, I just aspired to it.\NI'm done with it.
+Dialogue: 0,0:11:38.06,0:11:44.66,Main,,0,0,0,,- What about your father?\N- He didn't say something.
+Dialogue: 0,0:11:44.66,0:11:48.99,Main,,0,0,0,,My father was\Nan old-fashioned craftsman.
+Dialogue: 0,0:11:48.99,0:11:51.72,Main,,0,0,0,,He left the house to my mother.
+Dialogue: 0,0:11:51.72,0:11:54.92,Main,,0,0,0,,He have never been to my\Nclass or to an athletic meet.
+Dialogue: 0,0:11:54.92,0:12:00.52,Main,,0,0,0,,But, he did take you\Nto the movies, didn't he?
+Dialogue: 0,0:12:00.52,0:12:03.36,Main,,0,0,0,,Once every two or three months.
+Dialogue: 0,0:12:03.36,0:12:07.02,Main,,0,0,0,,Just a whim or an idea.
+Dialogue: 0,0:12:07.02,0:12:10.19,Main,,0,0,0,,I guess he just wanted to go.
+Dialogue: 0,0:12:10.19,0:12:17.82,Main,,0,0,0,,
+Dialogue: 0,0:12:17.82,0:12:24.06,Main,,0,0,0,,I found a figure of a\Nspace monster at the store.
+Dialogue: 0,0:12:24.06,0:12:27.72,Main,,0,0,0,,I wanted that.
+Dialogue: 0,0:12:27.72,0:12:30.56,Main,,0,0,0,,Goods for sale at the entrance.
+Dialogue: 0,0:12:30.56,0:12:33.39,Main,,0,0,0,,Hirokazu, for you.
+Dialogue: 0,0:12:33.39,0:12:39.19,Main,,0,0,0,,
+Dialogue: 0,0:12:39.19,0:12:41.39,Main,,0,0,0,,Thank you!
+Dialogue: 0,0:12:43.72,0:12:48.72,Main,,0,0,0,,But my dad bought me,\Na caramel.
+Dialogue: 0,0:12:59.72,0:13:03.26,Main,,0,0,0,,There is still time.
+Dialogue: 0,0:13:03.26,0:13:05.39,Main,,0,0,0,,Time?
+Dialogue: 0,0:13:08.06,0:13:12.39,Main,,0,0,0,,Time left for you.
+Dialogue: 0,0:13:12.39,0:13:14.56,Main,,0,0,0,,I'm going to have a drink then.
+Dialogue: 0,0:13:14.56,0:13:19.56,Main,,0,0,0,,- Yes?\N- Let's have a drink?
+Dialogue: 0,0:13:19.56,0:13:22.89,Main,,0,0,0,,- What are you talking about?\N- Let's have a drink.
+Dialogue: 0,0:13:22.89,0:13:27.06,Main,,0,0,0,,I'd love to have one last\Ndrink to soak up the last of it.
+Dialogue: 0,0:13:27.06,0:13:30.06,Main,,0,0,0,,You're going to cheat\Nlike that until the end?
+Dialogue: 0,0:13:33.72,0:13:38.29,Main,,0,0,0,,Isn't that why you have a bad liver?
+Dialogue: 0,0:13:38.29,0:13:40.79,Main,,0,0,0,,Are you trying to tell me that\Nthat is the reason why I died?
+Dialogue: 0,0:13:40.79,0:13:42.89,Main,,0,0,0,,No, I'm not.
+Dialogue: 0,0:13:42.89,0:13:47.06,Main,,0,0,0,,You know what, they say\N"Drinking is the best of all medicines."
+Dialogue: 0,0:13:47.06,0:13:49.42,Main,,0,0,0,,I am not talking about alcohol.
+Dialogue: 0,0:13:52.36,0:13:54.69,Main,,0,0,0,,You're just trying to\Nfake your true feelings.
+Dialogue: 0,0:13:54.69,0:13:58.72,Main,,0,0,0,,You're running away\Nfrom confronting yourself.
+Dialogue: 0,0:13:58.72,0:14:00.70,Main,,0,0,0,,Do you really want to\Nend your life with that?
+Dialogue: 0,0:14:00.70,0:14:03.06,Main,,0,0,0,,Enough!
+Dialogue: 0,0:14:03.06,0:14:07.39,Main,,0,0,0,,What's wrong with cheating!\NWhat's wrong with running away!
+Dialogue: 0,0:14:07.39,0:14:09.56,Main,,0,0,0,,That's what life is all about!
+Dialogue: 0,0:14:09.56,0:14:12.39,Main,,0,0,0,,I don't care what kind of life you have.
+Dialogue: 0,0:14:12.39,0:14:14.39,Main,,0,0,0,,If that's what you want to do.
+Dialogue: 0,0:14:14.39,0:14:17.39,Main,,0,0,0,,- I said enough!\N- It's not okay!
+Dialogue: 0,0:14:22.06,0:14:25.72,Main,,0,0,0,,You know it's not good!
+Dialogue: 0,0:14:25.72,0:14:28.06,Main,,0,0,0,,What the hell is wrong with you!
+Dialogue: 0,0:14:30.39,0:14:37.06,Main,,0,0,0,,I am the guide who will\Nsee you through to the end.
+Dialogue: 0,0:14:41.06,0:14:45.06,Main,,0,0,0,,Hirokazu Yamawaki,
+Dialogue: 0,0:14:45.06,0:14:50.72,Main,,0,0,0,,you cannot return to this world again.
+Dialogue: 0,0:14:50.72,0:14:55.02,Main,,0,0,0,,You will never hear their voices again.
+Dialogue: 0,0:14:55.02,0:14:58.85,Main,,0,0,0,,You wil never see their faces.
+Dialogue: 0,0:14:58.85,0:15:04.56,Main,,0,0,0,,To whom you really want to meet,
+Dialogue: 0,0:15:04.56,0:15:08.56,Main,,0,0,0,,lastly, just a glance.
+Dialogue: 0,0:15:08.56,0:15:34.72,Main,,0,0,0,,
+Dialogue: 0,0:15:34.72,0:15:42.06,Main,,0,0,0,,My dad is looking good.
+Dialogue: 0,0:15:42.06,0:15:44.06,Main,,0,0,0,,
+Dialogue: 0,0:15:44.06,0:15:46.06,Main,,0,0,0,,Oh no, hide quickly.
+Dialogue: 0,0:15:51.00,0:15:53.00,Main,,0,0,0,,
+Dialogue: 0,0:15:53.00,0:15:55.66,Main,,0,0,0,,Oh no, hide quickly.
+Dialogue: 0,0:15:55.66,0:15:58.16,Main,,0,0,0,,Welcome back.
+Dialogue: 0,0:15:58.16,0:16:01.33,Main,,0,0,0,,Let's finish it today,\NIsn't that what you used to say, dad?
+Dialogue: 0,0:16:01.33,0:16:05.16,Main,,0,0,0,,- We'll get in trouble.\N- What? You could've seen me...
+Dialogue: 0,0:16:08.49,0:16:11.82,Main,,0,0,0,,"I don't want to be like you dad."
+Dialogue: 0,0:16:11.82,0:16:14.33,Main,,0,0,0,,That's what Hirokazu said to me.
+Dialogue: 0,0:16:14.33,0:16:19.00,Main,,0,0,0,,I don't know when I started to\Nlook like his father.
+Dialogue: 0,0:16:19.00,0:16:22.26,Main,,0,0,0,,You call me... your father?
+Dialogue: 0,0:16:22.28,0:16:24.33,Main,,0,0,0,,He said he's an actor.
+Dialogue: 0,0:16:23.74,0:16:24.30,Main,,0,0,0,,- What do you mean?
+Dialogue: 0,0:16:24.33,0:16:26.16,Main,,0,0,0,,That boy's play,\NYuriko said let's go see it.
+Dialogue: 0,0:16:26.16,0:16:30.33,Main,,0,0,0,,I don't know if we can go all the way\Nto Tokyo. She said we must go.
+Dialogue: 0,0:16:30.33,0:16:35.16,Main,,0,0,0,,Dad?
+Dialogue: 0,0:16:35.16,0:16:38.33,Main,,0,0,0,,Dad!
+Dialogue: 0,0:16:38.33,0:16:41.66,Main,,0,0,0,,Dad.
+Dialogue: 0,0:16:41.66,0:16:43.66,Main,,0,0,0,,Where is my father?
+Dialogue: 0,0:16:43.66,0:16:49.66,Main,,0,0,0,,By "my father," do you mean my grandfather?\NDid you dream again?
+Dialogue: 0,0:16:49.66,0:16:52.16,Main,,0,0,0,,The other day, my grandma\Ncame out the other day.
+Dialogue: 0,0:16:52.16,0:16:54.16,Main,,0,0,0,,You know, everyone is not here.
+Dialogue: 0,0:16:54.16,0:16:58.75,Main,,0,0,0,,Perhaps he has dementia?
+Dialogue: 0,0:16:55.76,0:16:59.85,Main,,0,0,0,,Kamo-chan is going to be\Nthe receptionist for the funeral.
+Dialogue: 0,0:16:59.85,0:17:04.00,Main,,0,0,0,,Kamo-chan, you know what I mean?
+Dialogue: 0,0:17:04.00,0:17:10.49,Main,,0,0,0,,I know Kamo, \Nbut who is dead?
+Dialogue: 0,0:17:10.49,0:17:14.66,Main,,0,0,0,,Huh, Hirokazu died!
+Dialogue: 0,0:17:14.66,0:17:18.00,Main,,0,0,0,,You said you understood this morning.
+Dialogue: 0,0:17:18.00,0:17:26.66,Main,,0,0,0,,So you said you wanted something.\NYou asked for this, didn't you?
+Dialogue: 0,0:17:26.66,0:17:31.00,Main,,0,0,0,,You said you're going\Nto put it in the hearse.
+Dialogue: 0,0:17:31.00,0:17:37.00,Main,,0,0,0,,Do you understand? Do you remember?
+Dialogue: 0,0:17:37.00,0:17:42.00,Main,,0,0,0,,He had a bad liver and died.
+Dialogue: 0,0:17:42.00,0:17:48.00,Main,,0,0,0,,The wake just finished.\NThe funeral is in tomorrow.
+Dialogue: 0,0:17:48.00,0:17:51.33,Main,,0,0,0,,The funeral director is waiting.\NI'm going.
+Dialogue: 0,0:17:51.33,0:17:54.33,Main,,0,0,0,,I left it here.
+Dialogue: 0,0:17:56.33,0:17:58.33,Main,,0,0,0,,Are you all right?
+Dialogue: 0,0:18:18.82,0:18:21.66,Main,,0,0,0,,
+Dialogue: 0,0:18:21.66,0:18:24.85,Main,,0,0,0,,What the hell are you doing?
+Dialogue: 0,0:18:24.85,0:18:27.00,Main,,0,0,0,,Don't leave your tools out!\NPut it away!
+Dialogue: 0,0:18:30.00,0:18:32.00,Main,,0,0,0,,- Dad...\N- What the hell.
+Dialogue: 0,0:18:32.00,0:18:35.89,Main,,0,0,0,,I heard Hirokazu passed away.
+Dialogue: 0,0:18:35.89,0:18:37.89,Main,,0,0,0,,Don't be stupid!
+Dialogue: 0,0:18:37.89,0:18:40.33,Main,,0,0,0,,- But...\N- Well then...
+Dialogue: 0,0:18:40.33,0:18:46.00,Main,,0,0,0,,Hirokazu who is still\Nalive today is a ghost!
+Dialogue: 0,0:18:46.00,0:18:52.66,Main,,0,0,0,,He is still alive and well.
+Dialogue: 0,0:18:52.66,0:18:55.82,Main,,0,0,0,,It's true.
+Dialogue: 0,0:18:55.82,0:19:00.66,Main,,0,0,0,,That guy, he's on his\Nway to becoming an actor.
+Dialogue: 0,0:19:00.66,0:19:03.42,Main,,0,0,0,,He's the one who can't come back.
+Dialogue: 0,0:19:03.42,0:19:08.33,Main,,0,0,0,,He doesn't have a face to show to you.
+Dialogue: 0,0:19:08.33,0:19:10.82,Main,,0,0,0,,That's all.
+Dialogue: 0,0:19:13.16,0:19:19.16,Main,,0,0,0,,You, you used to take him to the cinema.
+Dialogue: 0,0:19:19.16,0:19:22.23,Main,,0,0,0,,In the truck, you gave Hirokazu a ride.
+Dialogue: 0,0:19:22.23,0:19:25.00,Main,,0,0,0,,After that, Hirokazu\Nknew what a movie is.
+Dialogue: 0,0:19:25.00,0:19:28.82,Main,,0,0,0,,He wanted to go to the\Nother side of the screen.
+Dialogue: 0,0:19:34.00,0:19:39.89,Main,,0,0,0,,He is sure out to your\Nfavorite movie world.
+Dialogue: 0,0:19:39.89,0:19:43.82,Main,,0,0,0,,He is about to surprise you!
+Dialogue: 0,0:19:43.82,0:19:46.33,Main,,0,0,0,,You're an idiot, you know.
+Dialogue: 0,0:19:49.82,0:19:53.69,Main,,0,0,0,,You know what makes him think that?
+Dialogue: 0,0:19:53.69,0:19:57.16,Main,,0,0,0,,You're the one who's doing the work.
+Dialogue: 0,0:19:57.16,0:20:02.00,Main,,0,0,0,,The only time you spent with him,
+Dialogue: 0,0:20:02.00,0:20:05.46,Main,,0,0,0,,only that time you two spent together,
+Dialogue: 0,0:20:05.46,0:20:11.49,Main,,0,0,0,,it was like a dream for him.
+Dialogue: 0,0:20:15.06,0:20:17.16,Main,,0,0,0,,
+Dialogue: 0,0:20:17.16,0:20:22.82,Main,,0,0,0,,You probably don't even remember.
+Dialogue: 0,0:20:26.49,0:20:28.66,Main,,0,0,0,,What is this?
+Dialogue: 0,0:20:32.16,0:20:37.33,Main,,0,0,0,,I couldn't buy him, the space monster.
+Dialogue: 0,0:20:40.66,0:20:59.49,Main,,0,0,0,,
+Dialogue: 0,0:20:59.49,0:21:02.16,Main,,0,0,0,,You made this kind of thing,
+Dialogue: 0,0:21:02.16,0:21:04.33,Main,,0,0,0,,Yes.
+Dialogue: 0,0:21:04.33,0:21:09.79,Main,,0,0,0,,
+Dialogue: 0,0:21:09.79,0:21:11.79,Main,,0,0,0,,What the hell is this?
+Dialogue: 0,0:21:11.79,0:21:15.33,Main,,0,0,0,,It's the space monster.
+Dialogue: 0,0:21:15.33,0:21:17.92,Main,,0,0,0,,Stupid.
+Dialogue: 0,0:21:17.92,0:21:24.16,Main,,0,0,0,,I don't want my father to call me an idiot.
+Dialogue: 0,0:21:24.16,0:21:27.00,Main,,0,0,0,,What are you crying about?
+Dialogue: 0,0:21:27.00,0:21:34.82,Main,,0,0,0,,
+Dialogue: 0,0:21:34.82,0:21:36.82,Main,,0,0,0,,Thank you.
+Dialogue: 0,0:21:36.82,0:21:40.09,Main,,0,0,0,,What are you talking about?
+Dialogue: 0,0:21:40.09,0:21:45.33,Main,,0,0,0,,I'm saying this on Hirokazu's behalf.
+Dialogue: 0,0:21:45.33,0:21:48.49,Main,,0,0,0,,Thanks!
+Dialogue: 0,0:21:48.49,0:21:56.16,Main,,0,0,0,,Then, sorry,
+Dialogue: 0,0:21:56.16,0:22:00.33,Main,,0,0,0,,sorry, dad.
+Dialogue: 0,0:22:00.33,0:22:03.59,Main,,0,0,0,,What are you apologizing for?
+Dialogue: 0,0:22:03.59,0:22:05.59,Main,,0,0,0,,Shut up.
+Dialogue: 0,0:22:05.59,0:22:18.33,Main,,0,0,0,,
+Dialogue: 0,0:22:18.33,0:22:21.49,Main,,0,0,0,,Here.
+Dialogue: 0,0:22:21.49,0:22:23.49,Main,,0,0,0,,
+Dialogue: 0,0:22:23.49,0:22:35.16,Main,,0,0,0,,
+Dialogue: 0,0:22:35.16,0:22:40.82,Main,,0,0,0,,
+Dialogue: 0,0:22:40.82,0:23:08.82,Main,,0,0,0,,
+Dialogue: 0,0:23:08.82,0:23:11.16,Main,,0,0,0,,You've taken care of me.
+Dialogue: 0,0:23:13.46,0:23:15.46,Main,,0,0,0,,I'm sorry.
+Dialogue: 0,0:23:15.46,0:23:18.00,Main,,0,0,0,,No,
+Dialogue: 0,0:23:18.00,0:23:22.16,Main,,0,0,0,,I didn't want you to have regrets, like me.
+Dialogue: 0,0:23:22.16,0:23:34.17,Main,,0,0,0,,{\i1}{\an8}♪ Inochi no honoo\Nyoru kaze ni sotto kiete ♪
+Dialogue: 0,0:23:24.16,0:23:27.82,Main,,0,0,0,,You too have any regrets?
+Dialogue: 0,0:23:27.82,0:23:30.49,Main,,0,0,0,,There is no such thing as\Na person without regrets.
+Dialogue: 0,0:23:30.49,0:23:33.59,Main,,0,0,0,,Hahahaha, maybe.
+Dialogue: 0,0:23:34.78,0:23:47.29,Main,,0,0,0,,{\i1}♪ {\an8}Kigi wa watashi wo\Nyasashiku dakishimeru ♪
+Dialogue: 0,0:23:36.49,0:23:40.16,Main,,0,0,0,,This is as far as I can take you.
+Dialogue: 0,0:23:40.16,0:23:42.66,Main,,0,0,0,,I wonder if I can be reborn.
+Dialogue: 0,0:23:42.66,0:23:45.69,Main,,0,0,0,,What kind of person do you want to be next?
+Dialogue: 0,0:23:45.69,0:23:53.00,Main,,0,0,0,,Well, I want to be an honest person.
+Dialogue: 0,0:23:47.39,0:23:53.73,Main,,0,0,0,,{\i1}{\an8}♪ Sayonara ienai ♪
+Dialogue: 0,0:23:53.00,0:23:56.36,Main,,0,0,0,,That's how if you can answer honestly.
+Dialogue: 0,0:23:53.73,0:24:00.10,Main,,0,0,0,,{\i1}{\an8}♪ Itooshi sugita hibi ♪
+Dialogue: 0,0:23:56.36,0:24:00.29,Main,,0,0,0,,I think you are already an honest person.
+Dialogue: 0,0:24:00.10,0:24:06.67,Main,,0,0,0,,{\i1}{\an8}♪ Moshi mata meguriaetara ♪
+Dialogue: 0,0:24:00.29,0:24:05.16,Main,,0,0,0,,
+Dialogue: 0,0:24:05.16,0:24:14.82,Main,,0,0,0,,I'm just an asshole prodigal son.
+Dialogue: 0,0:24:06.67,0:24:13.05,Main,,0,0,0,,{\an8\i1}♪ Sayonara no nai sekai ♪
+Dialogue: 0,0:24:13.05,0:24:21.66,Main,,0,0,0,,{\i1}{\an8}♪ Kanashimi nanka nai sekai ni ♪
+Dialogue: 0,0:24:14.82,0:24:17.66,Main,,0,0,0,,
+Dialogue: 0,0:24:17.66,0:24:50.00,Main,,0,0,0,,
+Dialogue: 0,0:24:21.66,0:24:24.12,Main,,0,0,0,,{\i1}{\an8}"Sayonara no nai sekai" by Ohashi Tro
+Dialogue: 0,0:24:26.99,0:24:28.67,Main,,0,0,0,,RAW AND JP SUBS PROVIDER\N@hikaririders
+Dialogue: 0,0:24:29.26,0:24:30.94,Main,,0,0,0,,TRANSLATION TOOL\NDeepL
+Dialogue: 0,0:24:31.63,0:24:33.63,Main,,0,0,0,,ENGLISH SUBTITLES\NChriz Kayriko
+Dialogue: 0,0:24:48.68,0:24:50.36,Main,,0,0,0,,THIS DRAMA IS FICTION.

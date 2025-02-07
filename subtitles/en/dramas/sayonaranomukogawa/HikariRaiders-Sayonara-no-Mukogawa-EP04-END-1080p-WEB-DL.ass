@@ -1,0 +1,276 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,Microsoft Sans Serif,50.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0.0,2,10,10,150,1
+Style: New,Arial,75.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.00,0:00:03.00,Main,,0,0,0,,
+Dialogue: 0,0:00:08.00,0:00:10.33,Main,,0,0,0,,
+Dialogue: 0,0:00:10.33,0:00:14.33,Main,,0,0,0,,Let's see...
+Dialogue: 0,0:00:14.33,0:00:17.33,Main,,0,0,0,,Where was I going to go?
+Dialogue: 0,0:00:17.33,0:00:19.66,Main,,0,0,0,,
+Dialogue: 0,0:00:19.66,0:00:23.66,Main,,0,0,0,,Who is the last person you want to see?
+Dialogue: 0,0:00:26.49,0:00:31.00,Main,,0,0,0,,I'm asking you, Taniguchi-san.
+Dialogue: 0,0:00:31.00,0:00:34.66,Main,,0,0,0,,Um, excuse me...
+Dialogue: 0,0:00:34.66,0:00:41.00,Main,,0,0,0,,I am your guide to the last door.
+Dialogue: 0,0:00:41.00,0:00:49.00,Main,,0,0,0,,I was going to buy\Nsome leeks for a sukiyaki.
+Dialogue: 0,0:00:49.00,0:00:55.00,Main,,0,0,0,,Oh, green onions...
+Dialogue: 0,0:00:55.00,0:01:00.92,Main,,0,0,0,,No, it's more difficult\Nthan that, Taniguchi-san.
+Dialogue: 0,0:01:00.92,0:01:09.49,Main,,0,0,0,,Taniguchi-san, you're already dead.
+Dialogue: 0,0:01:09.49,0:01:11.49,Main,,0,0,0,,Yes?
+Dialogue: 0,0:01:11.49,0:01:13.62,Main,,0,0,0,,You are dead.
+Dialogue: 0,0:01:13.62,0:01:17.49,Main,,0,0,0,,
+Dialogue: 0,0:01:17.49,0:01:19.66,Main,,0,0,0,,Yoko?
+Dialogue: 0,0:01:19.66,0:01:26.00,Main,,0,0,0,,Yoko-san is the wife\Nof Taniguchi-san, right?
+Dialogue: 0,0:01:26.00,0:01:28.00,Main,,0,0,0,,Do you know her?
+Dialogue: 0,0:01:28.00,0:01:33.72,Main,,0,0,0,,I know the general\Ninformation of who will be here.
+Dialogue: 0,0:01:35.42,0:01:43.66,Main,,0,0,0,,The two of you met two years ago,\NApril 10, 1982.
+Dialogue: 0,0:01:43.66,0:01:48.95,Main,,0,0,0,,You were going to deliver\Nmail at a barbershop, right?
+Dialogue: 0,0:01:48.95,0:01:51.00,Main,,0,0,0,,How do you know that?
+Dialogue: 0,0:01:51.00,0:01:54.66,Main,,0,0,0,,The previous owner passed away there and
+Dialogue: 0,0:01:54.66,0:01:59.49,Main,,0,0,0,,there was no one using the\Nstore for a while, wasn't it?
+Dialogue: 0,0:01:59.49,0:02:02.00,Main,,0,0,0,,Yes, that's right.
+Dialogue: 0,0:02:02.00,0:02:08.33,Main,,0,0,0,,
+Dialogue: 0,0:02:08.33,0:02:12.00,Main,,0,0,0,,That place has... \NOh...
+Dialogue: 0,0:02:12.00,0:02:18.00,Main,,0,0,0,,A nice woman has started working there.
+Dialogue: 0,0:02:18.00,0:02:22.56,Main,,0,0,0,,Yes, that was our first meeting of Yoko.
+Dialogue: 0,0:02:22.56,0:02:34.66,Main,,0,0,0,,
+Dialogue: 0,0:02:34.66,0:02:39.42,Main,,0,0,0,, I don't even remember what she said.
+Dialogue: 0,0:02:39.42,0:02:46.72,Main,,0,0,0,,When she saw me, I thought my\Nheart was going to jump out of my mouth.
+Dialogue: 0,0:02:46.72,0:02:53.00,Main,,0,0,0,,I've never seen anything\Nlike this before in my life.
+Dialogue: 0,0:02:53.00,0:02:59.00,Main,,0,0,0,,
+Dialogue: 0,0:02:59.00,0:03:03.00,Main,,0,0,0,,And then, even when\Nit's not my delivery time,
+Dialogue: 0,0:03:03.00,0:03:07.00,Main,,0,0,0,,I started going to her barber shop.
+Dialogue: 0,0:03:07.00,0:03:11.79,Main,,0,0,0,,Somewhere along the way, she started\Nreferring to me as not "the mailman".
+Dialogue: 0,0:03:11.79,0:03:15.66,Main,,0,0,0,,She started calling me "Taniguchi-san".
+Dialogue: 0,0:03:15.66,0:03:33.89,Main,,0,0,0,,
+Dialogue: 0,0:03:33.89,0:03:37.72,Main,,0,0,0,,We became husband and wife.
+Dialogue: 0,0:03:37.72,0:03:46.49,Main,,0,0,0,,We rented a house with a small garden.\NWe planted a plum tree in the garden.
+Dialogue: 0,0:03:46.49,0:03:52.49,Main,,0,0,0,,Then with one little dog,\Nwe did not want children.
+Dialogue: 0,0:03:52.49,0:03:59.06,Main,,0,0,0,,Yoko always made sukiyaki on my payday.
+Dialogue: 0,0:03:59.06,0:04:04.29,Main,,0,0,0,,For me, it was a dreamy time.
+Dialogue: 0,0:04:04.29,0:04:08.66,Main,,0,0,0,,I thought if I woke up, it would disappear,
+Dialogue: 0,0:04:08.66,0:04:11.79,Main,,0,0,0,,there was a time when I thought that.
+Dialogue: 0,0:04:11.79,0:04:18.33,Main,,0,0,0,,
+Dialogue: 0,0:04:18.33,0:04:24.33,Main,,0,0,0,,That day was both payday\Nand our wedding anniversary.
+Dialogue: 0,0:04:24.33,0:04:29.82,Main,,0,0,0,,She realized that she forgot\Nto buy leeks at the supermarket.
+Dialogue: 0,0:04:29.82,0:04:40.00,Main,,0,0,0,,
+Dialogue: 0,0:04:40.00,0:04:45.33,Main,,0,0,0,,It was a special day.\NI wanted to go home as soon as possible.
+Dialogue: 0,0:04:45.33,0:04:49.16,Main,,0,0,0,,But I felt dizzy,
+Dialogue: 0,0:04:49.16,0:04:54.66,Main,,0,0,0,,the ground became distorted and\NI couldn't stand up.
+Dialogue: 0,0:04:54.66,0:04:58.16,Main,,0,0,0,,It was an indescribable feeling.
+Dialogue: 0,0:05:06.00,0:05:09.95,Main,,0,0,0,,It's stroke.
+Dialogue: 0,0:05:09.95,0:05:18.33,Main,,0,0,0,,I see, I'm dead.
+Dialogue: 0,0:05:18.33,0:05:22.00,Main,,0,0,0,,But you know what, Taniguchi-san?\NI have something for you.
+Dialogue: 0,0:05:22.00,0:05:26.33,Main,,0,0,0,,There is one remaining hope.
+Dialogue: 0,0:05:26.33,0:05:28.33,Main,,0,0,0,,Hope?
+Dialogue: 0,0:05:28.33,0:05:32.33,Main,,0,0,0,,One last day,\Nto the people you want to see in this life,
+Dialogue: 0,0:05:32.33,0:05:34.33,Main,,0,0,0,,you can go to see them.
+Dialogue: 0,0:05:34.33,0:05:37.36,Main,,0,0,0,,So then,\NI can go see Yoko, right?
+Dialogue: 0,0:05:37.36,0:05:44.72,Main,,0,0,0,,Uh, I'm sorry to tell you this,\NI'm afraid you can't do that.
+Dialogue: 0,0:05:44.72,0:05:46.72,Main,,0,0,0,,Why not?
+Dialogue: 0,0:05:46.72,0:05:50.33,Main,,0,0,0,,From now on, the only people\NTanaguchi-san can see are
+Dialogue: 0,0:05:50.33,0:05:54.33,Main,,0,0,0,,the only people who\Ndon't know that you died.
+Dialogue: 0,0:05:59.16,0:06:03.33,Main,,0,0,0,,Well then, Yoko...
+Dialogue: 0,0:06:03.33,0:06:07.00,Main,,0,0,0,,Yoko already mourned.
+Dialogue: 0,0:06:07.00,0:06:09.52,Main,,0,0,0,,Your funeral has been completed.
+Dialogue: 0,0:06:09.52,0:06:16.19,Main,,0,0,0,,Therefore, your relatives who\Nattended and those at work....
+Dialogue: 0,0:06:16.19,0:06:19.06,Main,,0,0,0,,It's just Yoko.\NShe's the only one I want to see!
+Dialogue: 0,0:06:19.06,0:06:21.13,Main,,0,0,0,,That's the rule.
+Dialogue: 0,0:06:21.13,0:06:24.00,Main,,0,0,0,,She changed my life.
+Dialogue: 0,0:06:24.00,0:06:27.82,Main,,0,0,0,,Yoko is my life!\NShe's everything in my life!
+Dialogue: 0,0:06:27.82,0:06:31.95,Main,,0,0,0,,Please, let me see Yoko.\NLet me see Yoko!
+Dialogue: 0,0:06:31.95,0:06:35.29,Main,,0,0,0,,Well, even if you put it that way,
+Dialogue: 0,0:06:35.29,0:06:38.00,Main,,0,0,0,,I'm still planning something,
+Dialogue: 0,0:06:38.00,0:06:44.16,Main,,0,0,0,,I haven't told her anything important.
+Dialogue: 0,0:06:44.16,0:06:47.00,Main,,0,0,0,,We're in trouble.
+Dialogue: 0,0:06:47.00,0:06:57.75,Main,,0,0,0,,GOODBYE MY DEAR
+Dialogue: 0,0:06:57.75,0:07:01.48,Main,,0,0,0,,episode 4 : A Long Time
+Dialogue: 0,0:07:10.00,0:07:15.16,Main,,0,0,0,,Sayaka is the only one I want to see.
+Dialogue: 0,0:07:15.16,0:07:19.16,Main,,0,0,0,,Hey, are you listening?
+Dialogue: 0,0:07:19.16,0:07:22.82,Main,,0,0,0,,Excuse me,\NI was just thinking.
+Dialogue: 0,0:07:22.82,0:07:27.75,Main,,0,0,0,,Please! This kind of place,\NI can't use this.
+Dialogue: 0,0:07:27.75,0:07:33.46,Main,,0,0,0,,Kotaro Iseya,\Nunfortunately,
+Dialogue: 0,0:07:33.46,0:07:36.82,Main,,0,0,0,,You may only meet those\Nwho don't know you died.
+Dialogue: 0,0:07:36.82,0:07:39.75,Main,,0,0,0,,- That's a rule.\N- Then, I told you earlier!
+Dialogue: 0,0:07:39.75,0:07:42.26,Main,,0,0,0,,We had a fight over\Nsomething boring and I ran out.
+Dialogue: 0,0:07:42.26,0:07:45.56,Main,,0,0,0,,Sayaka still doesn't know\Nabout the accident.
+Dialogue: 0,0:07:47.56,0:07:52.29,Main,,0,0,0,,Oh, it seems so.
+Dialogue: 0,0:07:52.29,0:07:54.85,Main,,0,0,0,,Then,
+Dialogue: 0,0:07:54.85,0:07:57.39,Main,,0,0,0,,here you go.
+Dialogue: 0,0:07:57.39,0:08:07.00,Main,,0,0,0,,
+Dialogue: 0,0:08:07.00,0:08:09.00,Main,,0,0,0,,What is wrong?
+Dialogue: 0,0:08:09.00,0:08:08.00,Main,,0,0,0,,
+Dialogue: 0,0:08:12.03,0:08:15.00,Main,,0,0,0,,Kotaro-san?
+Dialogue: 0,0:08:15.00,0:08:17.00,Main,,0,0,0,,I think it's okay.
+Dialogue: 0,0:08:20.33,0:08:24.00,Main,,0,0,0,,You and Sayaka-san,\Nyou lived together, right?
+Dialogue: 0,0:08:24.00,0:08:26.00,Main,,0,0,0,,Yes.
+Dialogue: 0,0:08:26.00,0:08:29.33,Main,,0,0,0,,The life with the two of you\Nmust have been fun, huh?
+Dialogue: 0,0:08:29.33,0:08:32.39,Main,,0,0,0,,Every day is a great day.
+Dialogue: 0,0:08:32.39,0:08:37.49,Main,,0,0,0,,That's... happiness is happy.
+Dialogue: 0,0:08:37.49,0:08:45.49,Main,,0,0,0,,- If that's the case, then right now...\N- Sayaka is, you know, a crybaby.
+Dialogue: 0,0:08:45.49,0:08:48.66,Main,,0,0,0,,She's a crybaby and sensitive.
+Dialogue: 0,0:08:48.66,0:08:55.33,Main,,0,0,0,,If I meet her halfway,\NI might make her sad even more.
+Dialogue: 0,0:08:55.33,0:08:59.19,Main,,0,0,0,,I want to see her but\NI don't want to see her.
+Dialogue: 0,0:09:01.19,0:09:03.19,Main,,0,0,0,,I see.
+Dialogue: 0,0:09:03.19,0:09:05.46,Main,,0,0,0,,I can't stay by her side all the time.
+Dialogue: 0,0:09:05.46,0:09:10.16,Main,,0,0,0,,I wonder if there is any\Nmeaning in seeing her.
+Dialogue: 0,0:09:10.16,0:09:15.33,Main,,0,0,0,,Kotaro! Kotaro!
+Dialogue: 0,0:09:22.49,0:09:26.59,Main,,0,0,0,,Kotaro!
+Dialogue: 0,0:09:26.59,0:09:30.13,Main,,0,0,0,,Kotaro!
+Dialogue: 0,0:09:35.16,0:09:37.66,Main,,0,0,0,,Kotaro!
+Dialogue: 0,0:09:39.66,0:09:43.16,Main,,0,0,0,,It looks like a place of\Nmemories for the two of you.
+Dialogue: 0,0:09:46.33,0:09:49.66,Main,,0,0,0,,She enjoys photography.
+Dialogue: 0,0:09:49.66,0:09:54.16,Main,,0,0,0,,I'm surprised she came\Nhere to take pictures.
+Dialogue: 0,0:09:54.16,0:09:57.42,Main,,0,0,0,,I've been modeled for a long time.
+Dialogue: 0,0:09:57.42,0:10:00.16,Main,,0,0,0,,I see.
+Dialogue: 0,0:10:00.16,0:10:06.82,Main,,0,0,0,,Sayaka's pics are so sweet,
+Dialogue: 0,0:10:06.82,0:10:11.06,Main,,0,0,0,,like a small flower blooming\Non the side of the road,
+Dialogue: 0,0:10:11.06,0:10:15.26,Main,,0,0,0,,discarded and lying around\Nthat they were thrown away,
+Dialogue: 0,0:10:15.26,0:10:19.33,Main,,0,0,0,,cutting out a small world that no one sees.
+Dialogue: 0,0:10:19.33,0:10:25.49,Main,,0,0,0,,Please go to her, Kotaro-san.
+Dialogue: 0,0:10:25.49,0:10:29.82,Main,,0,0,0,,Why are you such a pest?
+Dialogue: 0,0:10:29.82,0:10:33.62,Main,,0,0,0,,It may be difficult for you.
+Dialogue: 0,0:10:33.62,0:10:38.56,Main,,0,0,0,,It's hard to tell it to your loved ones.
+Dialogue: 0,0:10:38.56,0:10:46.66,Main,,0,0,0,,But to touch each other\Nand feel the warmth,
+Dialogue: 0,0:10:46.66,0:10:52.16,Main,,0,0,0,,you are still allowed to have that time.
+Dialogue: 0,0:10:52.16,0:11:12.00,Main,,0,0,0,,
+Dialogue: 0,0:11:27.33,0:11:30.49,Main,,0,0,0,,Kotaro.
+Dialogue: 0,0:11:30.49,0:11:32.49,Main,,0,0,0,,Hi.
+Dialogue: 0,0:11:37.00,0:11:39.66,Main,,0,0,0,,Thank God!
+Dialogue: 0,0:11:44.49,0:11:47.49,Main,,0,0,0,,I was so worried.
+Dialogue: 0,0:11:58.49,0:12:01.49,Main,,0,0,0,,Thank goodness.
+Dialogue: 0,0:12:01.49,0:12:09.49,Main,,0,0,0,,Don't go anywhere else, Kotaro.
+Dialogue: 0,0:12:09.49,0:12:17.72,Main,,0,0,0,,
+Dialogue: 0,0:12:17.72,0:12:23.52,Main,,0,0,0,,I knew I made you cry.
+Dialogue: 0,0:12:23.52,0:12:28.06,Main,,0,0,0,,I'm sorry, Sayaka,\NI have to go now.
+Dialogue: 0,0:12:28.06,0:12:53.66,Main,,0,0,0,,
+Dialogue: 0,0:12:53.66,0:12:55.39,Main,,0,0,0,,Running away, ah you caught it.
+Dialogue: 0,0:12:55.39,0:12:57.52,Main,,0,0,0,,Ohh, let go of it, let it go.
+Dialogue: 0,0:12:57.52,0:12:59.16,Main,,0,0,0,,Kotaro, this way, this way...
+Dialogue: 0,0:13:02.85,0:13:08.85,Main,,0,0,0,,I was really happy to live with Sayaka.
+Dialogue: 0,0:13:08.85,0:13:14.52,Main,,0,0,0,,Every day that we spent together,\NI will never forget it.
+Dialogue: 0,0:13:14.52,0:13:18.39,Main,,0,0,0,,I love her more than anything in the world.
+Dialogue: 0,0:13:18.39,0:13:20.72,Main,,0,0,0,,Kotaro...
+Dialogue: 0,0:13:25.52,0:13:28.89,Main,,0,0,0,,Thanks.
+Dialogue: 0,0:13:28.89,0:13:34.00,Main,,0,0,0,,Thanks to you,\NI got it right at the end.
+Dialogue: 0,0:13:34.00,0:13:40.49,Main,,0,0,0,,I got to tell her how much I love her.
+Dialogue: 0,0:13:40.49,0:13:42.75,Main,,0,0,0,,Happiness is happy.
+Dialogue: 0,0:13:46.19,0:13:52.26,Main,,0,0,0,,Kotaro-san, it's because\Nyou had courage.
+Dialogue: 0,0:13:52.26,0:13:58.85,Main,,0,0,0,,I, even if I'm born again,
+Dialogue: 0,0:13:58.85,0:14:02.13,Main,,0,0,0,,I'm going to be Sayaka's cat.
+Dialogue: 0,0:14:02.13,0:14:04.52,Main,,0,0,0,,I hope that day will come.
+Dialogue: 0,0:14:04.52,0:14:23.06,Main,,0,0,0,,
+Dialogue: 0,0:14:23.06,0:14:30.06,Main,,0,0,0,,I got tell her how much I love her.
+Dialogue: 0,0:14:35.03,0:14:39.03,Main,,0,0,0,,How's it going?
+Dialogue: 0,0:14:39.03,0:14:42.39,Main,,0,0,0,,We've known each other for a long time.
+Dialogue: 0,0:14:42.39,0:14:46.33,Main,,0,0,0,,You've been here for 10 years now.
+Dialogue: 0,0:14:46.33,0:14:52.16,Main,,0,0,0,,No matter what you say,\NI only want to see Yoko.
+Dialogue: 0,0:14:52.16,0:14:54.95,Main,,0,0,0,,You're a really strange person.
+Dialogue: 0,0:14:54.95,0:14:59.33,Main,,0,0,0,,Normally you wouldn't be able to stand\Nsuch an unbearable hell.
+Dialogue: 0,0:14:59.33,0:15:04.19,Main,,0,0,0,,I can spend my life\Nhere thinking about Yoko.
+Dialogue: 0,0:15:04.19,0:15:06.89,Main,,0,0,0,,I thought maybe it's not so bad,
+Dialogue: 0,0:15:06.89,0:15:10.42,Main,,0,0,0,,yeah, this kind of life\Nthing, don't you call it?
+Dialogue: 0,0:15:10.42,0:15:13.62,Main,,0,0,0,, Life, huh?
+Dialogue: 0,0:15:13.62,0:15:18.16,Main,,0,0,0,,I came here today with a proposal.
+Dialogue: 0,0:15:18.16,0:15:20.29,Main,,0,0,0,,Proposal?
+Dialogue: 0,0:15:20.29,0:15:24.16,Main,,0,0,0,,Taniguchi-san,\Nwould you like to be the guide?
+Dialogue: 0,0:15:24.16,0:15:26.36,Main,,0,0,0,,What?
+Dialogue: 0,0:15:26.36,0:15:29.82,Main,,0,0,0,,Now, it's about time I leave.
+Dialogue: 0,0:15:29.82,0:15:34.59,Main,,0,0,0,,I think it's time for me\Nto have a reincarnation.
+Dialogue: 0,0:15:34.59,0:15:38.49,Main,,0,0,0,,But can I play such a big role?
+Dialogue: 0,0:15:38.49,0:15:43.36,Main,,0,0,0,,If you're patient, you're perfect for it.
+Dialogue: 0,0:15:43.36,0:15:47.36,Main,,0,0,0,,You will have to wait here, though.
+Dialogue: 0,0:15:47.36,0:15:51.13,Main,,0,0,0,,That's fine,\NI'll be here anyway.
+Dialogue: 0,0:15:51.13,0:15:56.89,Main,,0,0,0,,I'm not sure if you're a\Nlaid-back person or what,
+Dialogue: 0,0:15:56.89,0:16:01.19,Main,,0,0,0,,Taniguchi-san,\Nyou may be suited to be the guide.
+Dialogue: 0,0:16:01.19,0:16:05.56,Main,,0,0,0,,I'm sure you're suited for it.
+Dialogue: 0,0:16:05.56,0:16:09.06,Main,,0,0,0,,I'm sure you'll be able to see them off.
+Dialogue: 0,0:16:11.52,0:16:13.52,Main,,0,0,0,,I'm going now.
+Dialogue: 0,0:16:19.29,0:16:21.29,Main,,0,0,0,,
+Dialogue: 0,0:16:21.29,0:16:32.46,Main,,0,0,0,,
+Dialogue: 0,0:16:32.46,0:16:35.79,Main,,0,0,0,,Thank you, guide.
+Dialogue: 0,0:16:35.79,0:16:37.36,Main,,0,0,0,,What the hell are you!
+Dialogue: 0,0:16:37.36,0:16:42.33,Main,,0,0,0,,You took care of me.\NI'm sorry.
+Dialogue: 0,0:16:42.33,0:16:47.79,Main,,0,0,0,,Guide-san, it was nice to meet you too.
+Dialogue: 0,0:16:47.79,0:16:52.13,Main,,0,0,0,,Thank you, good work.
+Dialogue: 0,0:16:52.13,0:16:56.56,Main,,0,0,0,,I'm glad I apologized,\Nthanks to you guide.
+Dialogue: 0,0:16:56.56,0:17:02.56,Main,,0,0,0,,Thank you!
+Dialogue: 0,0:17:02.56,0:17:32.92,Main,,0,0,0,,
+Dialogue: 0,0:17:39.03,0:17:40.89,Main,,0,0,0,,Yoko...
+Dialogue: 0,0:17:40.89,0:17:46.69,Main,,0,0,0,,Kenji-san...
+Dialogue: 0,0:17:46.69,0:17:48.85,Main,,0,0,0,,Kenji-san, is that you?
+Dialogue: 0,0:17:51.29,0:17:55.72,Main,,0,0,0,,Yoko...
+Dialogue: 0,0:17:55.72,0:18:03.52,Main,,0,0,0,,It's like a dream.\NIt really is Yoko, isn't it?
+Dialogue: 0,0:18:03.52,0:18:10.03,Main,,0,0,0,,All I do is to grow so old.
+Dialogue: 0,0:18:14.42,0:18:20.00,Main,,0,0,0,,You didn't change, until now.
+Dialogue: 0,0:18:28.00,0:18:34.29,Main,,0,0,0,,On the other side of goodbye?
+Dialogue: 0,0:18:34.29,0:18:38.92,Main,,0,0,0,,I am called "the guide".
+Dialogue: 0,0:18:42.00,0:18:46.62,Main,,0,0,0,,I didn't know there was a world like this.
+Dialogue: 0,0:18:56.46,0:19:03.72,Main,,0,0,0,,It's been a really long time.\NI'm sorry to keep you waiting.
+Dialogue: 0,0:19:06.39,0:19:11.09,Main,,0,0,0,,I don't mind waiting.
+Dialogue: 0,0:19:18.09,0:19:21.29,Main,,0,0,0,,Me too,
+Dialogue: 0,0:19:21.29,0:19:25.19,Main,,0,0,0,,there's something I really\Nwanted to say to Yoko.
+Dialogue: 0,0:19:31.92,0:19:38.33,Main,,0,0,0,,For always cutting my hair, thank you.
+Dialogue: 0,0:19:41.03,0:19:47.26,Main,,0,0,0,,For making my favorite\Nmiso soup, thank you.
+Dialogue: 0,0:19:51.13,0:19:56.59,Main,,0,0,0,,For keeping my beer cold, thank you.
+Dialogue: 0,0:19:59.42,0:20:02.06,Main,,0,0,0,,And then,
+Dialogue: 0,0:20:06.19,0:20:09.42,Main,,0,0,0,,then,
+Dialogue: 0,0:20:15.62,0:20:19.82,Main,,0,0,0,,For being with me, thank you.
+Dialogue: 0,0:20:25.66,0:20:33.42,Main,,0,0,0,,You made my life bright.
+Dialogue: 0,0:20:33.42,0:20:39.75,Main,,0,0,0,,I really love your smile.
+Dialogue: 0,0:20:46.29,0:20:53.19,Main,,0,0,0,,Always, always,
+Dialogue: 0,0:20:53.19,0:20:57.19,Main,,0,0,0,,always and ever,
+Dialogue: 0,0:20:57.19,0:21:02.00,Main,,0,0,0,,I only love you.
+Dialogue: 0,0:21:02.00,0:21:05.13,Main,,0,0,0,,Kenji-san...
+Dialogue: 0,0:21:05.13,0:21:08.16,Main,,0,0,0,,
+Dialogue: 0,0:21:08.16,0:21:15.13,Main,,0,0,0,,Ahh... I could finally say it.
+Dialogue: 0,0:21:15.13,0:21:18.72,Main,,0,0,0,,It's such a simple thing.
+Dialogue: 0,0:21:18.72,0:21:24.75,Main,,0,0,0,,Why couldn't I have said it\Nhonestly while I was alive?
+Dialogue: 0,0:21:24.75,0:21:29.26,Main,,0,0,0,,It's nice to have it put into words.\NI'm glad to hear you say it.
+Dialogue: 0,0:21:29.26,0:21:36.09,Main,,0,0,0,,
+Dialogue: 0,0:21:36.09,0:21:39.46,Main,,0,0,0,,Then,
+Dialogue: 0,0:21:39.46,0:21:44.69,Main,,0,0,0,,
+Dialogue: 0,0:21:44.69,0:21:50.33,Main,,0,0,0,,if we are born again,\Nlet's get married.
+Dialogue: 0,0:21:50.33,0:21:57.09,Main,,0,0,0,,
+Dialogue: 0,0:21:57.09,0:21:59.69,Main,,0,0,0,,Of course.
+Dialogue: 0,0:21:59.69,0:22:21.82,Main,,0,0,0,,
+Dialogue: 0,0:22:21.82,0:22:25.72,Main,,0,0,0,,I know it's late, but
+Dialogue: 0,0:22:25.72,0:22:31.00,Main,,0,0,0,,I'm back, Yoko.
+Dialogue: 0,0:22:31.00,0:22:35.03,Main,,0,0,0,,
+Dialogue: 0,0:22:35.03,0:22:38.85,Main,,0,0,0,,Welcome back, Kenji-san.
+Dialogue: 0,0:22:38.85,0:22:56.00,Main,,0,0,0,,
+Dialogue: 0,0:22:56.00,0:23:01.13,Main,,0,0,0,,Thank you for the happy hour.
+Dialogue: 0,0:23:01.13,0:23:05.00,Main,,0,0,0,,Thank you, too.
+Dialogue: 0,0:23:05.00,0:23:10.36,Main,,0,0,0,,I've been waiting for you here\Nfor a long time. I'm really glad.
+Dialogue: 0,0:23:10.36,0:23:15.46,Main,,0,0,0,,I'm glad you'll be seeing me off, too.
+Dialogue: 0,0:23:15.46,0:23:19.52,Main,,0,0,0,,
+Dialogue: 0,0:23:19.52,0:23:25.33,Main,,0,0,0,,Let's meet again someday.
+Dialogue: 0,0:23:25.33,0:23:27.82,Main,,0,0,0,,Someday,
+Dialogue: 0,0:23:27.82,0:23:30.69,Main,,0,0,0,,certainly.
+Dialogue: 0,0:23:30.69,0:23:36.11,Main,,0,0,0,,OFFICIAL SOUNDTRACK\N"Sayonara no nai sekai" by Ohashi Trio
+Dialogue: 0,0:23:36.11,0:23:41.35,Main,,0,0,0,,RAW AND JP SUBS PROVIDER\N@hikaririders
+Dialogue: 0,0:23:41.35,0:23:46.32,Main,,0,0,0,,TRANSLATION TOOL\NDeepL
+Dialogue: 0,0:23:44.59,0:24:15.29,Main,,0,0,0,,
+Dialogue: 0,0:23:46.32,0:23:51.39,Main,,0,0,0,,ENGLISH SUBTITLES\NChriz Kayriko (@chrizkayriko)
+Dialogue: 0,0:24:15.29,0:24:19.15,Main,,0,0,0,,Who is the last person you want to see?
+Dialogue: 0,0:24:19.15,0:24:20.83,Main,,0,0,0,,THIS DRAMA IS FICTION
+Dialogue: 0,0:24:21.02,0:24:22.76,Main,,0,0,0,,HULU ORIGINAL STORY WILL BE RELEASED!
+Dialogue: 0,0:24:22.49,0:24:25.75,Main,,0,0,0,,You want to go to the\Nperson you love the most,
+Dialogue: 0,0:24:25.75,0:24:29.36,Main,,0,0,0,,- it's what you wish for, isn't it?\N- Mom, dad,
+Dialogue: 0,0:24:29.36,0:24:31.39,Main,,0,0,0,,NO!!!
+Dialogue: 0,0:24:31.39,0:24:34.85,Main,,0,0,0,,- I want to get married.\N- Yes.
+Dialogue: 0,0:24:34.85,0:24:37.42,Main,,0,0,0,,Dear Yoko,
+Dialogue: 0,0:24:37.42,0:24:42.49,Main,,0,0,0,,I can't imagine my life without you.
+Dialogue: 0,0:24:42.49,0:24:47.00,Main,,0,0,0,,Will you continue to cut my hair?
+Dialogue: 0,0:24:47.98,0:24:51.03,Main,,0,0,0,,After this, \Nthe streaming starts on HULU!
