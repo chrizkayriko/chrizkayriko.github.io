@@ -1,0 +1,521 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Helvetica 65 Medium,18.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,10,10,25,1
+Style: Notes,Arial,14,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.0,8,10,10,25,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:13.17,0:00:14.78,Default,,0,0,0,,{\i1}If that day,{\i0}
+Dialogue: 0,0:00:19.17,0:00:24.14,Default,,0,0,0,,{\i1}If grandma hadn’t come to see me, {\i0}
+Dialogue: 0,0:00:24.17,0:00:28.47,Default,,0,0,0,,{\i1}in that house now,{\i0}
+Dialogue: 0,0:00:28.51,0:00:33.97,Default,,0,0,0,,{\i1}I would probably still be living a\Nhidden life without anyone knowing.{\i0}
+Dialogue: 0,0:00:36.67,0:00:38.67,Default,,0,0,0,,Satori!
+Dialogue: 0,0:00:42.00,0:00:46.47,Default,,0,0,0,,I’m sorry, for not knowing.
+Dialogue: 0,0:00:46.51,0:00:51.81,Default,,0,0,0,,Well, I didn’t know this would happen.
+Dialogue: 0,0:00:52.01,0:00:57.96,Default,,0,0,0,,{\i1}Grandmother's chest was\Nwarm, and it had a nostalgic smell.{\i0}
+Dialogue: 0,0:01:00.00,0:01:06.14,Default,,0,0,0,,{\i1}At the age of 12, when I hit a\Ndead end and became a {\i1}hikkikomori{\i0},{\i0}
+Dialogue: 0,0:01:00.00,0:01:02.67,Notes,,0,0,0,,{\an8}(TN:{\i1} Hikkikomori{\i0} will be defined later.)
+Dialogue: 0,0:01:06.17,0:01:09.67,Default,,0,0,0,,{\i1}my life started moving again.{\i0}
+Dialogue: 0,0:01:13.17,0:01:15.47,Default,,0,0,0,,Hmm, what is it?
+Dialogue: 0,0:01:15.51,0:01:18.47,Default,,0,0,0,,What could it be? A dog?
+Dialogue: 0,0:01:18.51,0:01:21.47,Default,,0,0,0,,It’s not a dog. If it were a dog, I’d know.
+Dialogue: 0,0:01:21.51,0:01:24.97,Default,,0,0,0,,It’s kind of different from a dog.
+Dialogue: 0,0:01:25.00,0:01:28.47,Default,,0,0,0,,Yeah... then what smell is it?
+Dialogue: 0,0:01:28.51,0:01:30.81,Default,,0,0,0,,What smell is it?
+Dialogue: 0,0:01:33.00,0:01:35.97,Default,,0,0,0,,When the wind blows...
+Dialogue: 0,0:01:36.00,0:01:39.64,Default,,0,0,0,,Ah, look, now.
+Dialogue: 0,0:01:39.67,0:01:42.14,Default,,0,0,0,,It smells faintly.
+Dialogue: 0,0:01:44.17,0:01:46.14,Default,,0,0,0,,What is it?
+Dialogue: 0,0:01:52.67,0:01:54.64,Default,,0,0,0,,Isn’t it this way? I think it’s behind us.
+Dialogue: 0,0:01:54.67,0:01:58.21,Default,,0,0,0,,It’s not this way. There’s\Nno way it’s this way.
+Dialogue: 0,0:02:00.17,0:02:04.47,Default,,0,0,0,,Hey, new students! Where are you\Ngoing? The boys' dorm is that way!
+Dialogue: 0,0:02:04.51,0:02:06.64,Default,,0,0,0,,Hello!
+Dialogue: 0,0:02:06.67,0:02:09.14,Default,,0,0,0,,What is this smell?
+Dialogue: 0,0:02:09.17,0:02:12.31,Default,,0,0,0,,You figured it out. It’s\Nthe smell of wild animals.
+Dialogue: 0,0:02:12.34,0:02:14.65,Default,,0,0,0,,There’s a primeval\Nforest around here,
+Dialogue: 0,0:02:14.68,0:02:17.81,Default,,0,0,0,,so occasionally the smell of\Nwild animals mixes with the wind.
+Dialogue: 0,0:02:17.84,0:02:20.47,Default,,0,0,0,,Does that mean there\Nare wild animals nearby?
+Dialogue: 0,0:02:20.51,0:02:22.97,Default,,0,0,0,,What do you think this place is?
+Dialogue: 0,0:02:23.00,0:02:27.31,Default,,0,0,0,,There are foxes, raccoon dogs, and deer.\NIt’s natural to have wild animals here.
+Dialogue: 0,0:02:27.34,0:02:29.81,Default,,0,0,0,,A wild animal trail, huh...
+Dialogue: 0,0:02:29.78,0:02:40.03,Notes,,0,0,0,,{\an8}(TN: The term {\i1}kemonomichi{\i0} can also be referred as the path of wild animals but in the title of this drama, {\i1}kemonomichi{\i0} is used metaphorically to evoke a sense of a natural, untamed pathway where lilacs bloom.)
+Dialogue: 0,0:02:29.84,0:02:35.47,Default,,0,0,0,,Well, even so, these birch\Ntrees will bloom next month
+Dialogue: 0,0:02:35.51,0:02:40.14,Default,,0,0,0,,and the lilacs will also be in full bloom.\NIt’s quite a beautiful wild animal trail.
+Dialogue: 0,0:02:40.17,0:02:44.00,Default,,0,0,0,, Uh, everyone, are you the new\Nstudents of Hokuno University?
+Dialogue: 0,0:02:45.67,0:02:48.97,Default,,0,0,0,,Nice to meet you. I’m Kase, the\Ndorm manager of the boys' dorm.
+Dialogue: 0,0:02:49.00,0:02:50.97,Default,,0,0,0,,Kase-san.
+Dialogue: 0,0:02:51.00,0:02:56.47,Default,,0,0,0,,I’m Chidori Ushiku, the\Ngrandmother of this child.
+Dialogue: 0,0:02:56.51,0:02:59.31,Default,,0,0,0,,Here.
+Dialogue: 0,0:02:59.34,0:03:02.51,Default,,0,0,0,,Nice to meet you. Welcome\Nto Hokuno University.
+Dialogue: 0,0:03:04.51,0:03:06.81,Default,,0,0,0,,If you’re new students,\Nshouldn’t you all greet each other?
+Dialogue: 0,0:03:06.84,0:03:10.14,Default,,0,0,0,,- Ah, hello. How do you do?\N- How do you do?
+Dialogue: 0,0:03:21.84,0:03:24.47,Default,,0,0,0,,Saw it? That’s a fox, right? A fox.
+Dialogue: 0,0:03:24.51,0:03:27.81,Default,,0,0,0,,Wow, after all, this\Nis a wild animal trail.
+Dialogue: 0,0:03:27.84,0:03:31.67,Default,,0,0,0,,Huh? Look, look! Over there. Huh?
+Dialogue: 0,0:03:35.17,0:03:38.96,Default,,0,0,0,,{\i1}Three and a half years\Nhave passed since that day,{\i0}
+Dialogue: 0,0:03:38.98,0:03:47.47,Default,,0,0,0,,{\i1}and in the spring of '18, I\Nwas in a new scenery.{\i0}
+Dialogue: 0,0:03:47.51,0:03:55.81,Default,,0,0,0,,{\i1}The wild animal trail of becoming\Na veterinarian that I chose,{\i0}
+Dialogue: 0,0:03:55.84,0:04:00.81,Default,,0,0,0,,{\i1}was beginning to be walked slowly.{\i0}
+Dialogue: 0,0:04:07.98,0:04:13.32,Default,,0,0,0,,LILAC NO HANASUKU KEMONOMICHI\N(THE PATH WHERE LILACS BLOOM)
+Dialogue: 0,0:04:13.75,0:04:20.49,Default,,0,0,0,,ENGLISH SUBTITLES BY CHRIZ KAYRIKO\NVisit chrizkayriko.github.io
+Dialogue: 0,0:04:22.33,0:04:25.20,Default,,0,0,0,,EPISODE 1 (OF 3): BECOMING AN ANIMAL DOCTOR
+Dialogue: 0,0:04:29.51,0:04:34.31,Default,,0,0,0,,{\i1}New students, welcome to Hokuno\NUniversity Akebono Dormitory.{\i0}
+Dialogue: 0,0:04:34.34,0:04:39.64,Default,,0,0,0,,{\i1}Orientation will be held from 19:00,\Nso please assemble in the cafeteria.{\i0}
+Dialogue: 0,0:04:39.67,0:04:42.00,Default,,0,0,0,,{\i1}For things you don't understand…{\i0}
+Dialogue: 0,0:04:44.00,0:04:46.64,Default,,0,0,0,,Room 202?
+Dialogue: 0,0:04:46.67,0:04:52.31,Default,,0,0,0,,I'm next door! Nice to meet\Nyou! I am Shibano Mako.
+Dialogue: 0,0:04:52.34,0:04:55.47,Default,,0,0,0,,Ah, sorry. Nice to meet you.
+Dialogue: 0,0:04:55.51,0:04:58.00,Default,,0,0,0,,Coming in or not, which?
+Dialogue: 0,0:05:06.51,0:05:10.81,Default,,0,0,0,,I am Shibano Mako. I'm next door.
+Dialogue: 0,0:05:10.84,0:05:15.47,Default,,0,0,0,,- Which one will be used?\N- Oh, she asked which one will be used.
+Dialogue: 0,0:05:15.51,0:05:17.84,Default,,0,0,0,,About your bed...
+Dialogue: 0,0:05:25.84,0:05:29.84,Default,,0,0,0,,- Upper, lower. Which?\N- Which?
+Dialogue: 0,0:05:33.67,0:05:36.15,Default,,0,0,0,,I said "which do you want"?
+Dialogue: 0,0:05:36.18,0:05:37.97,Default,,0,0,0,,Ah, well, well, well...
+Dialogue: 0,0:05:38.00,0:05:41.67,Default,,0,0,0,,Hey, look, first, go in?
+Dialogue: 0,0:05:47.38,0:05:49.76,Default,,0,0,0,,HOKUNO UNIVERSITY\NEQUESTRIAN CLUB
+Dialogue: 0,0:06:00.51,0:06:04.31,Default,,0,0,0,,- Ah, Shizuhara-san?\N- Yes.
+Dialogue: 0,0:06:04.34,0:06:07.97,Default,,0,0,0,,- The head of the girls' dormitory?\N- Yes.
+Dialogue: 0,0:06:08.00,0:06:11.97,Default,,0,0,0,,Um, here... This is\Nnothing fancy, but please.
+Dialogue: 0,0:06:12.00,0:06:16.97,Default,,0,0,0,,Ah… What is it here? If it's okay…
+Dialogue: 0,0:06:17.00,0:06:20.81,Default,,0,0,0,,- Ah… sorry.\N- No, no.
+Dialogue: 0,0:06:20.84,0:06:24.34,Default,,0,0,0,,I am from Sendai.\NWhich part of Tokyo are you from?
+Dialogue: 0,0:06:27.51,0:06:30.17,Default,,0,0,0,,Hey, what school are you from?
+Dialogue: 0,0:06:31.84,0:06:37.31,Default,,0,0,0,,{\i1}She hardly went to middle school.{\i0}
+Dialogue: 0,0:06:37.34,0:06:41.47,Default,,0,0,0,,Her high school is one that\Naccepts such children,
+Dialogue: 0,0:06:41.51,0:06:45.34,Default,,0,0,0,,it's called a Challenge School.
+Dialogue: 0,0:06:48.34,0:06:53.67,Default,,0,0,0,,A place for children who were\Nchronically absent or truant.
+Dialogue: 0,0:06:48.39,0:06:54.53,Notes,,0,0,0,,{\an8}(TN: For more information about challenge schools, visit toritsuko.metro.tokyo.lg.jp/challenge/)
+Dialogue: 0,0:06:55.84,0:06:58.00,Default,,0,0,0,,You were not attending school.
+Dialogue: 0,0:06:59.67,0:07:05.14,Default,,0,0,0,,That child's mother... in other words,\Nmy daughter, she died of illness, and
+Dialogue: 0,0:07:05.17,0:07:09.97,Default,,0,0,0,,it was when that child was in fourth grade.
+Dialogue: 0,0:07:10.00,0:07:18.47,Default,,0,0,0,,Two years later, a new mother came…
+Dialogue: 0,0:07:18.51,0:07:23.64,Default,,0,0,0,,I thought for sure things were going well.
+Dialogue: 0,0:07:23.67,0:07:32.47,Default,,0,0,0,,But then, she began spending\Nmost of the day in room…
+Dialogue: 0,0:07:32.51,0:07:36.97,Default,,0,0,0,,A so-called {\i1}hikikomori{\i0}?
+Dialogue: 0,0:07:32.52,0:07:36.98,Notes,,0,0,0,,{\an8}(TN: Individuals who withdraw from social life and seek extreme isolation and confinement.)
+Dialogue: 0,0:07:37.00,0:07:40.17,Default,,0,0,0,,Do those things have some\Nkind of trigger or something?
+Dialogue: 0,0:07:44.67,0:07:47.31,Default,,0,0,0,,Sorry! I'm asking too bluntly.
+Dialogue: 0,0:07:47.34,0:07:50.81,Default,,0,0,0,,I'm really not good at\Nthis kind of thing, huh?
+Dialogue: 0,0:07:50.84,0:07:53.14,Default,,0,0,0,,Really, I'm sorry!
+Dialogue: 0,0:07:53.17,0:07:58.64,Default,,0,0,0,,I'm worried, worried about\Nwhether she can get along with others.
+Dialogue: 0,0:07:58.67,0:08:07.81,Default,,0,0,0,,She's good with words, but a\Nkind child, yes. She loves animals.
+Dialogue: 0,0:08:07.84,0:08:13.31,Default,,0,0,0,,Then there's no need to worry, right?
+Dialogue: 0,0:08:13.34,0:08:15.64,Default,,0,0,0,,What?
+Dialogue: 0,0:08:15.67,0:08:19.97,Default,,0,0,0,,If animals are loved, that\Nmeans humans are loved too.
+Dialogue: 0,0:08:20.00,0:08:23.47,Default,,0,0,0,,Humans are animals too, right?
+Dialogue: 0,0:08:26.34,0:08:29.97,Default,,0,0,0,,Please believe in your grandchild.
+Dialogue: 0,0:08:30.00,0:08:32.51,Default,,0,0,0,,Everything will be fine.
+Dialogue: 0,0:08:34.17,0:08:38.14,Default,,0,0,0,,When the bus comes, go back.
+Dialogue: 0,0:08:38.17,0:08:41.31,Default,,0,0,0,,I'll take you to New Chitose Airport.
+Dialogue: 0,0:08:41.34,0:08:45.31,Default,,0,0,0,,There's no need to\Nworry, I can go home alone.
+Dialogue: 0,0:08:45.34,0:08:47.97,Default,,0,0,0,,Grandma, aren't you worried?
+Dialogue: 0,0:08:48.00,0:08:52.29,Default,,0,0,0,,Listen, considering\Nthe transportation cost to the airport,
+Dialogue: 0,0:08:52.32,0:08:54.64,Default,,0,0,0,,unnecessary spending isn’t an option.
+Dialogue: 0,0:08:54.67,0:08:59.31,Default,,0,0,0,,We've talked about this, right?\NTuition and dorm fees aside.
+Dialogue: 0,0:08:59.34,0:09:04.81,Default,,0,0,0,,The only money that can be\Nsent is from Grandma’s pension.
+Dialogue: 0,0:09:04.84,0:09:09.64,Default,,0,0,0,,30,000 yen is the limit.
+Dialogue: 0,0:09:09.67,0:09:14.58,Default,,0,0,0,,Alright? From now on,\Nthink for yourself
+Dialogue: 0,0:09:14.60,0:09:19.51,Default,,0,0,0,,and manage everything with\N30,000 yen per month.
+Dialogue: 0,0:09:23.00,0:09:27.00,Default,,0,0,0,,Ah, I almost forgot. Here.
+Dialogue: 0,0:09:33.51,0:09:35.97,Default,,0,0,0,,What's this...?
+Dialogue: 0,0:09:36.00,0:09:41.14,Default,,0,0,0,,It's savings set aside little by\Nlittle, use it aside from your allowance.
+Dialogue: 0,0:09:41.17,0:09:44.31,Default,,0,0,0,,No, it's fine. I'll manage\Nwith just the 30,000 yen.
+Dialogue: 0,0:09:44.34,0:09:51.14,Default,,0,0,0,,Just take it! It's a charm from Grandma.
+Dialogue: 0,0:09:51.17,0:09:54.64,Default,,0,0,0,,Grandma, I'm sorry.
+Dialogue: 0,0:09:54.67,0:09:57.31,Default,,0,0,0,,Why are you apologizing?
+Dialogue: 0,0:09:57.34,0:10:01.00,Default,,0,0,0,,At times like this, you\Nshould say, "Thank you."
+Dialogue: 0,0:10:05.17,0:10:07.81,Default,,0,0,0,,Satori...
+Dialogue: 0,0:10:07.84,0:10:14.31,Default,,0,0,0,,When you want to say something\Nimportant, speak loudly and clearly, okay?
+Dialogue: 0,0:10:14.34,0:10:17.81,Default,,0,0,0,,Use diaphragmatic breathing like this.
+Dialogue: 0,0:10:17.84,0:10:19.84,Default,,0,0,0,,Okay?
+Dialogue: 0,0:10:26.42,0:10:29.14,Default,,0,0,0,,Do your best.
+Dialogue: 0,0:10:56.67,0:11:00.47,Default,,0,0,0,,Once again, I'm Satori Kishimoto!
+Dialogue: 0,0:11:00.51,0:11:06.14,Default,,0,0,0,,I have no preference for\Nthe top or bottom bunk!
+Dialogue: 0,0:11:06.17,0:11:08.67,Default,,0,0,0,,Nice to meet you!
+Dialogue: 0,0:11:12.84,0:11:18.17,Default,,0,0,0,,So, either the top or\Nbottom bunk is fine with me!
+Dialogue: 0,0:12:03.00,0:12:07.97,Default,,0,0,0,,{\i1}Grandma, how are you?{\i0}
+Dialogue: 0,0:12:08.00,0:12:13.31,Default,,0,0,0,,{\i1}The days of studying in the veterinary\Nprogram at Hokuno University have begun.{\i0}
+Dialogue: 0,0:12:13.34,0:12:16.01,Default,,0,0,0,,So, for horses and pigs,\Ntheir placenta structure
+Dialogue: 0,0:12:16.03,0:12:18.33,Default,,0,0,0,,consists of an epithelial\Nvillous placenta.
+Dialogue: 0,0:12:18.37,0:12:26.48,Default,,0,0,0,,{\i1}How should I put it... Every day is\Nfresh, filled with surprise and emotion.{\i0}
+Dialogue: 0,0:12:29.00,0:12:31.97,Default,,0,0,0,,{\i1}From an outsider’s perspective,\Nit might not seem that way,{\i0}
+Dialogue: 0,0:12:32.00,0:12:38.64,Default,,0,0,0,,{\i1}but inside my head, I’m constantly\Nshouting things like “Wow!” or “Whoa!”{\i0}
+Dialogue: 0,0:12:38.67,0:12:44.51,Default,,0,0,0,,Or even “This is insane!”...\NMy emotions are running wild.
+Dialogue: 0,0:12:46.84,0:12:53.64,Default,,0,0,0,,{\i1}During practical training, through\Nsmells, textures, sounds, and sights,{\i0}
+Dialogue: 0,0:12:53.67,0:13:01.31,Default,,0,0,0,,{\i1}I use all five senses to grasp\Nthe essence of an animal’s life.{\i0}
+Dialogue: 0,0:13:01.34,0:13:05.00,Default,,0,0,0,,{\i1}What it means to be alive.{\i0}
+Dialogue: 0,0:13:07.34,0:13:14.97,Default,,0,0,0,,{\i1}And also... Do you remember the male\Nstudent I met at the white birch-lined road?{\i0}
+Dialogue: 0,0:13:15.00,0:13:17.64,Default,,0,0,0,,{\i1}The one who was happy to see a fox…{\i0}
+Dialogue: 0,0:13:32.51,0:13:35.47,Default,,0,0,0,,Ah, no, that’s not it. No, no.
+Dialogue: 0,0:13:35.51,0:13:41.64,Default,,0,0,0,,That sparrow! I was taking\Na picture of that sparrow.
+Dialogue: 0,0:13:41.67,0:13:46.14,Default,,0,0,0,,You're making a face like "A\Nsparrow isn’t anything special."
+Dialogue: 0,0:13:46.17,0:13:49.81,Default,,0,0,0,,Actually, the number of\Nsparrows in Japan is decreasing.
+Dialogue: 0,0:13:49.84,0:13:52.81,Default,,0,0,0,,According to a nationwide survey,\Ncompared to 20 years ago,
+Dialogue: 0,0:13:52.84,0:13:57.00,Default,,0,0,0,,the number of sparrows has\Ndecreased by more than 30%.
+Dialogue: 0,0:14:00.00,0:14:02.64,Default,,0,0,0,,That was suppose to be the part where\Nyou will be surprised at like, "Really!"
+Dialogue: 0,0:14:02.67,0:14:04.97,Default,,0,0,0,,What are you doing?\NWhat are you talking about?
+Dialogue: 0,0:14:05.00,0:14:07.14,Default,,0,0,0,,- Sparrows.\N- Ah, sparrows.
+Dialogue: 0,0:14:07.17,0:14:10.31,Default,,0,0,0,,{\i1}A sparrow talk seemed\Nlike it would go on forever,{\i0}
+Dialogue: 0,0:14:10.34,0:14:14.00,Default,,0,0,0,,{\i1}but Kase-san saved the day.{\i0}
+Dialogue: 0,0:14:16.51,0:14:20.97,Default,,0,0,0,,{\i1}Kase-san runs an animal protection club{\i0}
+Dialogue: 0,0:14:21.00,0:14:25.34,Default,,0,0,0,,{\i1}and takes care of abandoned dogs and cats.{\i0}
+Dialogue: 0,0:14:29.51,0:14:33.64,Default,,0,0,0,,Then, what happens if treatment is needed?
+Dialogue: 0,0:14:33.67,0:14:37.14,Default,,0,0,0,,- Take them to Hisatsune-sensei.\N- Hisatsune-sensei?
+Dialogue: 0,0:14:37.17,0:14:42.64,Default,,0,0,0,,Yes. The director of an animal\Nhospital further down the national road.
+Dialogue: 0,0:14:42.67,0:14:47.31,Default,,0,0,0,,Alright, I'm going to\Ntouch a little. You're so cute!
+Dialogue: 0,0:14:47.34,0:14:51.64,Default,,0,0,0,,Ah, good boy, good boy. Such a good boy.
+Dialogue: 0,0:14:51.67,0:14:56.81,Default,,0,0,0,,A strong and kind doctor\Nwho always helps for free.
+Dialogue: 0,0:14:59.34,0:15:05.64,Default,,0,0,0,,There’s a big nanakamado tree in the yard,\Nso it’s called “Nanakamado Animal Hospital.”
+Dialogue: 0,0:14:59.41,0:15:05.55,Notes,,0,0,0,,{\an8}(TN: Nanakamado is commonly known as\Nthe Japanese Hackberry or Celtis sinensis.)
+Dialogue: 0,0:15:05.67,0:15:08.67,Default,,0,0,0,,Oh, I see.
+Dialogue: 0,0:15:14.17,0:15:17.67,Default,,0,0,0,,Do you know the flower\Nlanguage of the nanakamado tree?
+Dialogue: 0,0:15:20.00,0:15:23.81,Default,,0,0,0,,“I will protect you.”
+Dialogue: 0,0:15:23.84,0:15:27.17,Default,,0,0,0,,So cool!
+Dialogue: 0,0:15:29.84,0:15:33.47,Default,,0,0,0,,{\i1}Grandma, I wonder{\i0}
+Dialogue: 0,0:15:33.51,0:15:37.84,Default,,0,0,0,,{\i1}if one day I can become strong\Nenough to protect someone, too.{\i0}
+Dialogue: 0,0:15:40.91,0:15:43.08,Default,,0,0,0,,{\i1}I hope I can.{\i0}
+Dialogue: 0,0:15:52.34,0:15:55.97,Default,,0,0,0,,{\i1}Grandma,{\i0}
+Dialogue: 0,0:15:56.00,0:15:58.51,Default,,0,0,0,,{\i1}I am doing well.{\i0}
+Dialogue: 0,0:16:01.32,0:16:04.47,Default,,0,0,0,,{\i1}I'll send you a sunset from Hokkaido.{\i0}
+Dialogue: 0,0:16:18.17,0:16:22.34,Default,,0,0,0,,Yukiko, look.
+Dialogue: 0,0:16:25.00,0:16:29.81,Default,,0,0,0,,Alright. Alright.
+Dialogue: 0,0:16:29.84,0:16:33.34,Default,,0,0,0,,Alright!
+Dialogue: 0,0:16:43.51,0:16:45.84,Default,,0,0,0,,Good night.
+Dialogue: 0,0:17:10.51,0:17:13.31,Default,,0,0,0,,This is a problem.
+Dialogue: 0,0:17:13.34,0:17:15.47,Default,,0,0,0,,Is there no way to do something about this?
+Dialogue: 0,0:17:15.51,0:17:17.64,Default,,0,0,0,,Like I’ve said many times,
+Dialogue: 0,0:17:17.67,0:17:20.14,Default,,0,0,0,,room changes are not\Npossible at this time of year.
+Dialogue: 0,0:17:20.17,0:17:23.31,Default,,0,0,0,,If a room change isn’t\Npossible, I will leave the dorm.
+Dialogue: 0,0:17:23.34,0:17:28.17,Default,,0,0,0,,- Kajita-san.\N- That’s enough. Excuse me.
+Dialogue: 0,0:17:37.67,0:17:41.17,Default,,0,0,0,,Why not try talking it out\Nproperly, just the two of you?
+Dialogue: 0,0:17:45.34,0:17:47.47,Default,,0,0,0,,Impossible! Gross!
+Dialogue: 0,0:17:47.51,0:17:49.67,Default,,0,0,0,,It’s impossible for me!
+Dialogue: 0,0:18:02.67,0:18:07.97,Default,,0,0,0,,- Nice...\N- Hm? What?
+Dialogue: 0,0:18:08.00,0:18:14.14,Default,,0,0,0,,Shizuhara-san, you're loved by\Nboth animals and people.
+Dialogue: 0,0:18:14.17,0:18:18.47,Default,,0,0,0,,Me? Really?
+Dialogue: 0,0:18:18.51,0:18:25.64,Default,,0,0,0,,I'm jealous… it's from the\Nperspective of someone like me.
+Dialogue: 0,0:18:25.67,0:18:31.47,Default,,0,0,0,,Someone like me is like a black cat.
+Dialogue: 0,0:18:31.51,0:18:34.64,Default,,0,0,0,,Why a black cat?
+Dialogue: 0,0:18:34.67,0:18:39.81,Default,,0,0,0,,Called ominous, called creepy…
+Dialogue: 0,0:18:39.84,0:18:45.00,Default,,0,0,0,,Just crossing in front of\Npeople, but already disliked…
+Dialogue: 0,0:18:46.67,0:18:50.97,Default,,0,0,0,,But black cats…
+Dialogue: 0,0:18:51.00,0:18:55.17,Default,,0,0,0,,They don’t understand at all\Nwhy they’re being disliked.
+Dialogue: 0,0:18:58.17,0:19:00.51,Default,,0,0,0,,They don't understand?
+Dialogue: 0,0:19:03.17,0:19:07.00,Default,,0,0,0,,They can only run away.
+Dialogue: 0,0:19:17.17,0:19:20.31,Default,,0,0,0,,Kishimoto-san’s grandmother,
+Dialogue: 0,0:19:20.34,0:19:24.67,Default,,0,0,0,,she was so, so worried about you.
+Dialogue: 0,0:19:28.17,0:19:34.67,Default,,0,0,0,,I said, “Please believe in her,” and all…
+Dialogue: 0,0:19:39.17,0:19:42.14,Default,,0,0,0,,Kishimoto-san isn’t a black cat.
+Dialogue: 0,0:19:42.17,0:19:44.84,Default,,0,0,0,,Because you can speak words.
+Dialogue: 0,0:19:47.17,0:19:51.67,Default,,0,0,0,,There must be something you\Ncan do besides running away.
+Dialogue: 0,0:20:02.90,0:20:04.98,Default,,0,0,0,,HOKUNO UNIVERSITY\NAKEBONO DORMITORY
+Dialogue: 0,0:20:05.00,0:20:09.31,Default,,0,0,0,,So! Since Shizuhara-san\Nsaid that, as for me…
+Dialogue: 0,0:20:09.34,0:20:13.14,Default,,0,0,0,,- What are you trying to say?\N- What do you…
+Dialogue: 0,0:20:13.17,0:20:16.97,Default,,0,0,0,,So, you think I’m creepy…
+Dialogue: 0,0:20:17.00,0:20:19.84,Default,,0,0,0,,- Yeah, you're creepy.\N- So, what part?
+Dialogue: 0,0:20:25.51,0:20:27.97,Default,,0,0,0,,Right there.
+Dialogue: 0,0:20:28.00,0:20:30.17,Default,,0,0,0,,That. That’s creepy.
+Dialogue: 0,0:20:33.17,0:20:36.81,Default,,0,0,0,,- What is…\N- There, right there!
+Dialogue: 0,0:20:36.84,0:20:38.81,Default,,0,0,0,,What are you talking about?
+Dialogue: 0,0:20:38.84,0:20:41.67,Default,,0,0,0,,What are you saying? It’s right there!
+Dialogue: 0,0:20:45.84,0:20:47.81,Default,,0,0,0,,This. This.
+Dialogue: 0,0:20:47.84,0:20:51.14,Default,,0,0,0,,This!
+Dialogue: 0,0:20:51.17,0:20:54.14,Default,,0,0,0,,At night, you're secretly taking\Nit out and mumbling something.
+Dialogue: 0,0:20:54.17,0:20:57.14,Default,,0,0,0,,Thought I wouldn’t notice?\NNormally, anyone would.
+Dialogue: 0,0:20:57.17,0:21:01.77,Default,,0,0,0,,I kept wondering and wondering, what\Nare you doing, what’s inside.
+Dialogue: 0,0:21:01.80,0:21:04.47,Default,,0,0,0,,- Did you look?\N- Having something like that is creepy enough
+Dialogue: 0,0:21:04.51,0:21:09.81,Default,,0,0,0,,but that thing itself is creepy.\NI’ve had enough. Get rid of it!
+Dialogue: 0,0:21:27.17,0:21:29.64,Default,,0,0,0,,- Um!\N- What?
+Dialogue: 0,0:21:29.67,0:21:32.64,Default,,0,0,0,,- Let me explain!\N- Explain what?
+Dialogue: 0,0:21:32.67,0:21:36.47,Default,,0,0,0,,- This… what’s inside this…\N- Don’t open it. I saw it so I know it.
+Dialogue: 0,0:21:36.51,0:21:38.47,Default,,0,0,0,,It's bones.
+Dialogue: 0,0:21:38.51,0:21:42.47,Default,,0,0,0,,I said I know.\NThough I don’t know whose bones.
+Dialogue: 0,0:21:42.51,0:21:47.31,Default,,0,0,0,,- It's Pearl's…\N- Pearl? Foreigner?
+Dialogue: 0,0:21:47.34,0:21:50.31,Default,,0,0,0,,- A dog.\N- A dog?
+Dialogue: 0,0:21:50.34,0:21:53.31,Default,,0,0,0,,These are a dog’s bones.
+Dialogue: 0,0:21:53.34,0:21:55.96,Default,,0,0,0,,- Why dog bones?\N- Let me explain!
+Dialogue: 0,0:21:55.98,0:21:59.14,Default,,0,0,0,,You know I’m listening!
+Dialogue: 0,0:21:59.17,0:22:02.14,Default,,0,0,0,,It is okay? To speak?
+Dialogue: 0,0:22:02.17,0:22:04.67,Default,,0,0,0,,Hurry up and speak.
+Dialogue: 0,0:22:07.84,0:22:11.31,Default,,0,0,0,,When I was born…
+Dialogue: 0,0:22:11.34,0:22:13.64,Default,,0,0,0,,Starting from birth?
+Dialogue: 0,0:22:13.67,0:22:17.97,Default,,0,0,0,,When I was born,\NPearl wasn't there yet.
+Dialogue: 0,0:22:18.00,0:22:22.47,Default,,0,0,0,,Let's start from when Pearl was there.
+Dialogue: 0,0:22:22.51,0:22:26.47,Default,,0,0,0,,Pearl came when I was three years old
+Dialogue: 0,0:22:26.51,0:22:33.81,Default,,0,0,0,,and was named by my late\Nmother. Pearl was originally a rescue dog.
+Dialogue: 0,0:22:33.84,0:22:37.64,Default,,0,0,0,,Your mother passed away?
+Dialogue: 0,0:22:37.67,0:22:43.31,Default,,0,0,0,,When I was fourth grade, due to illness.
+Dialogue: 0,0:22:43.34,0:22:50.97,Default,,0,0,0,,After that, I lived with my father\Nand Pearl, just the three of us.
+Dialogue: 0,0:22:51.00,0:22:57.31,Default,,0,0,0,,Then, in sixth grade,
+Dialogue: 0,0:22:57.34,0:23:05.81,Default,,0,0,0,,my father remarried a former subordinate\Nfrom work, and I got a new mother.
+Dialogue: 0,0:23:05.84,0:23:11.47,Default,,0,0,0,,At first, I tried to get along.
+Dialogue: 0,0:23:11.51,0:23:18.47,Default,,0,0,0,,But then my father was\Ntransferred away alone
+Dialogue: 0,0:23:18.51,0:23:23.00,Default,,0,0,0,,and things started going\Nwrong in many ways.
+Dialogue: 0,0:23:26.17,0:23:29.64,Default,,0,0,0,,What happened to Pearl?
+Dialogue: 0,0:23:29.67,0:23:35.47,Default,,0,0,0,,Pearl was my only emotional support.
+Dialogue: 0,0:23:35.51,0:23:38.67,Default,,0,0,0,,And yet, Pearl died.
+Dialogue: 0,0:23:40.67,0:23:47.31,Default,,0,0,0,,Pearl passed away on the day of\Nmy exam results announcement.
+Dialogue: 0,0:23:47.34,0:23:50.22,Default,,0,0,0,,As if Peal was reassured
+Dialogue: 0,0:23:50.25,0:23:56.64,Default,,0,0,0,,after confirming my acceptance,\NPearl peacefully took the last breath.
+Dialogue: 0,0:23:56.67,0:23:59.31,Default,,0,0,0,,I see.
+Dialogue: 0,0:23:59.34,0:24:07.47,Default,,0,0,0,,But still, you're bringing\Nit? In such an old box?
+Dialogue: 0,0:24:07.51,0:24:14.14,Default,,0,0,0,,Not to be rude, but\Nisn't that going too far?
+Dialogue: 0,0:24:14.17,0:24:18.67,Default,,0,0,0,,I guess kids who stop going\Nto school are just different.
+Dialogue: 0,0:24:25.51,0:24:30.14,Default,,0,0,0,,This old box…
+Dialogue: 0,0:24:30.17,0:24:34.81,Default,,0,0,0,,It once held a\Nstrawberry birthday cake.
+Dialogue: 0,0:24:34.84,0:24:43.81,Default,,0,0,0,,For my 10th birthday, before\Npassing, my mother bought it.
+Dialogue: 0,0:24:43.84,0:24:49.67,Default,,0,0,0,,Besides this, barely\Nanything of my mother's remains…
+Dialogue: 0,0:24:51.34,0:24:54.14,Default,,0,0,0,,When my new mother came,
+Dialogue: 0,0:24:54.17,0:25:00.47,Default,,0,0,0,,she started throwing away my\Nmother's things one after another.
+Dialogue: 0,0:25:00.51,0:25:07.00,Default,,0,0,0,,I begged many times not to throw them\Naway, but they were still discarded.
+Dialogue: 0,0:25:09.84,0:25:17.64,Default,,0,0,0,,The only thing left that\Nmy mother cherished was Pearl…
+Dialogue: 0,0:25:17.67,0:25:22.81,Default,,0,0,0,,But even Pearl, the new mother disliked it
+Dialogue: 0,0:25:22.84,0:25:26.14,Default,,0,0,0,,and she started saying to get rid of Pearl.
+Dialogue: 0,0:25:26.17,0:25:29.31,Default,,0,0,0,,I firmly refused, but then,
+Dialogue: 0,0:25:29.34,0:25:33.37,Default,,0,0,0,,next, she claimed dog allergies,
+Dialogue: 0,0:25:33.39,0:25:37.14,Default,,0,0,0,,she said her eyes itched, her nose\Nwouldn't stop running, so get rid of Pearl
+Dialogue: 0,0:25:37.17,0:25:40.64,Default,,0,0,0,,or better yet, just\Nabandon Pearl somewhere.
+Dialogue: 0,0:25:40.67,0:25:43.83,Default,,0,0,0,,I said that was impossible, but then,
+Dialogue: 0,0:25:43.86,0:25:48.97,Default,,0,0,0,,I was told to keep Pearl locked\Nin the room and never let out.
+Dialogue: 0,0:25:49.00,0:25:53.31,Default,,0,0,0,,It was scary.
+Dialogue: 0,0:25:53.34,0:26:01.31,Default,,0,0,0,,That was the reason of me stopping school.
+Dialogue: 0,0:26:01.34,0:26:10.84,Default,,0,0,0,,I feared that while at school,\NPearl would be abandoned.
+Dialogue: 0,0:26:15.84,0:26:23.14,Default,,0,0,0,,Honestly… I wanted to go to school.
+Dialogue: 0,0:26:23.17,0:26:29.00,Default,,0,0,0,,I wanted to go, just like everyone else.
+Dialogue: 0,0:26:30.84,0:26:40.31,Default,,0,0,0,,But… Pearl… was always on my mind.
+Dialogue: 0,0:26:49.17,0:26:51.51,Default,,0,0,0,,You're such an idiot!
+Dialogue: 0,0:28:08.67,0:28:10.84,Default,,0,0,0,,Good morning.
+Dialogue: 0,0:28:14.17,0:28:16.84,Default,,0,0,0,,Good morning!
+Dialogue: 0,0:28:22.34,0:28:30.31,Default,,0,0,0,,{\i1}Grandma, I learned that even\Nwithout diaphragmatic breathing,{\i0}
+Dialogue: 0,0:28:30.34,0:28:34.97,Default,,0,0,0,,{\i1}if spoken with effort,\Npeople will understand.{\i0}
+Dialogue: 0,0:28:59.00,0:29:03.31,Default,,0,0,0,,{\i1}Here in Hokkaido, when\Nthe lilac flowers bloom,{\i0}
+Dialogue: 0,0:29:03.34,0:29:09.47,Default,,0,0,0,,{\i1}the temperature can suddenly\Ndrop sharply. It's called "Lilac Chill."{\i0}
+Dialogue: 0,0:29:09.51,0:29:15.17,Default,,0,0,0,,{\i1}Ah, lilac is called\N"lilas" in French.{\i0}
+Dialogue: 0,0:29:18.17,0:29:19.83,Default,,0,0,0,,- Huh? Which way was it?\N- Which way was it?
+Dialogue: 0,0:29:19.84,0:29:23.56,Default,,0,0,0,,{\i1}Today, we went out to Sapporo.{\i0}
+Dialogue: 0,0:29:25.17,0:29:28.00,Default,,0,0,0,,I might not be able to choose!
+Dialogue: 0,0:29:29.84,0:29:34.47,Default,,0,0,0,,{\i1}Grandma… sorry.{\i0}
+Dialogue: 0,0:29:34.51,0:29:38.81,Default,,0,0,0,,{\i1}I bought a dress at a thrift store.{\i0}
+Dialogue: 0,0:29:38.84,0:29:43.81,Default,,0,0,0,,{\i1}It's 1,980 yen. Sorry!{\i0}
+Dialogue: 0,0:29:43.84,0:29:46.17,Default,,0,0,0,,{\i1}Because…{\i0}
+Dialogue: 0,0:29:48.52,0:29:54.36,Default,,0,0,0,,{\i1}A welcome party for new students\Ncalled Shirakaba Festival is being held.{\i0}
+Dialogue: 0,0:29:48.52,0:29:54.36,Notes,,0,0,0,,{\an8}(TN: The Shirakaba Festival is about celebrating the beauty of\Nnature and traditional arts. Shirakaba means "white birch." )
+Dialogue: 0,0:29:56.84,0:30:01.47,Default,,0,0,0,,- Huh? Is this the right way?\N- Yeah, let's hurry.
+Dialogue: 0,0:30:05.17,0:30:07.64,Default,,0,0,0,,Is there something wrong?
+Dialogue: 0,0:30:07.67,0:30:12.14,Default,,0,0,0,,It sounded like, an animal crying.
+Dialogue: 0,0:30:12.17,0:30:18.64,Default,,0,0,0,,- A fox?\N- Let's go quickly. - Yeah.
+Dialogue: 0,0:30:18.67,0:30:22.67,Default,,0,0,0,,Do you think there'll be a lot of people?
+Dialogue: 0,0:30:24.73,0:30:27.78,Default,,0,0,0,,WELCOME PARTY FOR NEW STUDENTS\N2022 SHIRAKABA FESTIVAL
+Dialogue: 0,0:30:30.51,0:30:34.17,Default,,0,0,0,,If you’d like, crouch\Ndown and try touching it.
+Dialogue: 0,0:30:36.00,0:30:40.68,Default,,0,0,0,,Swallows generally migrate to Japan\Nfrom March to April And build nests, right?
+Dialogue: 0,0:30:40.70,0:30:42.47,Default,,0,0,0,, So when I saw it,
+Dialogue: 0,0:30:42.51,0:30:44.97,Default,,0,0,0,,I thought there must be chicks in the nest.
+Dialogue: 0,0:30:45.00,0:30:46.97,Default,,0,0,0,,What are you talking about?
+Dialogue: 0,0:30:47.00,0:30:51.97,Default,,0,0,0,,So, my guess is they’re\Nhaving a second breeding cycle.
+Dialogue: 0,0:30:52.00,0:30:56.97,Default,,0,0,0,,- Hello!\N- So cute! You both look great!
+Dialogue: 0,0:30:57.00,0:30:59.97,Default,,0,0,0,,- Really?\N- At least give a compliment there.
+Dialogue: 0,0:31:00.00,0:31:02.51,Default,,0,0,0,,Where’s Kishimoto-san?
+Dialogue: 0,0:31:38.00,0:31:41.64,Default,,0,0,0,,Are you lost?
+Dialogue: 0,0:31:41.67,0:31:44.97,Default,,0,0,0,,You're wearing a collar.
+Dialogue: 0,0:31:45.00,0:31:47.64,Default,,0,0,0,,Where's your injury?
+Dialogue: 0,0:31:47.67,0:31:50.81,Default,,0,0,0,,- Injury?\N- What’s wrong?
+Dialogue: 0,0:31:50.84,0:31:54.97,Default,,0,0,0,,A dog. A lost dog.
+Dialogue: 0,0:31:55.00,0:31:57.17,Default,,0,0,0,,Senpai!
+Dialogue: 0,0:32:00.00,0:32:03.17,Default,,0,0,0,,Kishimoto-san?
+Dialogue: 0,0:32:05.17,0:32:07.47,Default,,0,0,0,,- Are you alright?\N- Yes.
+Dialogue: 0,0:32:07.51,0:32:10.47,Default,,0,0,0,,Hisatsune-sensei.
+Dialogue: 0,0:32:10.51,0:32:12.81,Default,,0,0,0,,The nanakamado doctor…
+Dialogue: 0,0:32:12.84,0:32:16.97,Default,,0,0,0,,Hisatsune here. You spotted it.
+Dialogue: 0,0:32:17.00,0:32:19.17,Default,,0,0,0,,Please take care of it.
+Dialogue: 0,0:32:26.17,0:32:28.97,Default,,0,0,0,,Someone must have abandoned it.
+Dialogue: 0,0:32:29.00,0:32:33.14,Default,,0,0,0,,They're getting a pet easily, then\Nrealizing how hard it is to care for
+Dialogue: 0,0:32:33.17,0:32:35.84,Default,,0,0,0,,and giving up when they can't handle it.
+Dialogue: 0,0:32:38.17,0:32:42.97,Default,,0,0,0,,Ah, making an "unforgivable" face?
+Dialogue: 0,0:32:43.00,0:32:46.97,Default,,0,0,0,,But that's the reality of some people.
+Dialogue: 0,0:32:47.00,0:32:52.31,Default,,0,0,0,,From the animals' perspective,\Nhuman ego is crystal clear.
+Dialogue: 0,0:32:52.34,0:32:54.47,Default,,0,0,0,,Be careful.
+Dialogue: 0,0:32:54.51,0:33:01.14,Default,,0,0,0,,While studying veterinary medicine, there\Nare times when one starts to dislike humans.
+Dialogue: 0,0:33:01.17,0:33:03.67,Default,,0,0,0,,Now, go back.
+Dialogue: 0,0:33:05.34,0:33:07.81,Default,,0,0,0,,Today is the Shirakaba Festival, right?
+Dialogue: 0,0:33:07.84,0:33:11.97,Default,,0,0,0,,That one is fine now, so\Nreturn with peace of mind.
+Dialogue: 0,0:33:12.00,0:33:14.51,Default,,0,0,0,,Come on, off you go!
+Dialogue: 0,0:33:16.34,0:33:18.84,Default,,0,0,0,,Ah, here they come!
+Dialogue: 0,0:33:21.51,0:33:25.14,Default,,0,0,0,,Was everything okay?
+Dialogue: 0,0:33:25.17,0:33:28.47,Default,,0,0,0,,- Good.\N- That’s a relief.
+Dialogue: 0,0:33:28.51,0:33:32.31,Default,,0,0,0,,But… that dress...
+Dialogue: 0,0:33:32.34,0:33:35.14,Default,,0,0,0,,A sign of having saved a\Nlife without regard for oneself.
+Dialogue: 0,0:33:35.17,0:33:38.47,Default,,0,0,0,,- No, no, it’s not like that.\N- No exaggeration.
+Dialogue: 0,0:33:38.51,0:33:41.31,Default,,0,0,0,,If left alone, that one\Nmight have lost its life.
+Dialogue: 0,0:33:41.34,0:33:44.97,Default,,0,0,0,,Even Professor Hisatsune was\Nimpressed, saying it was well spotted.
+Dialogue: 0,0:33:45.00,0:33:47.14,Default,,0,0,0,,Good work.
+Dialogue: 0,0:33:47.17,0:33:51.47,Default,,0,0,0,,Ah, thank you.
+Dialogue: 0,0:33:51.51,0:33:53.64,Default,,0,0,0,,Well done.
+Dialogue: 0,0:33:53.67,0:33:56.31,Default,,0,0,0,,Well done!
+Dialogue: 0,0:33:56.34,0:33:58.20,Default,,0,0,0,,Well done.
+Dialogue: 0,0:33:58.67,0:34:01.54,Default,,0,0,0,,Stop it.
+Dialogue: 0,0:34:25.00,0:34:27.97,Default,,0,0,0,,So, why isn’t Kajita-san coming?
+Dialogue: 0,0:34:28.00,0:34:30.97,Default,,0,0,0,,It’s the perfect chance\Nto witness a horse’s birth.
+Dialogue: 0,0:34:31.00,0:34:35.31,Default,,0,0,0,,Kajita-san… Ayaka is bad with blood.
+Dialogue: 0,0:34:35.34,0:34:38.47,Default,,0,0,0,,Rather, why is Kubo-kun here?
+Dialogue: 0,0:34:38.51,0:34:40.97,Default,,0,0,0,,Being bad with blood is a fatal flaw, huh.
+Dialogue: 0,0:34:41.00,0:34:44.47,Default,,0,0,0,,That’s why there’s been a struggle\Nover her not being suited for being a vet.
+Dialogue: 0,0:34:44.51,0:34:47.64,Default,,0,0,0,,It's still too early to tell\Nif she's a good fit or not.
+Dialogue: 0,0:34:47.67,0:34:50.17,Default,,0,0,0,,That’s what I said too.
+Dialogue: 0,0:34:52.67,0:34:59.14,Default,,0,0,0,,These past few months, I’ve been\Nthinking… this really isn’t for me.
+Dialogue: 0,0:34:59.17,0:35:01.64,Default,,0,0,0,,Again with this?
+Dialogue: 0,0:35:01.67,0:35:04.14,Default,,0,0,0,,But the motivation is so impure.
+Dialogue: 0,0:35:04.17,0:35:07.97,Default,,0,0,0,,My parents are doctors, my older brother is\Na doctor, so naturally, I just follow suit.
+Dialogue: 0,0:35:08.00,0:35:10.52,Default,,0,0,0,,And when med school\Nseemed impossible,
+Dialogue: 0,0:35:10.54,0:35:13.64,Default,,0,0,0,,I switched to becoming\Nan animal doctor instead.
+Dialogue: 0,0:35:13.67,0:35:16.97,Default,,0,0,0,,It's way too casual.
+Dialogue: 0,0:35:17.00,0:35:21.14,Default,,0,0,0,,It's still too early to tell\Nif you're a good fit or not.
+Dialogue: 0,0:35:21.17,0:35:24.31,Default,,0,0,0,,No, it’s obvious. Compared to Satori,
+Dialogue: 0,0:35:24.34,0:35:30.47,Default,,0,0,0,,there’s none of that ‘I love animals with\Nall my heart and soul!’ kind of feeling.
+Dialogue: 0,0:35:30.51,0:35:35.14,Default,,0,0,0,,Just now… “Satori,” huh…
+Dialogue: 0,0:35:35.17,0:35:40.97,Default,,0,0,0,,It’s no longer that distant “Kishimoto-san”\Nor “Kajita-san” level anymore.
+Dialogue: 0,0:35:41.00,0:35:44.84,Default,,0,0,0,,Eh? What kind of distance, then?
+Dialogue: 0,0:35:46.84,0:35:49.81,Default,,0,0,0,,This kind of distance.
+Dialogue: 0,0:35:49.84,0:35:52.67,Default,,0,0,0,,I'm too happy about this.
+Dialogue: 0,0:35:57.72,0:36:02.23,Default,,0,0,0,,OGAWA FARM
+Dialogue: 0,0:36:07.34,0:36:09.33,Default,,0,0,0,,This is our ranch.
+Dialogue: 0,0:36:09.36,0:36:12.97,Default,,0,0,0,,My uncle is the owner, but it’s\Nalso my mother’s family home.
+Dialogue: 0,0:36:13.00,0:36:16.14,Default,,0,0,0,,I grew up here.
+Dialogue: 0,0:36:16.17,0:36:18.14,Default,,0,0,0,,Uncle.
+Dialogue: 0,0:36:18.17,0:36:20.31,Default,,0,0,0,,Oh, Kazuma.
+Dialogue: 0,0:36:20.34,0:36:23.67,Default,,0,0,0,,Long time no see. Thank you for taking\Ncare of me during last year’s training.
+Dialogue: 0,0:36:41.51,0:36:43.13,Default,,0,0,0,,When that’s done,\Nchange the bedding straw.
+Dialogue: 0,0:36:43.15,0:36:44.02,Default,,0,0,0,,Got it.
+Dialogue: 0,0:36:50.34,0:36:52.31,Default,,0,0,0,,Is labor progressing?
+Dialogue: 0,0:36:52.34,0:36:56.97,Default,,0,0,0,,- Ah… I have no idea.\N- How is it?
+Dialogue: 0,0:36:57.00,0:37:00.67,Default,,0,0,0,,The udder is quite swollen,\Nso it might be progressing a lot.
+Dialogue: 0,0:37:03.17,0:37:07.31,Default,,0,0,0,,Fairy, stay calm. It’s okay.
+Dialogue: 0,0:37:07.34,0:37:10.34,Default,,0,0,0,,We’re here with you.
+Dialogue: 0,0:37:14.00,0:37:16.81,Default,,0,0,0,,Is the name Fairy?
+Dialogue: 0,0:37:16.84,0:37:20.84,Default,,0,0,0,,Yeah. Fairy Snow, Snow Fairy.
+Dialogue: 0,0:37:25.17,0:37:28.97,Default,,0,0,0,,The foal that’s about to\Nbe born, you all can name it.
+Dialogue: 0,0:37:29.00,0:37:30.97,Default,,0,0,0,,- Really?\N- Yeah.
+Dialogue: 0,0:37:31.00,0:37:35.31,Default,,0,0,0,,- I’ll grab a quick meal while I can.\N- Got it. - Okay.
+Dialogue: 0,0:37:35.34,0:37:38.81,Default,,0,0,0,,So, what should we name it? Huh?
+Dialogue: 0,0:37:38.84,0:37:43.64,Default,,0,0,0,,I want to call it by name as\Nsoon as it’s born. Let’s decide now.
+Dialogue: 0,0:37:43.67,0:37:47.81,Default,,0,0,0,,How about Snow White? Not quite?
+Dialogue: 0,0:37:47.84,0:37:52.14,Default,,0,0,0,,- Snow Flower.\N- Snow… Bell.
+Dialogue: 0,0:37:52.17,0:37:55.31,Default,,0,0,0,,- Oh! Snow Bird!\N- No birds!
+Dialogue: 0,0:37:55.34,0:37:58.64,Default,,0,0,0,,- Snow Pearl.\N- Pearl?
+Dialogue: 0,0:37:58.67,0:38:01.97,Default,,0,0,0,,Pearl, huh… I like it.
+Dialogue: 0,0:38:02.00,0:38:06.47,Default,,0,0,0,,Snow Pearl… Snow’s pearl…
+Dialogue: 0,0:38:06.51,0:38:10.00,Default,,0,0,0,,Nice. Snow Pearl it is!
+Dialogue: 0,0:38:11.67,0:38:13.97,Default,,0,0,0,,Even after graduating from university,
+Dialogue: 0,0:38:14.00,0:38:18.14,Default,,0,0,0,,let’s not forget about Snow Pearl\Nand keep watching over its growth.
+Dialogue: 0,0:38:18.17,0:38:20.51,Default,,0,0,0,,Promise.
+Dialogue: 0,0:38:22.51,0:38:24.64,Default,,0,0,0,,Promise.
+Dialogue: 0,0:38:24.67,0:38:26.81,Default,,0,0,0,,Promise.
+Dialogue: 0,0:38:26.84,0:38:29.47,Default,,0,0,0,,Promise!
+Dialogue: 0,0:39:01.84,0:39:04.00,Default,,0,0,0,,Crying?
+Dialogue: 0,0:39:09.17,0:39:14.47,Default,,0,0,0,,Hang in there… Hang in there, Fairy.
+Dialogue: 0,0:39:14.51,0:39:17.97,Default,,0,0,0,,Hang in there.
+Dialogue: 0,0:39:18.00,0:39:22.51,Default,,0,0,0,,It’s okay. It’s okay.
+Dialogue: 0,0:39:30.17,0:39:34.31,Default,,0,0,0,,Kazuma, call Dr. Nomi.
+Dialogue: 0,0:39:34.34,0:39:38.67,Default,,0,0,0,,- Tell him to come right away.\N- Got it!
+Dialogue: 0,0:39:40.84,0:39:44.81,Default,,0,0,0,,Is something wrong?
+Dialogue: 0,0:39:44.84,0:39:48.64,Default,,0,0,0,,Do you know the normal process of delivery?
+Dialogue: 0,0:39:48.67,0:39:50.81,Default,,0,0,0,,First, the water breaks…
+Dialogue: 0,0:39:50.84,0:39:55.31,Default,,0,0,0,,Then the amniotic sac… Two front\Nlegs facing downward come out.
+Dialogue: 0,0:39:55.34,0:39:58.64,Default,,0,0,0,,Front legs, nose, face,\Nhead, shoulders, in that order.
+Dialogue: 0,0:39:58.67,0:40:01.64,Default,,0,0,0,,That’s right, in a normal case.
+Dialogue: 0,0:40:01.67,0:40:04.97,Default,,0,0,0,,But right now, those\Nfront legs aren’t visible.
+Dialogue: 0,0:40:05.00,0:40:07.14,Default,,0,0,0,,What does that mean?
+Dialogue: 0,0:40:07.17,0:40:10.64,Default,,0,0,0,,It looks like it’s stuck inside.
+Dialogue: 0,0:40:10.67,0:40:14.64,Default,,0,0,0,,Then just pull it out? Like with a cow?
+Dialogue: 0,0:40:14.67,0:40:19.51,Default,,0,0,0,,If you pull too hard, you’ll\Ninjure the outer cervix.
+Dialogue: 0,0:40:22.34,0:40:24.51,Default,,0,0,0,,Then what should we do?
+Dialogue: 0,0:40:34.34,0:40:36.81,Default,,0,0,0,,- Dr. Nomi!\N- Sorry for being late.
+Dialogue: 0,0:40:36.84,0:40:39.47,Default,,0,0,0,,- No, sorry for calling you so suddenly.\N- When did the water break?
+Dialogue: 0,0:40:39.51,0:40:41.64,Default,,0,0,0,,It’s been over an hour already.
+Dialogue: 0,0:40:41.67,0:40:44.14,Default,,0,0,0,,Kase, get the dystocia kit.
+Dialogue: 0,0:40:44.17,0:40:47.14,Default,,0,0,0,,Yes! Kubo-kun, help out a bit!
+Dialogue: 0,0:40:47.17,0:40:49.17,Default,,0,0,0,,Yes!
+Dialogue: 0,0:41:17.17,0:41:19.97,Default,,0,0,0,,How does it look?
+Dialogue: 0,0:41:20.00,0:41:22.81,Default,,0,0,0,,It's tough…
+Dialogue: 0,0:41:22.84,0:41:26.81,Default,,0,0,0,,What about a C-section?
+Dialogue: 0,0:41:26.84,0:41:32.34,Default,,0,0,0,,Even if surgery is done\Nnow, the foal won't survive.
+Dialogue: 0,0:41:36.17,0:41:43.47,Default,,0,0,0,,Take-san, it's unfortunate,\Nbut let's give up this time.
+Dialogue: 0,0:41:43.51,0:41:46.47,Default,,0,0,0,,- No way!\N- There's no choice.
+Dialogue: 0,0:41:46.51,0:41:49.17,Default,,0,0,0,,At this rate, Fairy is in danger too.
+Dialogue: 0,0:41:51.67,0:41:56.97,Default,,0,0,0,,- Let's at least save the mother.\N- Please.
+Dialogue: 0,0:41:57.00,0:42:00.00,Default,,0,0,0,,How will you save her without a C-section?
+Dialogue: 0,0:42:07.51,0:42:12.67,Default,,0,0,0,,Ah… I see. So that's how it is.
+Dialogue: 0,0:42:21.84,0:42:24.81,Default,,0,0,0,,- Kubo-kun, bring that over here.\N- Yes.
+Dialogue: 0,0:42:24.84,0:42:26.84,Default,,0,0,0,,Thanks.
+Dialogue: 0,0:42:29.34,0:42:31.47,Default,,0,0,0,,What happened?
+Dialogue: 0,0:42:31.51,0:42:36.31,Default,,0,0,0,,- Fetotomy.\N- Cutting it?
+Dialogue: 0,0:42:36.34,0:42:38.31,Default,,0,0,0,,Cutting?
+Dialogue: 0,0:42:38.34,0:42:42.43,Default,,0,0,0,,The foal will be cut\Ninside the mare’s womb.
+Dialogue: 0,0:42:42.45,0:42:43.81,Default,,0,0,0,,What?
+Dialogue: 0,0:42:43.84,0:42:47.97,Default,,0,0,0,,- It's for Fairy.\N- Hey, you two go outside.
+Dialogue: 0,0:42:48.00,0:42:51.81,Default,,0,0,0,,No, I'm staying here.
+Dialogue: 0,0:42:51.84,0:42:55.34,Default,,0,0,0,,I'll stay by\NFairy’s side and watch the procedure.
+Dialogue: 0,0:42:57.00,0:42:58.97,Default,,0,0,0,,Then, you two go outside.
+Dialogue: 0,0:43:31.84,0:43:37.34,Default,,0,0,0,,I was thinking of recording\Na video… but this isn’t the time for that.
+Dialogue: 0,0:43:50.03,0:43:52.36,Default,,0,0,0,,USHIKU CHIDORI:\NSATORI, HOW ARE YOU?
+Dialogue: 0,0:43:54.51,0:43:58.17,Default,,0,0,0,,{\i1}Satori, how are you doing?{\i0}
+Dialogue: 0,0:44:01.17,0:44:05.31,Default,,0,0,0,,{\i1}Thanks for always sending so many pictures.{\i0}
+Dialogue: 0,0:44:05.34,0:44:10.14,Default,,0,0,0,,{\i1}This time, I'll send one from grandma.{\i0}
+Dialogue: 0,0:44:10.17,0:44:13.77,Default,,0,0,0,,{\i1}You've been working\Nhard, even during summer break,{\i0}
+Dialogue: 0,0:44:13.79,0:44:18.14,Default,,0,0,0,,{\i1}doing practical\Ntraining and assignments.{\i0}
+Dialogue: 0,0:44:18.17,0:44:24.31,Default,,0,0,0,,{\i1}You’ve been\Ntrying so hard, it makes me admire you.{\i0}
+Dialogue: 0,0:44:24.34,0:44:34.97,Default,,0,0,0,,{\i1}Do you remember when grandma\Nasked, ‘Satori, do you have a dream?’"{\i0}
+Dialogue: 0,0:44:35.00,0:44:38.81,Default,,0,0,0,,- I don’t know.\N- You don’t know?
+Dialogue: 0,0:44:38.84,0:44:43.64,Default,,0,0,0,,I’ve never even thought about it.
+Dialogue: 0,0:44:43.67,0:44:47.14,Default,,0,0,0,,Then let’s think about it.
+Dialogue: 0,0:44:47.17,0:44:54.81,Default,,0,0,0,,About the future, a dream.
+Dialogue: 0,0:44:54.84,0:44:59.47,Default,,0,0,0,,A dream… is it okay to have one?
+Dialogue: 0,0:44:59.51,0:45:03.00,Default,,0,0,0,,Of course it is!
+Dialogue: 0,0:45:11.00,0:45:15.31,Default,,0,0,0,,What about a job related\Nto animals like Pearl?
+Dialogue: 0,0:45:15.34,0:45:20.14,Default,,0,0,0,,Since you love animals,\Nmaybe that kind of path suits you? Right?
+Dialogue: 0,0:45:20.17,0:45:24.31,Default,,0,0,0,,That kind of path?
+Dialogue: 0,0:45:24.34,0:45:30.81,Default,,0,0,0,,A veterinarian. A doctor for animals.
+Dialogue: 0,0:45:30.84,0:45:34.14,Default,,0,0,0,,No way. Someone like me…
+Dialogue: 0,0:45:34.17,0:45:36.47,Default,,0,0,0,,It's impossible, impossible, impossible.
+Dialogue: 0,0:45:36.51,0:45:42.97,Default,,0,0,0,,{\i1}Even while saying that, something began\Nto bloom inside Satori's heart.{\i0}
+Dialogue: 0,0:45:43.00,0:45:46.67,Default,,0,0,0,,{\i1}- Grandma could see it.{\i0}\N- Grandma…
+Dialogue: 0,0:45:50.71,0:45:52.64,Default,,0,0,0,,I…
+Dialogue: 0,0:45:52.67,0:45:54.67,Default,,0,0,0,,Yeah…
+Dialogue: 0,0:46:01.17,0:46:04.34,Default,,0,0,0,,I’ll try it!
+Dialogue: 0,0:46:06.17,0:46:10.00,Default,,0,0,0,,Yes! Yes!
+Dialogue: 0,0:46:11.80,0:46:25.98,Default,,0,0,0,,{\i1}Satori, please walk with confidence.\NI’m always cheering for you, good luck!{\i0}
+Dialogue: 0,0:46:34.84,0:46:36.56,Default,,0,0,0,,Grandma...
+Dialogue: 0,0:46:36.99,0:46:42.03,Default,,0,0,0,,Can I take Pearl's bones with me?
+Dialogue: 0,0:46:42.67,0:46:48.21,Default,,0,0,0,,Because of Pearl, I\Nthought maybe I’d become a veterinarian...
+Dialogue: 0,0:46:49.52,0:46:54.58,Default,,0,0,0,,I want to stay close\Nto animals who can’t speak like Pearl,
+Dialogue: 0,0:46:54.58,0:46:57.85,Default,,0,0,0,,and listen to their voices properly.
+Dialogue: 0,0:47:00.45,0:47:03.49,Default,,0,0,0,,That's how I feel... So...
+Dialogue: 0,0:47:12.63,0:47:14.91,Default,,0,0,0,,Stop...
+Dialogue: 0,0:47:19.70,0:47:21.69,Default,,0,0,0,,Stop...
+Dialogue: 0,0:47:43.27,0:47:45.30,Default,,0,0,0,,Stop!
+Dialogue: 0,0:47:46.99,0:47:49.42,Default,,0,0,0,,Please don’t amputate!
+Dialogue: 0,0:47:49.86,0:47:52.32,Default,,0,0,0,,- It’s crying "Stop!"\N- What are you saying?
+Dialogue: 0,0:47:52.33,0:47:55.72,Default,,0,0,0,,- Stop! Let go of me!\N- Calm down, calm down!
+Dialogue: 0,0:47:55.74,0:47:59.64,Default,,0,0,0,,- Don’t do that!\N- It’s to save Fairy!
+Dialogue: 0,0:47:59.66,0:48:05.12,Default,,0,0,0,,What about Snow\NPearl? Snow Pearl! We named it Snow Pearl!
+Dialogue: 0,0:48:05.14,0:48:09.02,Default,,0,0,0,,We promised! We\Npromised to watch its growth forever!
+Dialogue: 0,0:48:09.02,0:48:11.16,Default,,0,0,0,,We promised!
+Dialogue: 0,0:48:12.14,0:48:16.29,Default,,0,0,0,,Please stop! Stop!
+Dialogue: 0,0:48:19.20,0:48:24.44,Default,,0,0,0,,No! Stop! Don’t kill it!
+Dialogue: 0,0:48:26.84,0:48:30.37,Default,,0,0,0,,Stop! Please!
+Dialogue: 0,0:48:40.18,0:48:41.48,Default,,0,0,0,,NEXT EPISODE PREVIEW
+Dialogue: 0,0:48:41.49,0:48:43.73,Default,,0,0,0,,{\i1}It’s better to stop aiming\Nto be a veterinarian.{\i0}
+Dialogue: 0,0:48:43.75,0:48:46.80,Default,,0,0,0,,{\i1}If you’re scared, you won’t\Nbe able to make your dreams come true.{\i0}
+Dialogue: 0,0:48:46.81,0:48:50.28,Default,,0,0,0,,{\i1}There is nothing that\Nyou absolutely have to do.{\i0}
+Dialogue: 0,0:48:50.28,0:48:51.60,Default,,0,0,0,,Hey!
+Dialogue: 0,0:48:51.61,0:48:53.58,Default,,0,0,0,,{\i1}I think you should express your feelings.{\i0}
+Dialogue: 0,0:48:53.60,0:48:55.28,Default,,0,0,0,,I want to become a bird.
+Dialogue: 0,0:48:55.31,0:48:57.96,Default,,0,0,0,,AFTER CONSULTING WITH EXPERTS, NO ANIMALS\NWERE HARMED WHILE FILIMING.
+Dialogue: 0,0:48:57.99,0:49:01.96,Default,,0,0,0,,ENGLISH SUBTITLES BY CHRIZ KAYRIKO\NVisit chrizkayriko.github.io
