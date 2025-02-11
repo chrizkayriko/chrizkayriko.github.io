@@ -1,0 +1,267 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default2,Helvetica 65 Medium,18.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,10,10,25,1
+Style: Notes,Arial,14,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.0,8,10,10,25,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:12.49,0:00:18.55,Default2,,0,0,0,,- This is a terrible scene. \N- Four people…
+Dialogue: 0,0:00:18.55,0:00:20.55,Default2,,0,0,0,,A survivor!
+Dialogue: 0,0:00:22.76,0:00:27.48,Default2,,0,0,0,,She was restrained. She says\Nshe is the housekeeper of this home.
+Dialogue: 0,0:00:27.48,0:00:31.52,Default2,,0,0,0,,Do you understand the situation?
+Dialogue: 0,0:00:31.52,0:00:34.52,Default2,,0,0,0,,I don't know…
+Dialogue: 0,0:00:37.75,0:00:48.86,Default2,,0,0,0,,Both the parents and the children…\NThey were all wonderful people.
+Dialogue: 0,0:00:48.86,0:00:57.86,Default2,,0,0,0,,Truly… Such a lovely…\NAn ideal family…
+Dialogue: 0,0:01:01.81,0:01:05.01,Default2,,0,0,0,,3 MONTHS AGO
+Dialogue: 0,0:01:08.19,0:01:10.05,Default2,,0,0,0,,HAIBARA FAMILY
+Dialogue: 0,0:01:10.08,0:01:12.26,Default2,,0,0,0,,Papa! Come here for a sec.
+Dialogue: 0,0:01:12.26,0:01:14.95,Default2,,0,0,0,,What? I'm about to leave.
+Dialogue: 0,0:01:14.95,0:01:16.97,Default2,,0,0,0,,I'm stopping by the\Ndealer before work today.
+Dialogue: 0,0:01:16.97,0:01:19.83,Default2,,0,0,0,,I already told you, didn't I?
+Dialogue: 0,0:01:19.83,0:01:21.78,Default2,,0,0,0,,Today's the day the housekeeper is coming.
+Dialogue: 0,0:01:21.79,0:01:24.49,Default2,,0,0,0,,- Kuromi Kioka-san.\N- Nice to meet you, sir.
+Dialogue: 0,0:01:24.49,0:01:29.13,Default2,,0,0,0,,I am the housekeeper, Kuromi.
+Dialogue: 0,0:01:29.15,0:01:33.15,Default2,,0,0,0,,Pleased to be working with you.
+Dialogue: 0,0:01:35.55,0:01:36.90,Default2,,0,0,0,,Pretty young.
+Dialogue: 0,0:01:36.90,0:01:40.27,Default2,,0,0,0,,Even so, I've been a\Nhousekeeper for seven years.
+Dialogue: 0,0:01:40.27,0:01:43.98,Default2,,0,0,0,,My husband works as an\Nexecutive at the company.
+Dialogue: 0,0:01:43.98,0:01:46.17,Default2,,0,0,0,,I haven't given you my card yet, have I?
+Dialogue: 0,0:01:46.17,0:01:48.86,Default2,,0,0,0,,Allow me to introduce\Nmyself again, Haibara Midori.
+Dialogue: 0,0:01:48.86,0:01:51.88,Default2,,0,0,0,,I'll take it.
+Dialogue: 0,0:01:51.88,0:01:54.74,Default2,,0,0,0,,Oh, who’s this?
+Dialogue: 0,0:01:54.74,0:02:00.47,Default2,,0,0,0,,I am the housekeeper, Kuromi.\NYou must be the eldest son, Chiaki-sama.
+Dialogue: 0,0:02:00.47,0:02:05.01,Default2,,0,0,0,,Oh, Kuromi-chan? Nice to meet you.
+Dialogue: 0,0:02:05.01,0:02:10.74,Default2,,0,0,0,,The eldest daughter, Akari-sama, is in\Nher second year of middle school, correct?
+Dialogue: 0,0:02:10.74,0:02:13.43,Default2,,0,0,0,,- Yes…\N- She’s been withdrawn,
+Dialogue: 0,0:02:13.43,0:02:15.62,Default2,,0,0,0,,and not attending school lately.
+Dialogue: 0,0:02:15.62,0:02:19.16,Default2,,0,0,0,,- I'm worried too.\N- I see.
+Dialogue: 0,0:02:19.16,0:02:22.19,Default2,,0,0,0,,Well, do your best!\NI'm off!
+Dialogue: 0,0:02:22.19,0:02:25.05,Default2,,0,0,0,,I need to go too.
+Dialogue: 0,0:02:25.05,0:02:26.90,Default2,,0,0,0,,Take care.
+Dialogue: 0,0:02:26.90,0:02:30.03,Default2,,0,0,0,,- Be careful.\N- Okay.
+Dialogue: 0,0:02:36.49,0:02:40.70,Default2,,0,0,0,,Well then, madam,\NI’d like to take a look around the house.
+Dialogue: 0,0:02:40.70,0:02:43.73,Default2,,0,0,0,,Would you mind giving me a tour?
+Dialogue: 0,0:02:43.73,0:02:47.78,Default2,,0,0,0,,Oh… Yes, of course.
+Dialogue: 0,0:02:56.19,0:03:00.22,Default2,,0,0,0,,I was planning to tidy up\Nbefore you arrive, Kuromi-san.
+Dialogue: 0,0:03:00.25,0:03:04.77,Default2,,0,0,0,,But things have been so busy…
+Dialogue: 0,0:03:04.77,0:03:07.64,Default2,,0,0,0,,Madam…
+Dialogue: 0,0:03:07.64,0:03:10.67,Default2,,0,0,0,,Please don't do this again.
+Dialogue: 0,0:03:11.27,0:03:12.86,Default2,,0,0,0,,I'm sorry.
+Dialogue: 0,0:03:12.86,0:03:16.29,Default2,,0,0,0,,The job of a housekeeper\Nis to handle household chores
+Dialogue: 0,0:03:16.32,0:03:20.15,Default2,,0,0,0,,so that the madam\Ncan focus on work.
+Dialogue: 0,0:03:20.18,0:03:25.32,Default2,,0,0,0,,So.. Please do not feel\Nashamed in front of me.
+Dialogue: 0,0:03:25.35,0:03:32.39,Default2,,0,0,0,,You have great talent in management.
+Dialogue: 0,0:03:33.91,0:03:38.12,Default2,,0,0,0,,That’s right.\NI worked hard and earned enough
+Dialogue: 0,0:03:38.12,0:03:42.12,Default2,,0,0,0,,to afford such a big house.
+Dialogue: 0,0:03:44.70,0:03:47.59,Default2,,0,0,0,,Yes, truly admirable.
+Dialogue: 0,0:04:46.76,0:04:53.10,Default2,,0,0,0,,KASEIFU KUROMI WA KUSATTA KAZOKU WO YURUSANAI\N(THE HOUSEKEEPER KUROMI WON'T FORGIVE ROTTEN FAMILIES)
+Dialogue: 0,0:04:53.42,0:04:56.21,Default2,,0,0,0,,ENGLISH SUBTITLES BY CHRIZ KAYRIKO\NVisit chrizkayriko.github.io
+Dialogue: 0,0:04:56.23,0:04:59.42,Default2,,0,0,0,,My skills as a housekeeper\Nwill be put to the test.
+Dialogue: 0,0:05:13.22,0:05:15.22,Default2,,0,0,0,,Akari-sama?
+Dialogue: 0,0:05:21.31,0:05:24.31,Default2,,0,0,0,,I would love to meet you soon.
+Dialogue: 0,0:05:33.22,0:05:35.49,Default2,,0,0,0,,This is...
+Dialogue: 0,0:05:36.97,0:05:40.82,Default2,,0,0,0,,Yes, then the decision is\Nmade to open the 10th store.
+Dialogue: 0,0:05:40.82,0:05:43.87,Default2,,0,0,0,,Send the documents once\Nthey are compiled. Thanks.
+Dialogue: 0,0:05:43.87,0:05:45.87,Default2,,0,0,0,,Yes, good work.
+Dialogue: 0,0:05:51.44,0:05:56.97,Default2,,0,0,0,,{\i1}That's right, just as Kuromi-san said,\Nmy abilities should be directed toward
+Dialogue: 0,0:05:56.99,0:06:02.71,Default2,,0,0,0,,{\i1}something more productive than housework.
+Dialogue: 0,0:06:02.73,0:06:05.49,Default2,,0,0,0,,{\i1}There’s no need to feel guilty
+Dialogue: 0,0:06:05.49,0:06:10.11,Default2,,0,0,0,,{\i1}about not being good at housework.
+Dialogue: 0,0:06:10.13,0:06:12.32,Default2,,0,0,0,,Yes?
+Dialogue: 0,0:06:12.32,0:06:15.01,Default2,,0,0,0,,Midori!
+Dialogue: 0,0:06:15.01,0:06:17.70,Default2,,0,0,0,,Huh? You seem to be in a good mood today.
+Dialogue: 0,0:06:17.70,0:06:19.72,Default2,,0,0,0,,Huh? Do I?
+Dialogue: 0,0:06:19.72,0:06:24.72,Default2,,0,0,0,,There was another interview request. A\Nfeature on "Shining Women Entrepreneurs."
+Dialogue: 0,0:06:25.96,0:06:29.65,Default2,,0,0,0,,It would be good publicity,\Nso maybe I'll accept it.
+Dialogue: 0,0:06:29.65,0:06:31.85,Default2,,0,0,0,,You're becoming even more famous.
+Dialogue: 0,0:06:31.85,0:06:34.71,Default2,,0,0,0,,Oh, right. Since Midori seemed busy,
+Dialogue: 0,0:06:34.71,0:06:37.23,Default2,,0,0,0,,I went ahead and approved\Nthe new beauty device purchase.
+Dialogue: 0,0:06:37.23,0:06:40.27,Default2,,0,0,0,,Ah, thanks as always, Makiko. That helps.
+Dialogue: 0,0:06:40.27,0:06:42.12,Default2,,0,0,0,,You're welcome.
+Dialogue: 0,0:06:44.14,0:06:46.33,Default2,,0,0,0,,Excuse me.
+Dialogue: 0,0:06:46.33,0:06:48.85,Default2,,0,0,0,,I brought something that was forgotten.
+Dialogue: 0,0:06:48.85,0:06:54.55,Default2,,0,0,0,,Kuromi-san, sorry for the trouble.\NThank you.
+Dialogue: 0,0:06:54.57,0:06:58.44,Default2,,0,0,0,,- See you.\N- Yes, please take care of it.
+Dialogue: 0,0:06:58.44,0:06:59.34,Default2,,0,0,0,,Thank you.
+Dialogue: 0,0:07:03.33,0:07:06.50,Default2,,0,0,0,,She is my business partner, Sudou Makiko.
+Dialogue: 0,0:07:06.52,0:07:10.57,Default2,,0,0,0,,Originally a friend, we\Nstarted this company together
+Dialogue: 0,0:07:10.57,0:07:13.57,Default2,,0,0,0,,and worked hard to grow it this big.
+Dialogue: 0,0:07:15.28,0:07:18.28,Default2,,0,0,0,,A wonderful friendship.
+Dialogue: 0,0:07:28.24,0:07:31.44,Default2,,0,0,0,,Wow, unbelievable!
+Dialogue: 0,0:07:31.44,0:07:34.98,Default2,,0,0,0,,Amazing, right? It looks so beautiful now.
+Dialogue: 0,0:07:34.98,0:07:37.98,Default2,,0,0,0,,Wow! This place is actually this spacious?
+Dialogue: 0,0:07:39.70,0:07:41.70,Default2,,0,0,0,,Oh?
+Dialogue: 0,0:07:43.90,0:07:46.75,Default2,,0,0,0,,This is…
+Dialogue: 0,0:07:46.75,0:07:50.80,Default2,,0,0,0,,Kuromi-san, where did you find this photo?
+Dialogue: 0,0:07:50.80,0:07:53.32,Default2,,0,0,0,,I found it while tidying up.
+Dialogue: 0,0:07:53.32,0:07:58.21,Default2,,0,0,0,,It was such a lovely photo,\Nso I decided to display it.
+Dialogue: 0,0:07:58.21,0:08:00.98,Default2,,0,0,0,,Thank you.
+Dialogue: 0,0:08:10.33,0:08:14.37,Default2,,0,0,0,,Wow, is all of this handmade by Kuromi-san?
+Dialogue: 0,0:08:14.37,0:08:18.08,Default2,,0,0,0,,Yes, I hope it suits your taste.
+Dialogue: 0,0:08:18.08,0:08:22.98,Default2,,0,0,0,,This might be the first time having\Nsuch amazing food in this house.
+Dialogue: 0,0:08:23.10,0:08:24.30,Default2,,0,0,0,,Akari.
+Dialogue: 0,0:08:24.30,0:08:26.30,Default2,,0,0,0,,She's Kuromi-san.
+Dialogue: 0,0:08:38.95,0:08:44.86,Default2,,0,0,0,,Akari-sama, if there is anything that\Ncannot be eaten, please let me know.
+Dialogue: 0,0:08:47.37,0:08:51.37,Default2,,0,0,0,,Come on, at least say hello properly.
+Dialogue: 0,0:08:53.27,0:08:57.59,Default2,,0,0,0,,{\i1}Truly, a wonderful home…
+Dialogue: 0,0:09:08.92,0:09:11.10,Default2,,0,0,0,,Ah, the new product.
+Dialogue: 0,0:09:11.13,0:09:14.53,Default2,,0,0,0,,I thought I should tidy it up properly.
+Dialogue: 0,0:09:14.55,0:09:16.83,Default2,,0,0,0,,But things have been so busy...
+Dialogue: 0,0:09:17.70,0:09:19.49,Default2,,0,0,0,,Wonderful!
+Dialogue: 0,0:09:19.52,0:09:22.69,Default2,,0,0,0,,It's okay, Madam.
+Dialogue: 0,0:09:23.33,0:09:24.91,Default2,,0,0,0,,Kuromi will...
+Dialogue: 0,0:09:24.91,0:09:29.92,Default2,,0,0,0,,raise you to be a person\Nworthy of being my master.
+Dialogue: 0,0:09:29.94,0:09:31.48,Default2,,0,0,0,,And then...
+Dialogue: 0,0:09:31.48,0:09:34.84,Default2,,0,0,0,,A husband who is only an executive in name.
+Dialogue: 0,0:09:34.84,0:09:38.21,Default2,,0,0,0,,An eldest daughter who\Nseems to be carrying darkness.
+Dialogue: 0,0:09:38.21,0:09:41.91,Default2,,0,0,0,,An eldest son who is unnaturally friendly.
+Dialogue: 0,0:09:41.91,0:09:45.28,Default2,,0,0,0,,All of you...
+Dialogue: 0,0:09:45.28,0:09:52.28,Default2,,0,0,0,,will become the ideal\Nfamily worthy of my service.
+Dialogue: 0,0:10:04.64,0:10:07.64,Default2,,0,0,0,,Please watch over me.
+Dialogue: 0,0:10:17.38,0:10:19.24,Default2,,0,0,0,,Wow, I’m so happy.
+Dialogue: 0,0:10:19.24,0:10:21.24,Default2,,0,0,0,,Are you enjoying yourselves?
+Dialogue: 0,0:10:24.61,0:10:28.83,Default2,,0,0,0,,Everyone, are you having a good time?
+Dialogue: 0,0:10:28.83,0:10:33.21,Default2,,0,0,0,,Midori-san, you look\Neven more beautiful today.
+Dialogue: 0,0:10:33.21,0:10:37.25,Default2,,0,0,0,,- Oh my, how flattering!\N- The food was amazing.
+Dialogue: 0,0:10:37.25,0:10:40.45,Default2,,0,0,0,,- And the house has such great taste.\N- I was truly surprised.
+Dialogue: 0,0:10:40.45,0:10:44.45,Default2,,0,0,0,,I wish I had been invited sooner.
+Dialogue: 0,0:10:44.48,0:10:47.34,Default2,,0,0,0,,There’s also a special dessert prepared,
+Dialogue: 0,0:10:47.34,0:10:53.07,Default2,,0,0,0,,so if anyone still has room,\Nplease do enjoy it.
+Dialogue: 0,0:10:53.07,0:10:55.59,Default2,,0,0,0,,This dessert...
+Dialogue: 0,0:10:55.59,0:10:59.33,Default2,,0,0,0,,was made exactly\Naccording to Madam’s recipe.
+Dialogue: 0,0:11:00.37,0:11:03.50,Default2,,0,0,0,,- It looks delicious!\N- I absolutely have to try it!
+Dialogue: 0,0:11:03.50,0:11:05.50,Default2,,0,0,0,,Kuromi-san...
+Dialogue: 0,0:11:08.22,0:11:13.26,Default2,,0,0,0,,The tableware, the food,\Nit’s all thanks to you.
+Dialogue: 0,0:11:13.46,0:11:16.14,Default2,,0,0,0,,It’s an honor to be of service.
+Dialogue: 0,0:11:16.14,0:11:20.18,Default2,,0,0,0,,Since it seems popular,\NI will bring out more dessert.
+Dialogue: 0,0:11:20.18,0:11:22.18,Default2,,0,0,0,,Please do.
+Dialogue: 0,0:11:27.25,0:11:31.12,Default2,,0,0,0,,- It’s a nice party.\N- Konno-sama.
+Dialogue: 0,0:11:31.12,0:11:33.48,Default2,,0,0,0,,Thanks to this,\NI was able to build connections.
+Dialogue: 0,0:11:33.48,0:11:36.67,Default2,,0,0,0,,I’m honored that you enjoyed it.
+Dialogue: 0,0:11:36.67,0:11:40.37,Default2,,0,0,0,,It’s a nice house.\NHonestly, I’m surprised.
+Dialogue: 0,0:11:40.37,0:11:42.06,Default2,,0,0,0,,- Huh?\N- Well...
+Dialogue: 0,0:11:42.06,0:11:48.06,Default2,,0,0,0,,You never invited anyone over,\Nso everyone was talking about it. Right?
+Dialogue: 0,0:11:48.09,0:11:51.15,Default2,,0,0,0,,Exactly. Beautiful CEO Haibara Midori...
+Dialogue: 0,0:11:51.15,0:11:56.54,Default2,,0,0,0,,might have some deep reason\Nwhy she can’t invite people to her house...
+Dialogue: 0,0:11:56.54,0:12:01.19,Default2,,0,0,0,,No way! Come on...
+Dialogue: 0,0:12:01.22,0:12:06.23,Default2,,0,0,0,,{\i1}That was close...\NAs expected, people were suspicious.
+Dialogue: 0,0:12:06.98,0:12:10.88,Default2,,0,0,0,,{\i1}If they found out\Nthat it was actually a garbage house...
+Dialogue: 0,0:12:15.73,0:12:19.56,Default2,,0,0,0,,Kuromi-san really is amazing.
+Dialogue: 0,0:12:21.29,0:12:25.16,Default2,,0,0,0,,That housekeeper...\NI knew I had seen her somewhere before.
+Dialogue: 0,0:12:25.16,0:12:27.79,Default2,,0,0,0,,It was at the\NYanagisawa family’s party.
+Dialogue: 0,0:12:27.82,0:12:29.87,Default2,,0,0,0,,The Yanagisawa family?\NThe former minister’s?
+Dialogue: 0,0:12:29.87,0:12:35.25,Default2,,0,0,0,,Yes! She’s very popular, and apparently,\Nit’s hard to get a contract with her.
+Dialogue: 0,0:12:35.25,0:12:40.12,Default2,,0,0,0,,Haibara-san, you’re really lucky.
+Dialogue: 0,0:12:50.90,0:12:53.11,Default2,,0,0,0,,I was surprised by the wonderful party.
+Dialogue: 0,0:12:53.61,0:12:56.14,Default2,,0,0,0,,Before you came,\Nit was completely different.
+Dialogue: 0,0:12:56.95,0:12:59.34,Default2,,0,0,0,,Truly impressive.
+Dialogue: 0,0:13:00.11,0:13:03.04,Default2,,0,0,0,,No… I did nothing.
+Dialogue: 0,0:13:03.76,0:13:08.76,Default2,,0,0,0,,I'm just assisting according\Nto Madam’s instructions.
+Dialogue: 0,0:13:08.76,0:13:12.76,Default2,,0,0,0,,I see… You’re tight-lipped too.
+Dialogue: 0,0:13:14.15,0:13:17.51,Default2,,0,0,0,,I heard from Midori, you're\Nstill in the trial period, right?
+Dialogue: 0,0:13:17.51,0:13:21.55,Default2,,0,0,0,,Yes. I'll work first for three months,
+Dialogue: 0,0:13:21.55,0:13:26.44,Default2,,0,0,0,,then Madam will make a decision.
+Dialogue: 0,0:13:26.44,0:13:31.44,Default2,,0,0,0,,Isn’t it actually you who\Nis evaluating instead?
+Dialogue: 0,0:13:35.70,0:13:39.06,Default2,,0,0,0,,I knew it.
+Dialogue: 0,0:13:40.00,0:13:45.29,Default2,,0,0,0,,Hey, I’ll pay double the\Nsalary, come work for me.
+Dialogue: 0,0:13:45.29,0:13:49.17,Default2,,0,0,0,,I think I suit you better.
+Dialogue: 0,0:13:50.23,0:13:53.93,Default2,,0,0,0,,{\i1}No way! She's planning to poach!?
+Dialogue: 0,0:13:53.96,0:13:56.40,Default2,,0,0,0,,I'm honored.
+Dialogue: 0,0:13:57.05,0:14:01.78,Default2,,0,0,0,,But unless Madam dismisses me,
+Dialogue: 0,0:14:01.78,0:14:05.49,Default2,,0,0,0,,I have decided to serve.
+Dialogue: 0,0:14:05.49,0:14:08.36,Default2,,0,0,0,,Until Madam passes away.
+Dialogue: 0,0:14:08.36,0:14:10.36,Default2,,0,0,0,,Huh?
+Dialogue: 0,0:14:15.43,0:14:19.86,Default2,,0,0,0,,Wait, Makiko, don’t take Kuromi-san.
+Dialogue: 0,0:14:19.89,0:14:21.60,Default2,,0,0,0,,Don't try to poach.
+Dialogue: 0,0:14:21.63,0:14:27.03,Default2,,0,0,0,,You’re single, you don’t\Neven need a housekeeper.
+Dialogue: 0,0:14:27.06,0:14:30.66,Default2,,0,0,0,,Are you mocking me for\Nbeing unable to marry?
+Dialogue: 0,0:14:30.66,0:14:33.39,Default2,,0,0,0,,Huh? No, could you not misunderstand?
+Dialogue: 0,0:14:33.42,0:14:37.62,Default2,,0,0,0,,I chose to be single\Nfor work, unlike Midori.
+Dialogue: 0,0:14:37.65,0:14:39.90,Default2,,0,0,0,,- Huh? \N- Do you even realize?
+Dialogue: 0,0:14:39.93,0:14:43.23,Default2,,0,0,0,,Encouraging to start a business, teaching\Nthe clueless Midori everything, it was me.
+Dialogue: 0,0:14:43.26,0:14:46.84,Default2,,0,0,0,,If not for me, Midori would’ve\Nbeen just another esthetician.
+Dialogue: 0,0:14:46.86,0:14:50.21,Default2,,0,0,0,,And yet, you're obsessed with standing out,
+Dialogue: 0,0:14:50.24,0:14:52.63,Default2,,0,0,0,,you're accepting any interview possible…
+Dialogue: 0,0:14:52.65,0:14:57.00,Default2,,0,0,0,,Is that really how you saw me?
+Dialogue: 0,0:14:57.02,0:15:00.68,Default2,,0,0,0,,You're just a fabricated creation.
+Dialogue: 0,0:15:03.06,0:15:08.12,Default2,,0,0,0,,Hey, wouldn’t it be interesting\Nif the world found out Midori's secret?
+Dialogue: 0,0:15:08.76,0:15:14.42,Default2,,0,0,0,,Isn't the parasite infesting\NMadam’s company actually you?
+Dialogue: 0,0:15:15.30,0:15:17.68,Default2,,0,0,0,,Huh?
+Dialogue: 0,0:15:21.75,0:15:26.78,Default2,,0,0,0,,These high-end beauty\Ndevices, 20 units were purchased...
+Dialogue: 0,0:15:26.81,0:15:30.34,Default2,,0,0,0,,But is that true? Falsifying\Nthe number of units,
+Dialogue: 0,0:15:30.34,0:15:33.14,Default2,,0,0,0,,didn't somone embezzle the payment?
+Dialogue: 0,0:15:33.16,0:15:36.27,Default2,,0,0,0,,How does an outsider like\Nyou have the right to say that?
+Dialogue: 0,0:15:36.27,0:15:39.23,Default2,,0,0,0,,You have no right to suspect anything and\Nit has already been confirmed with Midori.
+Dialogue: 0,0:15:39.23,0:15:43.73,Default2,,0,0,0,,Madam has known all along that\NSudo-sama had been embezzling.
+Dialogue: 0,0:15:43.73,0:15:46.18,Default2,,0,0,0,,Everything is already known.
+Dialogue: 0,0:15:46.44,0:15:47.44,Default2,,0,0,0,,Huh?
+Dialogue: 0,0:15:48.35,0:15:54.35,Default2,,0,0,0,,Until now, Madam simply\Nchose not to sue out of generosity.
+Dialogue: 0,0:15:56.43,0:16:00.98,Default2,,0,0,0,,Isn’t that right, Madam?
+Dialogue: 0,0:16:00.98,0:16:02.98,Default2,,0,0,0,,Yes…
+Dialogue: 0,0:16:05.02,0:16:09.23,Default2,,0,0,0,,You're not feeling well, are you?
+Dialogue: 0,0:16:09.23,0:16:14.11,Default2,,0,0,0,,Shall I arrange a taxi for Sudo-sama?
+Dialogue: 0,0:16:14.11,0:16:16.11,Default2,,0,0,0,,Yes.
+Dialogue: 0,0:16:18.32,0:16:21.32,Default2,,0,0,0,,Let’s go.
+Dialogue: 0,0:16:30.95,0:16:33.14,Default2,,0,0,0,,Kuromi-san!
+Dialogue: 0,0:16:33.14,0:16:36.17,Default2,,0,0,0,,What’s the matter, Madam?
+Dialogue: 0,0:16:36.17,0:16:39.70,Default2,,0,0,0,,It's really good that you came.
+Dialogue: 0,0:16:39.70,0:16:43.74,Default2,,0,0,0,,I've been fighting alone all this time.
+Dialogue: 0,0:16:43.74,0:16:49.46,Default2,,0,0,0,,The company and the house... I thought\NI had to handle everything by myself.
+Dialogue: 0,0:16:49.46,0:16:55.35,Default2,,0,0,0,,Kuromi-san, please,\Nstay in this house forever.
+Dialogue: 0,0:16:55.35,0:16:58.72,Default2,,0,0,0,,Support me!
+Dialogue: 0,0:16:58.72,0:17:03.10,Default2,,0,0,0,,Without you, I...
+Dialogue: 0,0:17:03.10,0:17:06.10,Default2,,0,0,0,,I can't...
+Dialogue: 0,0:17:17.11,0:17:21.96,Default2,,0,0,0,,Of course, Madam.
+Dialogue: 0,0:17:22.48,0:17:24.94,Default2,,0,0,0,,Forever and ever...
+Dialogue: 0,0:17:26.13,0:17:29.87,Default2,,0,0,0,,As long as you are alive…
+Dialogue: 0,0:17:29.87,0:17:32.87,Default2,,0,0,0,,I will never leave.
+Dialogue: 0,0:17:46.93,0:17:48.73,Default2,,0,0,0,,Thank you.
+Dialogue: 0,0:17:56.66,0:18:01.66,Default2,,0,0,0,,Madam, is something the matter?
+Dialogue: 0,0:18:07.44,0:18:10.44,Default2,,0,0,0,,Makiko suddenly handed me this...
+Dialogue: 0,0:18:12.92,0:18:15.52,Default2,,0,0,0,,A letter of resignation...
+Dialogue: 0,0:18:15.52,0:18:18.12,Default2,,0,0,0,,There's been no contact since then.
+Dialogue: 0,0:18:18.15,0:18:24.44,Default2,,0,0,0,,Someone that irresponsible\Nis not needed in your company.
+Dialogue: 0,0:18:24.44,0:18:28.44,Default2,,0,0,0,,Besides, someone who embezzles money...
+Dialogue: 0,0:18:32.18,0:18:38.18,Default2,,0,0,0,,But without Makiko, I...
+Dialogue: 0,0:18:47.00,0:18:53.87,Default2,,0,0,0,,You have already been recognized by\Nthe world as a respectable business leader.
+Dialogue: 0,0:18:53.89,0:18:56.07,Default2,,0,0,0,,You will be fine on your own.
+Dialogue: 0,0:18:57.83,0:18:59.60,Default2,,0,0,0,,Do you think so?
+Dialogue: 0,0:19:00.42,0:19:03.42,Default2,,0,0,0,,Absolutely.
+Dialogue: 0,0:19:12.40,0:19:16.09,Default2,,0,0,0,,Please have more confidence in yourself.
+Dialogue: 0,0:19:27.08,0:19:28.27,Default2,,0,0,0,,3 DAYS AGO
+Dialogue: 0,0:19:28.30,0:19:31.95,Default2,,0,0,0,,What is this? Calling\Nme out to a place like this.
+Dialogue: 0,0:19:31.95,0:19:39.95,Default2,,0,0,0,,That scarf… It looks very much like\Nsomething Madam owns. How lovely.
+Dialogue: 0,0:19:40.95,0:19:45.42,Default2,,0,0,0,,Do you intend to\Nexpose Madam's secret?
+Dialogue: 0,0:19:45.42,0:19:48.45,Default2,,0,0,0,,You're sharp.
+Dialogue: 0,0:19:48.45,0:19:52.32,Default2,,0,0,0,,If people found out that the president\Nof a beauty company has such a secret...
+Dialogue: 0,0:19:52.35,0:19:54.47,Default2,,0,0,0,,It would be a disaster.
+Dialogue: 0,0:19:54.50,0:19:56.85,Default2,,0,0,0,,The company's credibility would be gone,
+Dialogue: 0,0:19:56.85,0:20:00.73,Default2,,0,0,0,,and if that husband found\Nout, the family would fall apart?
+Dialogue: 0,0:20:00.73,0:20:05.92,Default2,,0,0,0,,I ask that you never see Madam again.
+Dialogue: 0,0:20:06.84,0:20:09.28,Default2,,0,0,0,,That’s not happening.
+Dialogue: 0,0:20:10.88,0:20:14.33,Default2,,0,0,0,,Are you requesting hush money?
+Dialogue: 0,0:20:14.36,0:20:16.86,Default2,,0,0,0,,Don't be mistaken!
+Dialogue: 0,0:20:16.89,0:20:22.42,Default2,,0,0,0,,I just want to see it. The face\Nof Midori in pain, in sorrow!
+Dialogue: 0,0:20:22.44,0:20:27.30,Default2,,0,0,0,,To see that face, I would spend\Nmy entire life getting in her way!
+Dialogue: 0,0:20:27.32,0:20:29.94,Default2,,0,0,0,,Again and again!
+Dialogue: 0,0:20:31.17,0:20:33.73,Default2,,0,0,0,,That can’t be helped, then.
+Dialogue: 0,0:20:33.73,0:20:35.73,Default2,,0,0,0,,Huh?
+Dialogue: 0,0:20:56.46,0:21:02.46,Default2,,0,0,0,,Jealousy arises from the\Nawareness of inferiority.
+Dialogue: 0,0:21:03.81,0:21:06.54,Default2,,0,0,0,,- What? \N- And then...
+Dialogue: 0,0:21:08.66,0:21:13.29,Default2,,0,0,0,,As a sin of humankind…
+Dialogue: 0,0:21:13.29,0:21:19.29,Default2,,0,0,0,,The one that produces\Nthe ugliest endings is...
+Dialogue: 0,0:21:23.39,0:21:26.39,Default2,,0,0,0,,Jealousy.
+Dialogue: 0,0:21:53.54,0:21:59.59,Default2,,0,0,0,,A pest that tries to destroy the\NHaibara family out of ugly jealousy
+Dialogue: 0,0:21:59.59,0:22:02.59,Default2,,0,0,0,,deserves to be eradicated.
+Dialogue: 0,0:22:29.05,0:22:31.05,Default2,,0,0,0,,Hello.
+Dialogue: 0,0:22:38.02,0:22:41.48,Default2,,0,0,0,,There are many pests in this house...
+Dialogue: 0,0:22:41.50,0:22:46.91,Default2,,0,0,0,,ENGLISH SUBTITLES BY CHRIZ KAYRIKO\NVisit chrizkayriko.github.io
+Dialogue: 0,0:22:46.91,0:22:48.51,Default2,,0,0,0,,NEXT EPISODE PREVIEW
+Dialogue: 0,0:22:58.67,0:23:03.66,Default2,,0,0,0,,THIS DRAMA IS FICTION \NTHE CHARACTERS AND ORGANIZATIONS FEATURED ARE FICTITIOUS.

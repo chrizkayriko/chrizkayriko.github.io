@@ -1,0 +1,260 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default2,Helvetica 65 Medium,18.0,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,10,10,25,1
+Style: Notes,Arial,14,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0.0,8,10,10,25,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.66,0:00:04.98,Default2,,0,0,0,,I am Kuromi, the housekeeper.
+Dialogue: 0,0:00:04.98,0:00:07.37,Default2,,0,0,0,,A housekeeper is responsible\Nfor household chores.
+Dialogue: 0,0:00:07.39,0:00:10.42,Default2,,0,0,0,,Please do not feel ashamed in front of me.
+Dialogue: 0,0:00:10.59,0:00:13.45,Default2,,0,0,0,,Such a truly wonderful home.
+Dialogue: 0,0:00:13.45,0:00:16.48,Default2,,0,0,0,,Pests deserve to be exterminated.
+Dialogue: 0,0:00:16.48,0:00:19.01,Default2,,0,0,0,,Kuromi-san, please support me.
+Dialogue: 0,0:00:19.01,0:00:26.95,Default2,,0,0,0,,Everyone must become the ideal family.
+Dialogue: 0,0:00:27.78,0:00:33.32,Default2,,0,0,0,,Hey.\NIs this shirt a bit too flashy?
+Dialogue: 0,0:00:33.32,0:00:35.84,Default2,,0,0,0,,It looks very good.
+Dialogue: 0,0:00:35.84,0:00:37.86,Default2,,0,0,0,,I see.
+Dialogue: 0,0:00:37.86,0:00:41.23,Default2,,0,0,0,,- Good morning.\N- Good morning.
+Dialogue: 0,0:00:41.23,0:00:44.60,Default2,,0,0,0,,Ah, first period is P.E.
+Dialogue: 0,0:00:44.60,0:00:46.95,Default2,,0,0,0,,Where's my gym uniform?
+Dialogue: 0,0:00:46.95,0:00:50.48,Default2,,0,0,0,,I ironed it for you.
+Dialogue: 0,0:00:50.48,0:00:52.34,Default2,,0,0,0,,Thanks.
+Dialogue: 0,0:00:52.34,0:00:54.65,Default2,,0,0,0,,Late again? You stayed out\Nplaying at night, didn't you?
+Dialogue: 0,0:00:54.68,0:00:57.56,Default2,,0,0,0,,I was studying since it's almost test time.
+Dialogue: 0,0:00:57.56,0:00:59.92,Default2,,0,0,0,,Aren't you about to go\Nout and have fun yourself?
+Dialogue: 0,0:00:59.92,0:01:01.94,Default2,,0,0,0,,I am an executive at Midori's company.
+Dialogue: 0,0:01:01.94,0:01:03.79,Default2,,0,0,0,,I’m busy with important work.
+Dialogue: 0,0:01:03.79,0:01:06.54,Default2,,0,0,0,,Important work? In that outfit?
+Dialogue: 0,0:01:06.54,0:01:09.52,Default2,,0,0,0,,No, this is, you see...
+Dialogue: 0,0:01:09.52,0:01:12.21,Default2,,0,0,0,,Sir.
+Dialogue: 0,0:01:12.21,0:01:13.89,Default2,,0,0,0,,You forgot something.
+Dialogue: 0,0:01:13.89,0:01:18.54,Default2,,0,0,0,,Huh? Oh, right.
+Dialogue: 0,0:01:19.16,0:01:21.13,Default2,,0,0,0,,I was going to change before work.
+Dialogue: 0,0:01:21.13,0:01:23.66,Default2,,0,0,0,,I see.
+Dialogue: 0,0:01:23.66,0:01:25.84,Default2,,0,0,0,,I'm off!
+Dialogue: 0,0:01:25.84,0:01:29.72,Default2,,0,0,0,,Guess I’ll head out to work too.
+Dialogue: 0,0:01:29.72,0:01:34.94,Default2,,0,0,0,,Please take care.\NHave a good day.
+Dialogue: 0,0:01:48.74,0:01:52.11,Default2,,0,0,0,,Cleaning will be finished soon.
+Dialogue: 0,0:01:52.11,0:01:54.46,Default2,,0,0,0,,I will prepare lunch.
+Dialogue: 0,0:01:54.46,0:01:57.62,Default2,,0,0,0,,Huh? That’s all for cleaning?
+Dialogue: 0,0:01:57.62,0:01:59.69,Default2,,0,0,0,,Once a big cleanup is done,
+Dialogue: 0,0:01:59.69,0:02:05.91,Default2,,0,0,0,,daily maintenance is enough.
+Dialogue: 0,0:02:05.91,0:02:10.74,Default2,,0,0,0,,Even with a little cleaning each day,\Na house does not get dirty.
+Dialogue: 0,0:02:14.75,0:02:17.19,Default2,,0,0,0,,Please rest assured.
+Dialogue: 0,0:02:17.19,0:02:23.19,Default2,,0,0,0,,As long as I am here,\Nany dirt will be cleaned.
+Dialogue: 0,0:02:26.78,0:02:30.15,Default2,,0,0,0,,Is there anything in particular\Nyou would like for lunch?
+Dialogue: 0,0:02:30.15,0:02:32.14,Default2,,0,0,0,,- No need.\N- However...
+Dialogue: 0,0:02:32.16,0:02:34.03,Default2,,0,0,0,,You did not eat breakfast either.
+Dialogue: 0,0:02:34.03,0:02:38.64,Default2,,0,0,0,,I can take care of myself,\Nso do not mind me.
+Dialogue: 0,0:03:39.85,0:03:43.82,Default2,,0,0,0,,KASEIFU KUROMI WA KUSATTA KAZOKU WO YURUSANAI\N(THE HOUSEKEEPER KUROMI WON'T FORGIVE ROTTEN FAMILIES)
+Dialogue: 0,0:03:43.82,0:03:44.88,Default2,,0,0,0,,ENGLISH SUBTITLES BY CHRIZ KAYRIKO\NVisit chrizkayriko.github.io
+Dialogue: 0,0:03:44.90,0:03:48.27,Default2,,0,0,0,,Huh? Oh, the reason for skipping school?
+Dialogue: 0,0:03:48.27,0:03:51.63,Default2,,0,0,0,,That child won't say clearly.
+Dialogue: 0,0:03:51.63,0:03:57.18,Default2,,0,0,0,,Well, not a talkative one to begin with.
+Dialogue: 0,0:03:57.18,0:04:02.58,Default2,,0,0,0,,Lately, she barely speaks at all.
+Dialogue: 0,0:04:02.58,0:04:04.77,Default2,,0,0,0,,I see.
+Dialogue: 0,0:04:04.77,0:04:07.46,Default2,,0,0,0,,It was my fault too.
+Dialogue: 0,0:04:07.46,0:04:11.16,Default2,,0,0,0,,I was busy with work,\Neven from a young age...
+Dialogue: 0,0:04:11.16,0:04:13.19,Default2,,0,0,0,,I didn't really give attention to her.
+Dialogue: 0,0:04:13.19,0:04:18.40,Default2,,0,0,0,,Instead, I thought I was\Ngiving her enough allowance.
+Dialogue: 0,0:04:18.40,0:04:23.11,Default2,,0,0,0,,What has been said to\Nthe school and neighbors?
+Dialogue: 0,0:04:23.11,0:04:24.97,Default2,,0,0,0,,Akari is weak,
+Dialogue: 0,0:04:24.97,0:04:28.00,Default2,,0,0,0,,so we said she is taking\Ntime off from school.
+Dialogue: 0,0:04:28.00,0:04:29.69,Default2,,0,0,0,,If she's being bullied,
+Dialogue: 0,0:04:29.69,0:04:34.73,Default2,,0,0,0,,I’m thinking of transferring\Nher to a boarding school.
+Dialogue: 0,0:04:34.73,0:04:41.12,Default2,,0,0,0,,Could you try to find out why\NAkari is not attending school?
+Dialogue: 0,0:04:41.12,0:04:43.12,Default2,,0,0,0,,Understood.
+Dialogue: 0,0:05:00.15,0:05:03.85,Default2,,0,0,0,,I think it’s impossible.
+Dialogue: 0,0:05:03.85,0:05:07.47,Default2,,0,0,0,,Even if you try to get\Nsomething out of Akari.
+Dialogue: 0,0:05:11.69,0:05:14.96,Default2,,0,0,0,,Why is that?
+Dialogue: 0,0:05:14.96,0:05:19.85,Default2,,0,0,0,,Akari doesn't open up\Nto anyone in the family.
+Dialogue: 0,0:05:19.85,0:05:24.39,Default2,,0,0,0,,I don’t think she’ll open up to you either.
+Dialogue: 0,0:05:24.39,0:05:27.42,Default2,,0,0,0,,And that kid…
+Dialogue: 0,0:05:27.42,0:05:30.84,Default2,,0,0,0,,Kuromi-san, will you keep this a secret?
+Dialogue: 0,0:05:30.86,0:05:36.36,Default2,,0,0,0,,No matter what, I will absolutely\Nprotect the family secrets.
+Dialogue: 0,0:05:44.93,0:05:48.46,Default2,,0,0,0,,I just found this online by chance,
+Dialogue: 0,0:05:48.46,0:05:50.66,Default2,,0,0,0,,Isn’t this Akari?
+Dialogue: 0,0:05:50.66,0:05:56.19,Default2,,0,0,0,,I’ve heard of a kid making\Nmoney by taking pictures like this,
+Dialogue: 0,0:05:56.22,0:05:59.92,Default2,,0,0,0,,but I never thought it would be Akari.
+Dialogue: 0,0:05:59.92,0:06:05.46,Default2,,0,0,0,,Akari isn’t lacking money.
+Dialogue: 0,0:06:05.46,0:06:08.67,Default2,,0,0,0,,Maybe it's to get back at Mom.
+Dialogue: 0,0:06:08.67,0:06:13.54,Default2,,0,0,0,,She probably wants to trouble Mom, who is only\Nfocused on work and doesn’t care about her.
+Dialogue: 0,0:06:13.57,0:06:15.91,Default2,,0,0,0,,Well, I can understand that feeling.
+Dialogue: 0,0:06:15.91,0:06:18.43,Default2,,0,0,0,,Have you told your mom about this?
+Dialogue: 0,0:06:18.43,0:06:20.79,Default2,,0,0,0,,Of course not.
+Dialogue: 0,0:06:20.79,0:06:24.83,Default2,,0,0,0,,Mom cares about how things look to others.
+Dialogue: 0,0:06:24.83,0:06:32.08,Default2,,0,0,0,,If this got out, our\Nfamily would be finished.
+Dialogue: 0,0:06:39.98,0:06:46.01,Default2,,0,0,0,,Hey, isn't the delivery here yet?\NI've been waiting over an hour.
+Dialogue: 0,0:06:46.03,0:06:48.57,Default2,,0,0,0,,I wonder what happened?
+Dialogue: 0,0:06:48.57,0:06:52.06,Default2,,0,0,0,,Maybe they got into an accident.
+Dialogue: 0,0:06:59.51,0:07:03.60,Default2,,0,0,0,,I was just making hamburgers right now.
+Dialogue: 0,0:07:03.60,0:07:05.91,Default2,,0,0,0,,Would you like some?
+Dialogue: 0,0:07:05.91,0:07:07.93,Default2,,0,0,0,,No thanks.
+Dialogue: 0,0:07:21.23,0:07:24.44,Default2,,0,0,0,,Mmm… it’s delicious.
+Dialogue: 0,0:07:24.44,0:07:26.75,Default2,,0,0,0,,Please eat gently.
+Dialogue: 0,0:07:30.83,0:07:35.87,Default2,,0,0,0,,Cocoa. How did you know I liked it?
+Dialogue: 0,0:07:36.89,0:07:42.10,Default2,,0,0,0,,That mug is from a cocoa\Nmaker in the Netherlands, right?
+Dialogue: 0,0:07:42.10,0:07:45.64,Default2,,0,0,0,,I think it’s a special item you can\Nonly get when you subscribe regularly.
+Dialogue: 0,0:07:45.64,0:07:49.28,Default2,,0,0,0,,I remember it well.
+Dialogue: 0,0:07:49.28,0:07:52.71,Default2,,0,0,0,,You know a lot.
+Dialogue: 0,0:07:52.71,0:07:58.71,Default2,,0,0,0,,When I was little, Mom made it for me,\Nand I’ve loved it ever since.
+Dialogue: 0,0:08:06.01,0:08:09.91,Default2,,0,0,0,,What’s this?\NIt’s really delicious.
+Dialogue: 0,0:08:09.93,0:08:15.04,Default2,,0,0,0,,The trick is to roast a\Nlittle cocoa powder first.
+Dialogue: 0,0:08:25.03,0:08:28.23,Default2,,0,0,0,,I found this while cleaning the closet.
+Dialogue: 0,0:08:28.23,0:08:34.82,Default2,,0,0,0,,It’s Akari-sama’s report card and test\Nresults from when she went to school.
+Dialogue: 0,0:08:34.84,0:08:38.02,Default2,,0,0,0,,She was really excellent.
+Dialogue: 0,0:08:38.33,0:08:44.33,Default2,,0,0,0,,With this, there should be no problem\Neven if you resume going to school.
+Dialogue: 0,0:08:46.08,0:08:51.32,Default2,,0,0,0,,It's been over six\Nmonths. I can't catch up.
+Dialogue: 0,0:08:51.32,0:08:57.01,Default2,,0,0,0,,Actually, I used to work as a tutor.
+Dialogue: 0,0:08:57.01,0:08:59.04,Default2,,0,0,0,,Huh?
+Dialogue: 0,0:08:59.04,0:09:03.44,Default2,,0,0,0,,Well, since this is a right angle...
+Dialogue: 0,0:09:06.11,0:09:09.11,Default2,,0,0,0,,Please take a good look at the shape.
+Dialogue: 0,0:09:10.82,0:09:14.58,Default2,,0,0,0,,Ah, I see. It's the Pythagorean theorem.
+Dialogue: 0,0:09:16.21,0:09:19.21,Default2,,0,0,0,,- Correct. \N- Well done.
+Dialogue: 0,0:09:20.98,0:09:25.46,Default2,,0,0,0,,If it’s Akari-sama, even if\Nshe returns to school now,
+Dialogue: 0,0:09:25.46,0:09:28.46,Default2,,0,0,0,,her grades will still be top class.
+Dialogue: 0,0:09:34.22,0:09:39.22,Default2,,0,0,0,,But still, I can't go to school.
+Dialogue: 0,0:09:42.31,0:09:46.00,Default2,,0,0,0,,Akari-sama...
+Dialogue: 0,0:09:46.00,0:09:49.37,Default2,,0,0,0,,Are you being threatened by someone?
+Dialogue: 0,0:09:49.37,0:09:50.72,Default2,,0,0,0,,Huh?
+Dialogue: 0,0:09:50.72,0:09:56.72,Default2,,0,0,0,,Don’t worry. I’ll never tell your mother.
+Dialogue: 0,0:10:05.03,0:10:09.24,Default2,,0,0,0,,Sakuma-sensei from middle school.
+Dialogue: 0,0:10:09.24,0:10:12.24,Default2,,0,0,0,,He's a part-time teacher.
+Dialogue: 0,0:10:13.96,0:10:20.08,Default2,,0,0,0,,He was fun, kind, and\Npopular with the girls.
+Dialogue: 0,0:10:20.08,0:10:21.29,Default2,,0,0,0,,- Good morning.\N- Good morning.
+Dialogue: 0,0:10:21.31,0:10:24.56,Default2,,0,0,0,,He was always concerned about\Nme, someone with few friends,
+Dialogue: 0,0:10:24.56,0:10:28.82,Default2,,0,0,0,,and often spoke to me.
+Dialogue: 0,0:10:28.82,0:10:31.30,Default2,,0,0,0,,I also looked forward to talking to him.
+Dialogue: 0,0:10:31.30,0:10:34.15,Default2,,0,0,0,,If the next test is 100\Npoints, I'll think about it.
+Dialogue: 0,0:10:34.15,0:10:36.35,Default2,,0,0,0,,Eh!?
+Dialogue: 0,0:10:36.35,0:10:38.87,Default2,,0,0,0,,If there's something you don't understand,\Ncome ask me anytime.
+Dialogue: 0,0:10:38.87,0:10:41.05,Default2,,0,0,0,,Yeah, thank you.
+Dialogue: 0,0:10:41.05,0:10:44.26,Default2,,0,0,0,,- You must have studied a lot.\N- Yeah, I worked hard.
+Dialogue: 0,0:10:44.26,0:10:47.45,Default2,,0,0,0,,But one day, after school,
+Dialogue: 0,0:10:47.45,0:10:54.82,Default2,,0,0,0,,He told me he'd help me\Nstudy, so I went to the art room.
+Dialogue: 0,0:10:55.33,0:11:00.19,Default2,,0,0,0,,As soon as we were\Nalone, his attitude changed...
+Dialogue: 0,0:11:02.27,0:11:09.51,Default2,,0,0,0,,Huh, what are you doing, teacher?
+Dialogue: 0,0:11:09.51,0:11:17.59,Default2,,0,0,0,,Haibara, you hardly ever smile in class.
+Dialogue: 0,0:11:17.59,0:11:19.94,Default2,,0,0,0,,Why is that?
+Dialogue: 0,0:11:19.94,0:11:21.97,Default2,,0,0,0,,I know.
+Dialogue: 0,0:11:21.97,0:11:27.97,Default2,,0,0,0,,Haibara, you have a wonderful\Nsmile that no one else can beat.
+Dialogue: 0,0:11:29.88,0:11:34.09,Default2,,0,0,0,,I'm a loner, and I have few friends.
+Dialogue: 0,0:11:34.09,0:11:45.22,Default2,,0,0,0,,I see. No one around you has\Nnoticed your true charm until now.
+Dialogue: 0,0:11:46.32,0:11:49.01,Default2,,0,0,0,,Poor Haibara.
+Dialogue: 0,0:11:49.57,0:11:53.07,Default2,,0,0,0,,But it's okay now.
+Dialogue: 0,0:11:53.87,0:12:01.35,Default2,,0,0,0,,I'll capture your lovely smile\Nforever in a photo for you.
+Dialogue: 0,0:12:01.38,0:12:05.25,Default2,,0,0,0,,I'll make sure your smile is preserved.
+Dialogue: 0,0:12:09.95,0:12:12.95,Default2,,0,0,0,,So I were photographed...
+Dialogue: 0,0:12:18.02,0:12:23.07,Default2,,0,0,0,,But then, I thought it was wrong,
+Dialogue: 0,0:12:23.07,0:12:26.07,Default2,,0,0,0,,and tried to get the photos deleted.
+Dialogue: 0,0:12:30.57,0:12:33.09,Default2,,0,0,0,,“If you don’t want\Nyour parents to find out,
+Dialogue: 0,0:12:33.11,0:12:37.36,Default2,,0,0,0,,come back to the art\Nroom tomorrow after school.
+Dialogue: 0,0:12:37.38,0:12:42.00,Default2,,0,0,0,,If you don’t want to go to school,\Ncome to the hotel now.
+Dialogue: 0,0:12:42.00,0:12:46.98,Default2,,0,0,0,,I’ll take cute pictures of you.”
+Dialogue: 0,0:12:46.98,0:12:52.03,Default2,,0,0,0,,There was a girl in my class\Nwho refused to go to school before,
+Dialogue: 0,0:12:52.03,0:12:55.57,Default2,,0,0,0,,and her embarrassing photos\Nwere sold on the internet.
+Dialogue: 0,0:12:55.57,0:12:59.27,Default2,,0,0,0,,I heard the rumor.
+Dialogue: 0,0:12:59.27,0:13:03.27,Default2,,0,0,0,,Could it be about me?
+Dialogue: 0,0:13:06.29,0:13:10.89,Default2,,0,0,0,,Let's report this man\Nto the police right now.
+Dialogue: 0,0:13:10.89,0:13:14.09,Default2,,0,0,0,,I don't want the police. If\NMom and school find out,
+Dialogue: 0,0:13:14.09,0:13:18.09,Default2,,0,0,0,,I won’t be able to\Nreturn to school anymore.
+Dialogue: 0,0:13:22.00,0:13:28.00,Default2,,0,0,0,,You really wanted to go to\Nschool, didn't you, Akari-sama?
+Dialogue: 0,0:13:37.82,0:13:40.35,Default2,,0,0,0,,It’s okay now.
+Dialogue: 0,0:13:40.35,0:13:46.92,Default2,,0,0,0,,This Kuromi will cleanse\NAkari-sama’s troubled heart
+Dialogue: 0,0:13:46.92,0:13:49.92,Default2,,0,0,0,,and make it beautiful.
+Dialogue: 0,0:14:00.09,0:14:04.22,Default2,,0,0,0,,AKARI: TEACHER, I WOULD LIKE TO MEET YOU.\NCOULD YOU COME TO THE STATION THIS AFTERNOON?
+Dialogue: 0,0:14:04.25,0:14:06.25,Default2,,0,0,0,,TEACHER: I'VE ALREADY ARRIVED.
+Dialogue: 0,0:14:11.31,0:14:13.61,Default2,,0,0,0,,SORRY, AN URGENT\NMATTER CAME UP. I CAN'T GO.
+Dialogue: 0,0:14:13.63,0:14:17.83,Default2,,0,0,0,,Huh? Don't mess with me.
+Dialogue: 0,0:14:17.83,0:14:21.37,Default2,,0,0,0,,Are you serious?
+Dialogue: 0,0:14:21.37,0:14:25.37,Default2,,0,0,0,,- Hey, hey, big brother.\N- Huh?
+Dialogue: 0,0:14:28.44,0:14:33.16,Default2,,0,0,0,,Do you know of any cheap\Ninternet cafes around here?
+Dialogue: 0,0:14:33.16,0:14:36.69,Default2,,0,0,0,,I’m having trouble because\NI don’t have any money.
+Dialogue: 0,0:14:39.21,0:14:42.41,Default2,,0,0,0,,I see.
+Dialogue: 0,0:14:42.41,0:14:44.41,Default2,,0,0,0,,That’s a problem.
+Dialogue: 0,0:14:50.16,0:14:55.88,Default2,,0,0,0,,When you run out of money, you\Nalways do things like this, don't you?
+Dialogue: 0,0:14:55.88,0:14:57.23,Default2,,0,0,0,,You seem used to it.
+Dialogue: 0,0:15:30.01,0:15:31.69,Default2,,0,0,0,,LET'S STUDY TOGETHER!
+Dialogue: 0,0:15:31.89,0:15:34.00,Default2,,0,0,0,,IF YOU DON'T WANT TO BE\NEXPOSED, COME TO THE HOTEL.
+Dialogue: 0,0:15:34.02,0:15:35.12,Default2,,0,0,0,,MOMOKA: I JUST ARRIVED AT THE HOTEL.
+Dialogue: 0,0:15:35.13,0:15:37.15,Default2,,0,0,0,,I WILL GO, SO PLEASE DON'T TELL ANYONE.
+Dialogue: 0,0:15:41.29,0:15:45.84,Default2,,0,0,0,,Someone like you, so sinful, should fall.
+Dialogue: 0,0:15:48.74,0:15:52.45,Default2,,0,0,0,,Sorry to keep you waiting.
+Dialogue: 0,0:15:52.45,0:15:57.06,Default2,,0,0,0,,Huh? she’s not here.
+Dialogue: 0,0:15:57.08,0:15:59.80,Default2,,0,0,0,,Are you serious!?
+Dialogue: 0,0:16:06.08,0:16:08.08,Default2,,0,0,0,,It’s not gone.
+Dialogue: 0,0:16:14.33,0:16:17.87,Default2,,0,0,0,,I thought I was lucky.
+Dialogue: 0,0:16:17.87,0:16:19.87,Default2,,0,0,0,,Damn it!
+Dialogue: 0,0:16:24.94,0:16:26.96,Default2,,0,0,0,,Is this Sakuma-san?
+Dialogue: 0,0:16:26.96,0:16:31.16,Default2,,0,0,0,,We received a report just now.\NRegarding obscene images of a minor.
+Dialogue: 0,0:16:31.16,0:16:33.53,Default2,,0,0,0,,We’d like to ask you a few questions.
+Dialogue: 0,0:16:33.53,0:16:37.40,Default2,,0,0,0,,If possible, would you\Ncome with us to the station?
+Dialogue: 0,0:16:37.40,0:16:39.40,Default2,,0,0,0,,Understood.
+Dialogue: 0,0:16:43.96,0:16:45.81,Default2,,0,0,0,,Hey, wait!\NHey!
+Dialogue: 0,0:16:45.81,0:16:48.17,Default2,,0,0,0,,Hey! Stop!
+Dialogue: 0,0:16:48.17,0:16:51.20,Default2,,0,0,0,,Hey, wait!
+Dialogue: 0,0:16:51.20,0:16:54.40,Default2,,0,0,0,,Stop! There’s no use in running.
+Dialogue: 0,0:16:54.40,0:16:56.59,Default2,,0,0,0,,Stop!\NWait, Sakuma!
+Dialogue: 0,0:16:56.59,0:16:59.22,Default2,,0,0,0,,Hey, there’s no use in running!\NStop!
+Dialogue: 0,0:16:59.24,0:17:01.95,Default2,,0,0,0,,Sakuma, hey, wait!
+Dialogue: 0,0:17:20.16,0:17:25.04,Default2,,0,0,0,,- Oh no, someone’s fallen.\N- Huh? Oh no.
+Dialogue: 0,0:17:25.04,0:17:28.23,Default2,,0,0,0,,- Oh no. Wow, oh no.\N- I’ve never seen this before.
+Dialogue: 0,0:17:28.23,0:17:30.97,Default2,,0,0,0,,- Will this go viral?\N- Huh? It seems like it might.
+Dialogue: 0,0:17:32.11,0:17:34.30,Default2,,0,0,0,,- Oh no.\N- Are you okay?
+Dialogue: 0,0:17:34.30,0:17:36.30,Default2,,0,0,0,,Are you alive?
+Dialogue: 0,0:17:52.74,0:17:56.11,Default2,,0,0,0,,- Mom, listen…\N- Hmm?
+Dialogue: 0,0:17:56.11,0:18:01.33,Default2,,0,0,0,,I’m thinking of going to\Nschool starting tomorrow.
+Dialogue: 0,0:18:01.33,0:18:04.86,Default2,,0,0,0,,Huh, really?
+Dialogue: 0,0:18:04.86,0:18:08.24,Default2,,0,0,0,,Yeah. Is that okay?
+Dialogue: 0,0:18:08.24,0:18:12.09,Default2,,0,0,0,,Of course.
+Dialogue: 0,0:18:12.27,0:18:14.63,Default2,,0,0,0,,Of course!
+Dialogue: 0,0:18:14.63,0:18:17.66,Default2,,0,0,0,,Ah, but why suddenly?
+Dialogue: 0,0:18:17.66,0:18:21.70,Default2,,0,0,0,,Kuromi-san taught me how to study, and\NI think I can keep up with the lessons now.
+Dialogue: 0,0:18:21.70,0:18:26.42,Default2,,0,0,0,,I see. Mom is so happy.
+Dialogue: 0,0:18:26.42,0:18:29.42,Default2,,0,0,0,,I’ll go get ready for school.
+Dialogue: 0,0:18:31.97,0:18:34.33,Default2,,0,0,0,,I’m glad to hear that, Madam.
+Dialogue: 0,0:18:34.33,0:18:37.53,Default2,,0,0,0,,It’s all thanks to you.
+Dialogue: 0,0:18:37.53,0:18:40.39,Default2,,0,0,0,,I’m really glad you came.
+Dialogue: 0,0:18:40.39,0:18:42.58,Default2,,0,0,0,,It’s nothing.
+Dialogue: 0,0:18:42.58,0:18:47.80,Default2,,0,0,0,,If it’s your request,\NI’ll do anything for you.
+Dialogue: 0,0:18:47.80,0:18:55.80,Default2,,0,0,0,,Well, if you don’t mind,\Nthere’s one thing I would like to ask you.
+Dialogue: 0,0:19:11.53,0:19:15.74,Default2,,0,0,0,,Mom, what’s wrong?
+Dialogue: 0,0:19:15.74,0:19:18.74,Default2,,0,0,0,,Would you like to have a drink?
+Dialogue: 0,0:19:21.29,0:19:26.68,Default2,,0,0,0,,Did you make this\Nbecause Kuromi-san told you to?
+Dialogue: 0,0:19:26.68,0:19:30.72,Default2,,0,0,0,,Did you figure it out?
+Dialogue: 0,0:19:30.72,0:19:34.72,Default2,,0,0,0,,You were still using this cup.
+Dialogue: 0,0:19:36.45,0:19:41.16,Default2,,0,0,0,,I used to make cocoa\Nfor you a lot back then.
+Dialogue: 0,0:19:42.19,0:19:43.16,Default2,,0,0,0,,Yeah.
+Dialogue: 0,0:19:45.54,0:19:50.25,Default2,,0,0,0,,Want to come in for a bit?
+Dialogue: 0,0:19:50.25,0:19:52.04,Default2,,0,0,0,,Is that okay?
+Dialogue: 0,0:19:52.07,0:19:54.07,Default2,,0,0,0,,Yeah.
+Dialogue: 0,0:19:59.35,0:20:02.21,Default2,,0,0,0,,Kuromi-san taught me\Nthe Pythagorean theorem.
+Dialogue: 0,0:20:02.21,0:20:05.57,Default2,,0,0,0,,- Pythagorean?\N- Yeah, and then…
+Dialogue: 0,0:20:05.57,0:20:10.57,Default2,,0,0,0,,This is what an ideal family looks like.
+Dialogue: 0,0:20:18.53,0:20:20.53,Default2,,0,0,0,,Isn’t that right?
+Dialogue: 0,0:20:26.62,0:20:28.64,Default2,,0,0,0,,Well, I’m off.
+Dialogue: 0,0:20:28.64,0:20:31.64,Default2,,0,0,0,,Yes, take care.
+Dialogue: 0,0:20:37.90,0:20:40.90,Default2,,0,0,0,,Is something wrong?
+Dialogue: 0,0:20:43.12,0:20:48.61,Default2,,0,0,0,,Do you know why I\Ndecided to go back to school?
+Dialogue: 0,0:20:57.48,0:21:00.10,Default2,,0,0,0,,MALE PART-TIME TEACHER FALLS TO HIS DEATH
+Dialogue: 0,0:20:57.48,0:21:00.10,Notes,,0,0,0,,{\an8}(TN: I shortened the\Nheadline because it's so long.)
+Dialogue: 0,0:21:00.12,0:21:04.66,Default2,,0,0,0,,Well. It's an unfortunate accident.
+Dialogue: 0,0:21:04.66,0:21:12.66,Default2,,0,0,0,,Did Kuromi-san do something?
+Dialogue: 0,0:21:15.60,0:21:19.14,Default2,,0,0,0,,I am a housekeeper.
+Dialogue: 0,0:21:19.14,0:21:21.34,Default2,,0,0,0,,All I can do is
+Dialogue: 0,0:21:21.34,0:21:25.34,Default2,,0,0,0,,clean up the dirt that\Nhas settled in this house.
+Dialogue: 0,0:21:34.79,0:21:38.79,Default2,,0,0,0,,Well, I’m off then.
+Dialogue: 0,0:21:41.20,0:21:45.20,Default2,,0,0,0,,Take care,\Nand have a good day.
+Dialogue: 0,0:22:14.36,0:22:16.36,Default2,,0,0,0,,This is…
+Dialogue: 0,0:22:40.29,0:22:43.80,Default2,,0,0,0,,The housekeeper of this house is busy.
+Dialogue: 0,0:22:47.20,0:22:48.80,Default2,,0,0,0,,NEXT EPISODE PREVIEW
+Dialogue: 0,0:22:49.03,0:22:59.09,Default2,,0,0,0,,ENGLISH SUBTITLES BY CHRIZ KAYRIKO\NVisit chrizkayriko.github.io
+Dialogue: 0,0:22:59.09,0:23:02.19,Default2,,0,0,0,,THIS DRAMA IS FICTION
